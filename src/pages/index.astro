@@ -1,8 +1,20 @@
 ---
 import archives from '../data/archives.json';
-const { total, categories } = archives;
+import { Image } from 'astro:assets';
+const { total, categories, tags } = archives;
+// 标签两级展示：常驻展示出现次数 ≥ 3 的“大类”标签，其余折叠进「更多标签…」
+const FEATURED_TAG_MIN = 3;
+const featuredTags = tags.filter((t) => t.count >= FEATURED_TAG_MIN);
+const restTags = tags.filter((t) => t.count < FEATURED_TAG_MIN);
 const statusColor = { active: '#2e7d32', stable: '#0277bd', archived: '#757575', inactive: '#c62828' };
 const statusLabel = { active: '活跃维护', stable: '稳定', archived: '已归档', inactive: '停更' };
+const MAX_CARD_TAGS = 3;
+// GitHub 头像：统一请求 80px 原图，交给 Image 组件做尺寸/格式优化
+const avatarUrl = (owner) => `https://github.com/${owner}.png?size=80`;
+// 供悬浮弹层按 slug 读取的完整数据（对象键为 slug）；经 define:vars 安全注入脚本
+const archiveData = Object.fromEntries(
+  categories.flatMap((cat) => cat.items.map((it) => [it.slug, it]))
+);
 ---
 
 <html lang="zh-CN">
@@ -12,7 +24,7 @@ const statusLabel = { active: '活跃维护', stable: '稳定', archived: '已�
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <title>开源项目归档 · awesome-archive</title>
-    <style>
+    <style is:global>
       :root {
         --bg: #f6f7f9;
         --card: #ffffff;
@@ -51,12 +63,51 @@ const statusLabel = { active: '活跃维护', stable: '稳定', archived: '已�
       .hero h1 { font-size: 34px; font-weight: 700; letter-spacing: -.5px; }
       .hero p { color: var(--muted); margin-top: 10px; font-size: 16px; }
       .hero .count { margin-top: 18px; display: inline-block; background: color-mix(in srgb, var(--accent) 12%, transparent); color: var(--accent); padding: 6px 16px; border-radius: 999px; font-size: 14px; font-weight: 600; }
-      .wrap { max-width: 1080px; margin: 0 auto; padding: 32px 20px 80px; }
-      .cat { margin-bottom: 40px; }
-      .cat h2 { font-size: 20px; font-weight: 700; margin-bottom: 4px; display: flex; align-items: center; gap: 10px; }
+      .toolbar { max-width: 1080px; margin: 0 auto; padding: 24px 20px 0; display: flex; flex-direction: column; gap: 14px; }
+      .search {
+        display: flex; align-items: center; gap: 10px;
+        background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+        padding: 12px 16px; box-shadow: var(--shadow);
+      }
+      .search input {
+        flex: 1; border: none; outline: none; background: transparent;
+        color: var(--text); font-size: 15px; font-family: inherit;
+      }
+      .search input::placeholder { color: var(--muted); }
+      .search .k { font-size: 11px; color: var(--muted); border: 1px solid var(--border); border-radius: 6px; padding: 2px 7px; }
+      .tagbar { display: flex; flex-wrap: wrap; gap: 8px; }
+      /* hidden 必须显式覆盖，否则 display:flex 会盖过 UA 的 [hidden]，导致折叠区一直显示 */
+      .tagbar[hidden] { display: none; }
+      .tag {
+        font-size: 13px; padding: 5px 12px; border-radius: 999px; cursor: pointer;
+        border: 1px solid var(--border); background: var(--card); color: var(--muted);
+        transition: all .15s ease; user-select: none;
+      }
+      .tag:hover { border-color: var(--accent); color: var(--accent); }
+      .tag.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+      .tag .n { opacity: .7; font-size: 12px; }
+      .tag-more { border-style: dashed; }
+      .result { max-width: 1080px; margin: 0 auto; padding: 18px 20px 0; color: var(--muted); font-size: 13px; }
+      .result b { color: var(--text); }
+      .wrap { max-width: 1080px; margin: 0 auto; padding: 24px 20px 80px; }
+      .cat { margin-bottom: 28px; }
+      .cat-head {
+        font-size: 20px; font-weight: 700; margin-bottom: 4px;
+        display: flex; align-items: center; gap: 8px; cursor: pointer;
+        user-select: none; padding: 8px 6px; border-radius: 8px;
+      }
+      .cat-head:hover { background: color-mix(in srgb, var(--accent) 6%, transparent); }
+      .cat-head .chev { color: var(--muted); font-size: 14px; transition: transform .18s ease; }
+      .cat.open .cat-head .chev { transform: rotate(90deg); }
       .cat .n { color: var(--muted); font-size: 14px; font-weight: 500; }
+      .cat .hint { margin-left: auto; font-size: 12px; font-weight: 500; color: var(--muted); }
+      .cat .hint.open-hint { display: none; }
+      .cat.open .hint.close-hint { display: none; }
+      .cat.open .hint.open-hint { display: inline; }
       .cat .line { border: none; border-top: 1px solid var(--border); margin: 12px 0 20px; }
       .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; }
+      /* hidden 必须显式覆盖，否则 display:grid 会盖过 UA 的 [hidden]，导致折叠区一直显示 */
+      .grid[hidden] { display: none; }
       .card {
         background: var(--card);
         border: 1px solid var(--border);
@@ -65,10 +116,163 @@ const statusLabel = { active: '活跃维护', stable: '稳定', archived: '已�
         box-shadow: var(--shadow);
         transition: transform .18s ease, box-shadow .18s ease;
         display: flex; flex-direction: column; gap: 12px;
+        position: relative;
+        cursor: pointer;
+        overflow: hidden;
       }
-      .card:hover { transform: translateY(-4px); box-shadow: var(--shadow-hover); }
+      /* ---- 悬浮详情弹层（Apple 灵感的毛玻璃大卡片）---- */
+      .modal {
+        position: fixed; left: 50%; top: 50%; z-index: 50;
+        transform: translate(-50%, -50%) scale(.94) translateY(10px);
+        opacity: 0; pointer-events: none;
+        width: min(700px, calc(100vw - 32px));
+        max-height: min(82vh, 760px);
+        overflow-y: auto;
+        overscroll-behavior: contain;
+        background: color-mix(in srgb, var(--card) 86%, transparent);
+        color: var(--text);
+        border: 1px solid color-mix(in srgb, var(--border) 65%, transparent);
+        border-radius: 28px;
+        backdrop-filter: blur(34px) saturate(180%);
+        -webkit-backdrop-filter: blur(34px) saturate(180%);
+        box-shadow:
+          0 48px 110px rgba(0,0,0,.24),
+          0 16px 36px rgba(0,0,0,.14),
+          0 4px 10px rgba(0,0,0,.08);
+        transition: opacity .24s ease, transform .3s cubic-bezier(.22,1,.36,1);
+      }
+      .modal.show {
+        transform: translate(-50%, -50%) scale(1) translateY(0);
+        opacity: 1; pointer-events: auto;
+      }
+      /* 顶部 hero：柔和渐变，营造层次 */
+      .modal .m-hero {
+        position: relative;
+        padding: 26px 30px 20px;
+        border-bottom: 1px solid var(--border);
+        background:
+          radial-gradient(130% 160% at 12% 0%, color-mix(in srgb, var(--accent) 18%, transparent), transparent 58%),
+          linear-gradient(180deg, color-mix(in srgb, var(--accent) 7%, transparent), transparent);
+      }
+      .modal .m-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+      .modal .m-title { display: flex; align-items: center; gap: 12px; min-width: 0; }
+      .modal .m-title .avatar {
+        width: 38px; height: 38px; border-radius: 9px; flex-shrink: 0;
+        box-shadow: 0 1px 4px rgba(0,0,0,.12);
+        border: 1px solid color-mix(in srgb, var(--border) 80%, transparent);
+        object-fit: cover;
+      }
+      .modal .m-title h3 {
+        font-size: 21px; font-weight: 700; letter-spacing: -.4px; line-height: 1.25;
+        overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+      }
+      .modal .m-tagline { color: var(--muted); font-size: 14.5px; margin-top: 10px; line-height: 1.6; }
+      .modal .m-chips { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 14px; }
+      .modal .m-chips .chip- {
+        font-size: 12px; padding: 4px 12px; border-radius: 999px;
+        background: color-mix(in srgb, var(--accent) 10%, transparent);
+        color: var(--accent);
+        border: 1px solid color-mix(in srgb, var(--accent) 18%, transparent);
+        transition: all .15s ease;
+      }
+      .modal .m-links { display: flex; gap: 9px; flex-wrap: wrap; margin-top: 16px; }
+      .modal .m-links a {
+        color: var(--accent); text-decoration: none;
+        padding: 7px 16px; border-radius: 999px; font-size: 13px; font-weight: 500;
+        border: 1px solid color-mix(in srgb, var(--accent) 22%, transparent);
+        background: color-mix(in srgb, var(--accent) 7%, transparent);
+        transition: all .15s ease;
+      }
+      .modal .m-links a:hover {
+        background: color-mix(in srgb, var(--accent) 14%, transparent);
+        border-color: color-mix(in srgb, var(--accent) 40%, transparent);
+      }
+      .modal .m-body { padding: 22px 30px 12px; }
+      .modal .m-rule { border: none; border-top: 1px solid var(--border); margin: 18px 0; }
+      .modal .m-box { margin-bottom: 18px; }
+      .modal .m-box .m-box-title {
+        font-size: 14px; font-weight: 700; margin-bottom: 8px;
+        display: flex; align-items: center; gap: 8px;
+        color: var(--text);
+      }
+      .modal .m-box .m-box-title::before {
+        content: ""; width: 3px; height: 14px; border-radius: 2px;
+        background: var(--accent); flex-shrink: 0;
+      }
+      .modal .m-box p { font-size: 14.5px; line-height: 1.75; color: var(--text); margin: 0 0 6px; }
+      .modal .m-box ul { padding-left: 20px; margin: 6px 0; }
+      .modal .m-box li { font-size: 14.5px; margin: 6px 0; line-height: 1.75; color: var(--text); }
+      .modal .m-box li::marker { color: var(--muted); }
+      .modal .m-box b { font-weight: 700; color: var(--text); }
+      .modal .m-box code {
+        background: color-mix(in srgb, var(--muted) 14%, transparent);
+        padding: 1px 6px; border-radius: 5px; font-size: 13px;
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+        color: var(--text);
+      }
+      .modal .m-box a { color: var(--accent); word-break: break-all; text-decoration: none; }
+      .modal .m-box a:hover { text-decoration: underline; }
+      .modal .m-footer {
+        position: sticky; bottom: 0;
+        display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+        padding: 16px 30px;
+        background: color-mix(in srgb, var(--card) 88%, transparent);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border-top: 1px solid var(--border);
+      }
+      .modal .m-close {
+        width: 32px; height: 32px; flex-shrink: 0;
+        display: inline-flex; align-items: center; justify-content: center;
+        color: var(--muted); background: color-mix(in srgb, var(--muted) 12%, transparent);
+        border: none; border-radius: 50%;
+        font-size: 15px; line-height: 1; cursor: pointer; font-family: inherit;
+        transition: all .15s ease;
+      }
+      .modal .m-close:hover { color: var(--text); background: color-mix(in srgb, var(--muted) 20%, transparent); }
+      .modal .open-btn {
+        position: static;
+        display: inline-flex; align-items: center; gap: 7px;
+        color: #fff; background: var(--accent);
+        border: none; border-radius: 999px; line-height: 1;
+        padding: 12px 22px; font-size: 14px; font-weight: 600;
+        cursor: pointer; font-family: inherit;
+        box-shadow: 0 6px 18px color-mix(in srgb, var(--accent) 35%, transparent);
+        transition: transform .15s ease, filter .15s ease, box-shadow .15s ease;
+      }
+      .modal .open-btn:hover { filter: brightness(1.08); box-shadow: 0 8px 24px color-mix(in srgb, var(--accent) 45%, transparent); }
+      .modal .open-btn:active { transform: scale(.97); }
+      .modal-backdrop {
+        position: fixed; inset: 0; z-index: 40;
+        background: rgba(8, 10, 16, .42);
+        backdrop-filter: blur(6px) saturate(120%);
+        -webkit-backdrop-filter: blur(6px) saturate(120%);
+        opacity: 0; pointer-events: none;
+        transition: opacity .24s ease;
+      }
+      .modal-backdrop.show { opacity: 1; pointer-events: auto; }
+      /* 滚动条美化（Windows 下更 Apple） */
+      .modal::-webkit-scrollbar { width: 8px; }
+      .modal::-webkit-scrollbar-thumb { background: color-mix(in srgb, var(--muted) 30%, transparent); border-radius: 4px; }
+      .modal::-webkit-scrollbar-thumb:hover { background: color-mix(in srgb, var(--muted) 45%, transparent); }
+      .modal::-webkit-scrollbar-track { background: transparent; }
       .card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; }
-      .card-top h3 { font-size: 17px; font-weight: 700; }
+      .card-title { display: flex; align-items: center; gap: 10px; min-width: 0; }
+      .card-title h3 {
+        font-size: 17px; font-weight: 700; line-height: 1.3;
+        /* 固定占满两行高度：同一行所有卡片标题高度一致，避免单张卡片换行撑高整行、其余卡片中部留白 */
+        min-height: 2.6em;
+        display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+      .card-title h3 a { color: inherit; text-decoration: none; }
+      .card-title h3 a:hover { color: var(--accent); }
+      .avatar {
+        width: 34px; height: 34px; border-radius: 50%;
+        object-fit: cover; flex-shrink: 0;
+        border: 1px solid var(--border);
+        background: var(--card);
+      }
       .badge { font-size: 11px; font-weight: 700; padding: 3px 9px; border-radius: 999px; color: #fff; white-space: nowrap; }
       .tagline { color: var(--muted); font-size: 14px; }
       .stacks { display: flex; flex-wrap: wrap; gap: 6px; }
@@ -77,9 +281,20 @@ const statusLabel = { active: '活跃维护', stable: '稳定', archived: '已�
         background: color-mix(in srgb, var(--accent) 10%, transparent);
         color: var(--accent);
       }
-      .meta { display: flex; gap: 14px; color: var(--muted); font-size: 13px; margin-top: auto; }
-      .meta a { color: var(--accent); text-decoration: none; }
-      .meta a:hover { text-decoration: underline; }
+      .stack.more { background: color-mix(in srgb, var(--muted) 12%, transparent); color: var(--muted); }
+      .meta { display: flex; gap: 8px; color: var(--muted); font-size: 13px; margin-top: auto; flex-wrap: wrap; }
+      .meta a {
+        color: var(--accent); text-decoration: none;
+        padding: 3px 10px; border-radius: 999px;
+        border: 1px solid color-mix(in srgb, var(--accent) 22%, transparent);
+        background: color-mix(in srgb, var(--accent) 7%, transparent);
+        transition: all .15s ease;
+      }
+      .meta a:hover {
+        background: color-mix(in srgb, var(--accent) 14%, transparent);
+        border-color: color-mix(in srgb, var(--accent) 40%, transparent);
+      }
+      .meta span.upd { padding: 3px 0; }
       .empty { color: var(--muted); padding: 40px; text-align: center; }
       footer { text-align: center; color: var(--muted); font-size: 13px; padding: 24px; border-top: 1px solid var(--border); }
     </style>
@@ -91,18 +306,53 @@ const statusLabel = { active: '活跃维护', stable: '稳定', archived: '已�
       <div class="count">共 {total} 个项目 · {categories.length} 个分类</div>
     </div>
 
+    <div class="toolbar">
+      <div class="search">
+        <span aria-hidden="true">🔎</span>
+        <input id="q" type="search" placeholder="搜索项目名、简介、标签…" autocomplete="off" />
+        <span class="k">Ctrl K</span>
+      </div>
+      <div class="tagbar" id="tagbar">
+        <button class="tag on" data-tag="">全部 <span class="n">{total}</span></button>
+        {
+          featuredTags.map((t) => (
+            <button class="tag" data-tag={t.name}>{t.name} <span class="n">{t.count}</span></button>
+          ))
+        }
+        <button class="tag tag-more" id="tagMore" data-more aria-expanded="false">更多标签…</button>
+      </div>
+      <div class="tagbar" id="tagMoreBox" hidden>
+        {
+          restTags.map((t) => (
+            <button class="tag" data-tag={t.name}>{t.name} <span class="n">{t.count}</span></button>
+          ))
+        }
+      </div>
+    </div>
+
+    <div class="result" id="result" hidden></div>
+
     <div class="wrap">
       {
-        categories.map((cat) => (
-          <section class="cat">
-            <h2>{cat.name} <span class="n">{cat.items.length} 个</span></h2>
+        categories.map((cat, ci) => (
+          <section class="cat" data-cat={cat.name}>
+            <div class="cat-head" tabindex="0">
+              <span class="chev">▶</span>
+              <h2 style="display:inline">{cat.name} <span class="n">{cat.items.length} 个</span></h2>
+              <span class="hint close-hint">点击折叠</span>
+              <span class="hint open-hint">点击展开</span>
+            </div>
             <hr class="line" />
             <div class="grid">
               {
-                cat.items.map((it) => (
-                  <article class="card">
+                cat.items.map((it, idx) => (
+                  <article class="card" data-slug={it.slug} data-tags={it.tags.join(' ')} data-term={(it.name + ' ' + it.tagline + ' ' + it.stack.join(' ') + ' ' + it.tags.join(' ') + ' ' + it.slug).toLowerCase()}>
                     <div class="card-top">
-                      <h3>{it.name}</h3>
+                      <div class="card-title">
+                        {/* 首屏卡片（第一个分类的前 4 张）优先 eager 加载；其后的头像懒加载 */}
+                        {it.owner && <Image class="avatar" src={avatarUrl(it.owner)} alt="" width={80} height={80} loading={ci === 0 && idx < 4 ? 'eager' : 'lazy'} />}
+                        <h3>{it.name}</h3>
+                      </div>
                       {
                         it.status && (
                           <span class="badge" style={`background:${statusColor[it.status] || '#9a9a9a'}`}>
@@ -113,15 +363,18 @@ const statusLabel = { active: '活跃维护', stable: '稳定', archived: '已�
                     </div>
                     <div class="tagline">{it.tagline}</div>
                     {
-                      it.stack.length > 0 && (
+                      it.tags.length > 0 && (
                         <div class="stacks">
-                          {it.stack.map((s) => <span class="stack">{s}</span>)}
+                          {it.tags.slice(0, MAX_CARD_TAGS).map((t) => <span class="stack">{t}</span>)}
+                          {it.tags.length > MAX_CARD_TAGS && <span class="stack more">+{it.tags.length - MAX_CARD_TAGS}</span>}
                         </div>
                       )
                     }
                     <div class="meta">
                       {it.github && <a href={it.github} target="_blank" rel="noopener">🔗 GitHub</a>}
-                      {it.updated && <span>更新 {it.updated}</span>}
+                      {it.website && <a href={it.website} target="_blank" rel="noopener">🌐 {it.name}</a>}
+                      {it.links && it.links.map((l) => <a href={l.url} target="_blank" rel="noopener">↗ {l.name}</a>)}
+                      {it.updated && <span class="upd">更新 {it.updated}</span>}
                     </div>
                   </article>
                 ))
@@ -133,6 +386,207 @@ const statusLabel = { active: '活跃维护', stable: '稳定', archived: '已�
       {categories.length === 0 && <div class="empty">暂无归档，去 archive/ 目录添加吧。</div>}
     </div>
 
+    <div class="modal-backdrop" id="backdrop" hidden></div>
+    <div class="modal" id="modal" role="dialog" aria-modal="true" hidden></div>
+
     <footer>由 Markdown 归档自动生成 · 数据源 archive/ 目录</footer>
+
+    <script define:vars={{ archiveData }}>
+      // 渐进增强：无 JS 时也能看到全部卡片。有 JS 时启用搜索 + 标签筛选。
+      const apply = (q, tag) => {
+        const cards = document.querySelectorAll('.wrap .card');
+        const cats = document.querySelectorAll('.wrap .cat');
+        let shown = 0;
+        for (const cat of cats) {
+          let catShown = 0;
+          for (const card of cat.querySelectorAll('.card')) {
+            const term = card.dataset.term || '';
+            const tags = (card.dataset.tags || '').split(' ');
+            const hitQ = !q || term.includes(q);
+            const hitTag = !tag || tags.includes(tag);
+            const show = hitQ && hitTag;
+            card.style.display = show ? '' : 'none';
+            if (show) { catShown++; shown++; }
+          }
+          cat.style.display = catShown ? '' : 'none';
+        }
+        const result = document.getElementById('result');
+        if (q || tag) {
+          result.hidden = false;
+          result.innerHTML = `找到 <b>${shown}</b> 个项目${tag ? `，标签「<b>${tag}</b>」` : ''}${q ? `，匹配「<b>${q}</b>」` : ''}`;
+        } else {
+          result.hidden = true;
+        }
+      };
+
+      const q = document.getElementById('q');
+      const tagbar = document.getElementById('tagbar');
+      const tagMoreBox = document.getElementById('tagMoreBox');
+      const tagMore = document.getElementById('tagMore');
+      let activeTag = '';
+      let debounce;
+
+      // 两个标签栏共享同一套选中态：点击任意标签，先取消其它处于 .on 的标签
+      const selectTag = (btn) => {
+        document.querySelectorAll('.tagbar .tag[data-tag]').forEach((b) => b.classList.toggle('on', b === btn));
+      };
+
+      // ---- 悬浮详情弹层（点击卡片跳出大卡片预览）----
+      const BASE = document.querySelector('base')?.getAttribute('href') || '/awesome-archive/';
+      const modal = document.getElementById('modal');
+      const backdrop = document.getElementById('backdrop');
+      let currentSlug = '';
+
+      // 把正文里的 [[wiki]] 与 URL 转成链接（仅演示，不依赖详情页加载）
+      const inlineLinkify = (s) => s.replace(/\[\[([^\]|\]]+)\]\]/g, (raw, name) => {
+        const slug = name.trim().toLowerCase().replace(/\s+/g, '-');
+        if (slug) return `<a href="${BASE}projects/${slug}/">${name.trim()}</a>`;
+        return raw;
+      }).replace(/(https?:\/\/[^\s<]+)/g, (u) => `<a href="${u}" target="_blank" rel="noopener">${u}</a>`);
+
+      function esc(s) {
+        return String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+      }
+
+      function renderModal(it) {
+        const sections = Object.keys(it.sections || {})
+          .filter((k) => (it.sections[k] || []).some((l) => l.trim()))
+          .map((k) => {
+            const lines = it.sections[k].filter((l) => l.trim());
+            const isList = lines.every((l) => /^[-*]\s/.test(l.trim()));
+            const body = isList
+              ? '<ul>' + lines.map((l) => {
+                  const content = l.trim().replace(/^[-*]\s+/, '');
+                  const sep = content.indexOf('：');
+                  if (sep > 0 && !content.slice(0, sep + 1).includes(' ') && !/^https?:/i.test(content.slice(0, sep + 1))) {
+                    return `<li><b>${esc(content.slice(0, sep + 1))}</b>${inlineLinkify(esc(content.slice(sep + 1)))}</li>`;
+                  }
+                  return `<li>${inlineLinkify(esc(content))}</li>`;
+                }).join('') + '</ul>'
+              : lines.map((l) => `<p>${inlineLinkify(esc(l))}</p>`).join('');
+            return `<div class="m-box"><div class="m-box-title">${esc(k)}</div>${body}</div>`;
+          }).join('');
+
+        const chips = (it.tags || []).map((t) => `<span class="chip-">${esc(t)}</span>`).join('');
+        const links = [
+          it.github ? `<a href="${esc(it.github)}" target="_blank" rel="noopener">🔗 GitHub</a>` : '',
+          it.website ? `<a href="${esc(it.website)}" target="_blank" rel="noopener">🌐 ${esc(it.name)}</a>` : '',
+          ...(it.links || []).map((l) => `<a href="${esc(l.url)}" target="_blank" rel="noopener">↗ ${esc(l.name)}</a>`),
+        ].join('');
+
+        modal.innerHTML = `
+          <div class="m-hero">
+            <div class="m-top">
+              <div class="m-title">
+                ${it.owner ? `<img class="avatar" src="https://github.com/${esc(it.owner)}.png" alt="" loading="lazy">` : ''}
+                <h3>${esc(it.name)}</h3>
+              </div>
+              <button class="m-close" aria-label="关闭">✕</button>
+            </div>
+            <div class="m-tagline">${esc(it.tagline)}</div>
+            ${chips ? `<div class="m-chips">${chips}</div>` : ''}
+            ${links ? `<div class="m-links">${links}</div>` : ''}
+          </div>
+          <div class="m-body">
+            ${sections}
+          </div>
+          <div class="m-footer">
+            <span style="color:var(--muted);font-size:13px">${esc(it.updated ? '更新于 ' + it.updated : '')}</span>
+            <button class="open-btn" data-slug="${esc(it.slug)}">查看完整详情 →</button>
+          </div>`;
+      }
+
+      const openModal = (card) => {
+        const it = archiveData[card.dataset.slug];
+        if (!it) return;
+        currentSlug = it.slug;
+        renderModal(it);
+        modal.hidden = false;
+        backdrop.hidden = false;
+        requestAnimationFrame(() => {
+          modal.classList.add('show');
+          backdrop.classList.add('show');
+        });
+        document.body.style.overflow = 'hidden';
+      };
+      const closeModal = () => {
+        modal.classList.remove('show');
+        backdrop.classList.remove('show');
+        document.body.style.overflow = '';
+      };
+
+      // 搜索输入防抖
+      q.addEventListener('input', () => {
+        clearTimeout(debounce);
+        debounce = setTimeout(() => apply(q.value.trim().toLowerCase(), activeTag), 120);
+      });
+      // Esc 关闭弹层
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && !modal.hidden) closeModal();
+        if ((e.key === 'Enter' || e.key === ' ') && e.target.closest('.cat-head')) {
+          const head = e.target.closest('.cat-head');
+          head.click();
+          e.preventDefault();
+        }
+        // Ctrl/⌘ + K 聚焦搜索框
+        if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+          e.preventDefault();
+          q.focus();
+        }
+      });
+
+      // 全局点击：标签展开、标签选中、悬浮弹层、卡片弹层、分类折叠
+      document.addEventListener('click', (e) => {
+        const t = e.target;
+
+        // 标签栏「更多」展开/收起
+        // 注意：tagMoreBox 初始带 hidden 属性，且 CSS 对 .tagbar[hidden] 强制 display:none，
+        // 因此必须切换 hidden 属性本身（而非仅加 .open 类），否则展开区永远不显示。
+        if (t.closest('#tagMore')) {
+          const open = tagMoreBox.hidden; // 当前是隐藏的 → 点击后要展开
+          tagMoreBox.hidden = !open;
+          tagMore.setAttribute('aria-expanded', String(open));
+          return;
+        }
+
+        // 标签选中（两个标签栏共享状态）
+        const tagBtn = t.closest('.tag[data-tag]');
+        if (tagBtn) {
+          activeTag = tagBtn.dataset.tag === 'all' ? '' : tagBtn.dataset.tag;
+          selectTag(tagBtn);
+          apply(q.value.trim().toLowerCase(), activeTag);
+          return;
+        }
+
+        // 弹层内「查看完整详情」→ 跳详情页
+        const openBtn = t.closest('.open-btn');
+        if (openBtn) {
+          window.location.href = BASE + 'projects/' + openBtn.dataset.slug + '/';
+          return;
+        }
+
+        // 关闭弹层（✕ 或点击遮罩）
+        if (t.closest('.m-close') || t === backdrop) {
+          closeModal();
+          return;
+        }
+
+        // 点击卡片（避开 cards 里的链接/按钮）→ 打开悬浮弹层
+        const card = t.closest('article.card');
+        if (card) {
+          openModal(card);
+          return;
+        }
+
+        // 分类头 → 折叠/展开该分类
+        const head = t.closest('.cat-head');
+        if (head) {
+          const grid = head.parentElement.querySelector('.grid');
+          if (grid) grid.hidden = !grid.hidden;
+          head.classList.toggle('collapsed');
+          return;
+        }
+      });
+    </script>
   </body>
 </html>

@@ -5,6 +5,7 @@ github: https://github.com/no-magic-ai/no-magic
 category: 01-foundations
 tagline: 手写现代 AI 算法原理的教学仓库，零依赖、单文件、可运行
 stack: Python
+tags: AI教育, 深度学习, 算法, 自监督学习, 强化学习, 大模型, 教学
 status: active
 # 快照信息（用于回溯，approximate）
 stars: 0

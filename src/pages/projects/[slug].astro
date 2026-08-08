@@ -1,0 +1,215 @@
+---
+import archives from '../../data/archives.json';
+const statusColor = { active: '#2e7d32', stable: '#0277bd', archived: '#757575', inactive: '#c62828' };
+const statusLabel = { active: '活跃维护', stable: '稳定', archived: '已归档', inactive: '停更' };
+
+export function getStaticPaths() {
+  return archives.items.map((it) => ({ params: { slug: it.slug }, props: { item: it } }));
+}
+
+const { item } = Astro.props;
+const orderedSections = ['它解决什么问题', '为什么收藏它', '我的笔记', '技术栈与状态'];
+
+// 将正文里的 [[wiki-name]] 转为指向对应详情页的链接（仅当目标存在）
+const targetSlugs = new Set(archives.items.map((i) => i.slug));
+const linkify = (text) =>
+  text.replace(/\[\[([^\]|\]]+)\]\]/g, (raw, name) => {
+    const slug = name.trim().toLowerCase().replace(/\s+/g, '-');
+    if (targetSlugs.has(slug)) {
+      return `<a class="wiki" href="${import.meta.env.BASE_URL}projects/${slug}/">${name.trim()}</a>`;
+    }
+    return raw;
+  });
+
+const sectionKeys = [...orderedSections, ...Object.keys(item.sections || {}).filter((k) => !orderedSections.includes(k))];
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href={import.meta.env.BASE_URL + 'favicon.svg'} />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={item.tagline} />
+    <title>{item.name} · awesome-archive</title>
+    <style>
+      :root {
+        --bg: #f6f7f9;
+        --card: #ffffff;
+        --text: #1a1d21;
+        --muted: #6b7280;
+        --border: #e5e7eb;
+        --accent: #4f46e5;
+        --shadow: 0 1px 3px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.04);
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0f1115;
+          --card: #171a21;
+          --text: #e6e9ef;
+          --muted: #9aa3b2;
+          --border: #2a2f3a;
+          --accent: #818cf8;
+          --shadow: 0 1px 3px rgba(0,0,0,.4);
+        }
+      }
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      body {
+        background: var(--bg);
+        color: var(--text);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+        line-height: 1.7;
+      }
+      .nav {
+        max-width: 760px; margin: 0 auto; padding: 28px 20px 0;
+        display: flex; justify-content: space-between; align-items: center;
+      }
+      .nav a {
+        color: var(--accent); text-decoration: none; font-size: 14px;
+        display: inline-flex; align-items: center; gap: 6px;
+        padding: 6px 14px; border-radius: 999px;
+        border: 1px solid color-mix(in srgb, var(--accent) 22%, transparent);
+        background: color-mix(in srgb, var(--accent) 7%, transparent);
+        font-weight: 600; transition: all .15s ease;
+      }
+      .nav a:hover {
+        background: color-mix(in srgb, var(--accent) 14%, transparent);
+        border-color: color-mix(in srgb, var(--accent) 40%, transparent);
+      }
+      .wrap { max-width: 760px; margin: 0 auto; padding: 28px 20px 80px; }
+      .head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+      .head h1 { font-size: 30px; font-weight: 700; letter-spacing: -.5px; }
+      .badge { font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 999px; color: #fff; white-space: nowrap; margin-top: 6px; }
+      .tagline { color: var(--muted); margin-top: 10px; font-size: 16px; }
+      .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
+      .chip {
+        font-size: 12px; padding: 3px 10px; border-radius: 6px;
+        background: color-mix(in srgb, var(--accent) 10%, transparent);
+        color: var(--accent);
+      }
+      .links { display: flex; gap: 10px; margin-top: 18px; font-size: 14px; flex-wrap: wrap; }
+      .links a {
+        color: var(--accent); text-decoration: none;
+        padding: 6px 14px; border-radius: 999px;
+        border: 1px solid color-mix(in srgb, var(--accent) 22%, transparent);
+        background: color-mix(in srgb, var(--accent) 7%, transparent);
+        transition: all .15s ease;
+      }
+      .links a:hover {
+        background: color-mix(in srgb, var(--accent) 14%, transparent);
+        border-color: color-mix(in srgb, var(--accent) 40%, transparent);
+      }
+      .links .dim { color: var(--muted); padding: 6px 2px; }
+      .rule { border: none; border-top: 1px solid var(--border); margin: 28px 0; }
+      section { margin-bottom: 28px; }
+      section h2 { font-size: 18px; font-weight: 700; margin-bottom: 10px; }
+      section p { color: var(--text); }
+      section ul, section ol { padding-left: 22px; }
+      section li { margin: 5px 0; }
+      section code {
+        background: color-mix(in srgb, var(--muted) 14%, transparent);
+        padding: 1px 6px; border-radius: 5px; font-size: 13px;
+        font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+      }
+      section a {
+        color: var(--accent); text-decoration: none; word-break: break-all;
+        display: inline-flex; align-items: center; gap: 4px;
+        padding: 1px 8px; margin: -1px 0; border-radius: 6px;
+        background: color-mix(in srgb, var(--accent) 8%, transparent);
+        border: 1px solid color-mix(in srgb, var(--accent) 18%, transparent);
+        font-weight: 600;
+        transition: background .15s ease, border-color .15s ease;
+      }
+      /* wiki 笔记链接左侧加备忘小图标 */
+      section a.wiki::before { content: "📌"; font-size: 11px; }
+      section a:hover {
+        background: color-mix(in srgb, var(--accent) 14%, transparent);
+        border-color: color-mix(in srgb, var(--accent) 40%, transparent);
+      }
+      .back { display: inline-block; margin-bottom: 24px; color: var(--accent); text-decoration: none; font-size: 14px; }
+      .back:hover { text-decoration: underline; }
+      .empty { color: var(--muted); padding: 60px; text-align: center; }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <a href={import.meta.env.BASE_URL}>← 返回归档</a>
+      <span class="dim" style="font-size:13px;color:var(--muted)">{item.categoryName}</span>
+    </div>
+
+    <div class="wrap">
+      <div class="head">
+        <h1>{item.name}</h1>
+        {
+          item.status && (
+            <span class="badge" style={`background:${statusColor[item.status] || '#9a9a9a'}`}>
+              {statusLabel[item.status] || item.status}
+            </span>
+          )
+        }
+      </div>
+      <div class="tagline">{item.tagline}</div>
+
+      {
+        item.tags.length > 0 && (
+          <div class="chips">
+            {item.tags.map((t) => <span class="chip">{t}</span>)}
+          </div>
+        )
+      }
+
+      <div class="links">
+        {item.github && <a href={item.github} target="_blank" rel="noopener">🔗 GitHub</a>}
+        {item.website && <a href={item.website} target="_blank" rel="noopener">🌐 {item.name}</a>}
+        {item.links && item.links.map((l) => <a href={l.url} target="_blank" rel="noopener">↗ {l.name}</a>)}
+        {item.stars > 0 && <span class="dim">⭐ {item.stars}</span>}
+        {item.updated && <span class="dim">更新于 {item.updated}</span>}
+      </div>
+
+      <hr class="rule" />
+
+      {
+        sectionKeys.filter((k) => (item.sections[k] || []).some((l) => l.trim())).map((k) => {
+          const lines = item.sections[k].filter((l) => l.trim());
+          const isList = lines.every((l) => /^[-*]\s/.test(l.trim()));
+          // 把正文里的 [[wiki]] 与 URL 转成链接
+          const linkifyText = (s) =>
+            linkify(s).replace(
+              /(https?:\/\/[^\s<]+)/g,
+              (u) => `<a href="${u}" target="_blank" rel="noopener">${u}</a>`
+            );
+          return (
+            <section>
+              <h2>{k}</h2>
+              {
+                isList
+                  ? (
+                    <ul>
+                      {lines.map((l) => {
+                        const content = l.trim().replace(/^[-*]\s+/, '');
+                        // 标签行用全角冒号「：」分隔，如「技术栈：Web」「链接：https://…」。
+                        // 只在分隔符是全角冒号且键为短键时才加粗，避免「链接：https…」被误加粗。
+                        const sep = content.indexOf('：');
+                        const key = sep > 0 ? content.slice(0, sep + 1) : '';
+                        const isKey = key && !key.includes(' ') && !/^https?:/i.test(key);
+                        if (isKey) {
+                          const value = linkifyText(content.slice(sep + 1));
+                          return <li><b>{key}</b><span set:html={value} /></li>;
+                        }
+                        return <li set:html={linkifyText(content)} />;
+                      })}
+                    </ul>
+                  )
+                  : (
+                    <div>
+                      {lines.map((l) => <p set:html={linkifyText(l)} />)}
+                    </div>
+                  )
+              }
+            </section>
+          );
+        })
+      }
+    </div>
+  </body>
+</html>

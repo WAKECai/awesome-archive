@@ -1,22 +1,1122 @@
 {
-  "generatedAt": "2026-08-08T03:07:19.097Z",
-  "total": 1,
+  "generatedAt": "2026-08-08T07:13:32.611Z",
+  "total": 55,
+  "tags": [
+    {
+      "name": "Agent技能",
+      "count": 13
+    },
+    {
+      "name": "教程",
+      "count": 8
+    },
+    {
+      "name": "中文",
+      "count": 7
+    },
+    {
+      "name": "AI教育",
+      "count": 6
+    },
+    {
+      "name": "开源",
+      "count": 5
+    },
+    {
+      "name": "前端",
+      "count": 4
+    },
+    {
+      "name": "AIAgent",
+      "count": 4
+    },
+    {
+      "name": "MCP",
+      "count": 4
+    },
+    {
+      "name": "RAG",
+      "count": 4
+    },
+    {
+      "name": "计算机视觉",
+      "count": 3
+    },
+    {
+      "name": "开发效率",
+      "count": 3
+    },
+    {
+      "name": "浏览器",
+      "count": 3
+    },
+    {
+      "name": "内容创作",
+      "count": 3
+    },
+    {
+      "name": "数据集",
+      "count": 3
+    },
+    {
+      "name": "学术",
+      "count": 3
+    },
+    {
+      "name": "自动化",
+      "count": 3
+    },
+    {
+      "name": "AI技能",
+      "count": 3
+    },
+    {
+      "name": "本地",
+      "count": 2
+    },
+    {
+      "name": "本地优先",
+      "count": 2
+    },
+    {
+      "name": "笔记",
+      "count": 2
+    },
+    {
+      "name": "大模型",
+      "count": 2
+    },
+    {
+      "name": "代码理解",
+      "count": 2
+    },
+    {
+      "name": "动画",
+      "count": 2
+    },
+    {
+      "name": "后端",
+      "count": 2
+    },
+    {
+      "name": "教学",
+      "count": 2
+    },
+    {
+      "name": "可视化",
+      "count": 2
+    },
+    {
+      "name": "论文",
+      "count": 2
+    },
+    {
+      "name": "面试",
+      "count": 2
+    },
+    {
+      "name": "设计",
+      "count": 2
+    },
+    {
+      "name": "社区",
+      "count": 2
+    },
+    {
+      "name": "算法",
+      "count": 2
+    },
+    {
+      "name": "文档",
+      "count": 2
+    },
+    {
+      "name": "效率",
+      "count": 2
+    },
+    {
+      "name": "引用",
+      "count": 2
+    },
+    {
+      "name": "知识管理",
+      "count": 2
+    },
+    {
+      "name": "知识库",
+      "count": 2
+    },
+    {
+      "name": "知识图谱",
+      "count": 2
+    },
+    {
+      "name": "桌面应用",
+      "count": 2
+    },
+    {
+      "name": "自托管",
+      "count": 2
+    },
+    {
+      "name": "Agent",
+      "count": 2
+    },
+    {
+      "name": "Markdown",
+      "count": 2
+    },
+    {
+      "name": "PPT",
+      "count": 2
+    },
+    {
+      "name": "UML",
+      "count": 2
+    },
+    {
+      "name": "编辑",
+      "count": 1
+    },
+    {
+      "name": "标注",
+      "count": 1
+    },
+    {
+      "name": "标注工具",
+      "count": 1
+    },
+    {
+      "name": "表格",
+      "count": 1
+    },
+    {
+      "name": "部署",
+      "count": 1
+    },
+    {
+      "name": "参考",
+      "count": 1
+    },
+    {
+      "name": "插画",
+      "count": 1
+    },
+    {
+      "name": "产图",
+      "count": 1
+    },
+    {
+      "name": "从零实现",
+      "count": 1
+    },
+    {
+      "name": "代码审查",
+      "count": 1
+    },
+    {
+      "name": "代码审计",
+      "count": 1
+    },
+    {
+      "name": "代码质量",
+      "count": 1
+    },
+    {
+      "name": "端侧",
+      "count": 1
+    },
+    {
+      "name": "多模型",
+      "count": 1
+    },
+    {
+      "name": "发布",
+      "count": 1
+    },
+    {
+      "name": "反套路",
+      "count": 1
+    },
+    {
+      "name": "反AI味",
+      "count": 1
+    },
+    {
+      "name": "方法论",
+      "count": 1
+    },
+    {
+      "name": "分割",
+      "count": 1
+    },
+    {
+      "name": "个人博客",
+      "count": 1
+    },
+    {
+      "name": "个人品牌",
+      "count": 1
+    },
+    {
+      "name": "个人网站",
+      "count": 1
+    },
+    {
+      "name": "个性化",
+      "count": 1
+    },
+    {
+      "name": "跟踪",
+      "count": 1
+    },
+    {
+      "name": "工具",
+      "count": 1
+    },
+    {
+      "name": "公式",
+      "count": 1
+    },
+    {
+      "name": "官方",
+      "count": 1
+    },
+    {
+      "name": "规范",
+      "count": 1
+    },
+    {
+      "name": "会议",
+      "count": 1
+    },
+    {
+      "name": "绘图",
+      "count": 1
+    },
+    {
+      "name": "机器人",
+      "count": 1
+    },
+    {
+      "name": "机器学习",
+      "count": 1
+    },
+    {
+      "name": "基准",
+      "count": 1
+    },
+    {
+      "name": "即时通讯",
+      "count": 1
+    },
+    {
+      "name": "几何",
+      "count": 1
+    },
+    {
+      "name": "计算机组成",
+      "count": 1
+    },
+    {
+      "name": "架构图",
+      "count": 1
+    },
+    {
+      "name": "检测",
+      "count": 1
+    },
+    {
+      "name": "讲解图",
+      "count": 1
+    },
+    {
+      "name": "教科书",
+      "count": 1
+    },
+    {
+      "name": "教育",
+      "count": 1
+    },
+    {
+      "name": "静态站点",
+      "count": 1
+    },
+    {
+      "name": "聚合",
+      "count": 1
+    },
+    {
+      "name": "跨平台",
+      "count": 1
+    },
+    {
+      "name": "框架",
+      "count": 1
+    },
+    {
+      "name": "扩展",
+      "count": 1
+    },
+    {
+      "name": "离线",
+      "count": 1
+    },
+    {
+      "name": "龙芯",
+      "count": 1
+    },
+    {
+      "name": "录屏",
+      "count": 1
+    },
+    {
+      "name": "路径搜索",
+      "count": 1
+    },
+    {
+      "name": "媒体控制",
+      "count": 1
+    },
+    {
+      "name": "美化",
+      "count": 1
+    },
+    {
+      "name": "面向对象",
+      "count": 1
+    },
+    {
+      "name": "目标检测",
+      "count": 1
+    },
+    {
+      "name": "爬虫",
+      "count": 1
+    },
+    {
+      "name": "配图",
+      "count": 1
+    },
+    {
+      "name": "品牌",
+      "count": 1
+    },
+    {
+      "name": "品味",
+      "count": 1
+    },
+    {
+      "name": "屏幕标注",
+      "count": 1
+    },
+    {
+      "name": "强化学习",
+      "count": 1
+    },
+    {
+      "name": "人机协同",
+      "count": 1
+    },
+    {
+      "name": "任务栏",
+      "count": 1
+    },
+    {
+      "name": "软件工程",
+      "count": 1
+    },
+    {
+      "name": "设计工具",
+      "count": 1
+    },
+    {
+      "name": "设计规范",
+      "count": 1
+    },
+    {
+      "name": "设计模式",
+      "count": 1
+    },
+    {
+      "name": "设计系统",
+      "count": 1
+    },
+    {
+      "name": "设计资源",
+      "count": 1
+    },
+    {
+      "name": "深度文章",
+      "count": 1
+    },
+    {
+      "name": "深度学习",
+      "count": 1
+    },
+    {
+      "name": "视频下载",
+      "count": 1
+    },
+    {
+      "name": "手绘",
+      "count": 1
+    },
+    {
+      "name": "书籍",
+      "count": 1
+    },
+    {
+      "name": "数据分析",
+      "count": 1
+    },
+    {
+      "name": "数据结构",
+      "count": 1
+    },
+    {
+      "name": "数字名片",
+      "count": 1
+    },
+    {
+      "name": "搜索",
+      "count": 1
+    },
+    {
+      "name": "体系结构",
+      "count": 1
+    },
+    {
+      "name": "图表",
+      "count": 1
+    },
+    {
+      "name": "图片生成",
+      "count": 1
+    },
+    {
+      "name": "图像生成",
+      "count": 1
+    },
+    {
+      "name": "网络协议",
+      "count": 1
+    },
+    {
+      "name": "网页转Markdown",
+      "count": 1
+    },
+    {
+      "name": "网站",
+      "count": 1
+    },
+    {
+      "name": "微调",
+      "count": 1
+    },
+    {
+      "name": "文本",
+      "count": 1
+    },
+    {
+      "name": "文档解析",
+      "count": 1
+    },
+    {
+      "name": "文档站",
+      "count": 1
+    },
+    {
+      "name": "文生图",
+      "count": 1
+    },
+    {
+      "name": "文献管理",
+      "count": 1
+    },
+    {
+      "name": "协作",
+      "count": 1
+    },
+    {
+      "name": "性能",
+      "count": 1
+    },
+    {
+      "name": "学术研究",
+      "count": 1
+    },
+    {
+      "name": "学习",
+      "count": 1
+    },
+    {
+      "name": "演示",
+      "count": 1
+    },
+    {
+      "name": "演示文稿",
+      "count": 1
+    },
+    {
+      "name": "移动端",
+      "count": 1
+    },
+    {
+      "name": "音乐播放器",
+      "count": 1
+    },
+    {
+      "name": "隐私",
+      "count": 1
+    },
+    {
+      "name": "用户脚本",
+      "count": 1
+    },
+    {
+      "name": "油猴",
+      "count": 1
+    },
+    {
+      "name": "游戏算法",
+      "count": 1
+    },
+    {
+      "name": "娱乐",
+      "count": 1
+    },
+    {
+      "name": "阅读",
+      "count": 1
+    },
+    {
+      "name": "在线编辑器",
+      "count": 1
+    },
+    {
+      "name": "知识体系",
+      "count": 1
+    },
+    {
+      "name": "知识蒸馏",
+      "count": 1
+    },
+    {
+      "name": "质量",
+      "count": 1
+    },
+    {
+      "name": "重构",
+      "count": 1
+    },
+    {
+      "name": "主题",
+      "count": 1
+    },
+    {
+      "name": "桌面工具",
+      "count": 1
+    },
+    {
+      "name": "咨询汇报",
+      "count": 1
+    },
+    {
+      "name": "资讯",
+      "count": 1
+    },
+    {
+      "name": "字幕",
+      "count": 1
+    },
+    {
+      "name": "自监督学习",
+      "count": 1
+    },
+    {
+      "name": "自然语言",
+      "count": 1
+    },
+    {
+      "name": "总结",
+      "count": 1
+    },
+    {
+      "name": "Agent工具",
+      "count": 1
+    },
+    {
+      "name": "AI",
+      "count": 1
+    },
+    {
+      "name": "AI辅助",
+      "count": 1
+    },
+    {
+      "name": "AI设计",
+      "count": 1
+    },
+    {
+      "name": "AI应用",
+      "count": 1
+    },
+    {
+      "name": "Astro",
+      "count": 1
+    },
+    {
+      "name": "BI",
+      "count": 1
+    },
+    {
+      "name": "Bilibili",
+      "count": 1
+    },
+    {
+      "name": "C++",
+      "count": 1
+    },
+    {
+      "name": "CLI",
+      "count": 1
+    },
+    {
+      "name": "Cloudflare",
+      "count": 1
+    },
+    {
+      "name": "CPU",
+      "count": 1
+    },
+    {
+      "name": "DESIGN.md",
+      "count": 1
+    },
+    {
+      "name": "Electron",
+      "count": 1
+    },
+    {
+      "name": "Fluent设计",
+      "count": 1
+    },
+    {
+      "name": "GSAP",
+      "count": 1
+    },
+    {
+      "name": "Harness",
+      "count": 1
+    },
+    {
+      "name": "Java",
+      "count": 1
+    },
+    {
+      "name": "LaTeX",
+      "count": 1
+    },
+    {
+      "name": "LeetCode",
+      "count": 1
+    },
+    {
+      "name": "LLM",
+      "count": 1
+    },
+    {
+      "name": "Memos",
+      "count": 1
+    },
+    {
+      "name": "Obsidian",
+      "count": 1
+    },
+    {
+      "name": "OCR",
+      "count": 1
+    },
+    {
+      "name": "PDF",
+      "count": 1
+    },
+    {
+      "name": "PWA",
+      "count": 1
+    },
+    {
+      "name": "Python",
+      "count": 1
+    },
+    {
+      "name": "SLAM",
+      "count": 1
+    },
+    {
+      "name": "SVG",
+      "count": 1
+    },
+    {
+      "name": "Transformer",
+      "count": 1
+    },
+    {
+      "name": "Vibe Coding",
+      "count": 1
+    },
+    {
+      "name": "Web",
+      "count": 1
+    },
+    {
+      "name": "Windows",
+      "count": 1
+    },
+    {
+      "name": "YAGNI",
+      "count": 1
+    }
+  ],
   "categories": [
     {
       "name": "基础 / 教育",
       "items": [
         {
+          "slug": "ai-agent-book",
+          "relPath": "01-foundations/ai-agent-book.md",
+          "owner": "bojieli",
+          "category": "01-foundations",
+          "categoryName": "基础 / 教育",
+          "name": "AI Agent Book",
+          "github": "https://github.com/bojieli/ai-agent-book",
+          "website": "",
+          "links": [],
+          "tagline": "《深入理解 AI Agent：设计原理与工程实践》开源书籍与配套实验",
+          "stack": [
+            "Python",
+            "Markdown"
+          ],
+          "tags": [
+            "AI教育",
+            "Agent",
+            "MCP",
+            "RAG",
+            "书籍",
+            "中文"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 9000,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "AI Agent 涉及 MCP、RAG、强化学习、多智能体等多主题，缺少系统性中文书籍 + 可运行实验的组合。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "核心公式 Agent = LLM + 上下文 + 工具，10 章配 95 个可运行实验，还有编译好的 PDF/EPUB。理论工程两不误。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "先读公式和 MCP 章节建立心智模型，再按实验目录挑场景跑。关联 [[learn-claude-code]] 的 harness 思路互为印证。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Python, Markdown",
+              "- 状态：active",
+              "- 链接：https://github.com/bojieli/ai-agent-book",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "ai-guide",
+          "relPath": "01-foundations/ai-guide.md",
+          "owner": "liyupi",
+          "category": "01-foundations",
+          "categoryName": "基础 / 教育",
+          "name": "AI-Guide",
+          "github": "https://github.com/liyupi/ai-guide",
+          "website": "",
+          "links": [],
+          "tagline": "鱼皮的开源 AI 知识库：工具资源 + Vibe Coding 零基础教程",
+          "stack": [
+            "VuePress",
+            "Markdown"
+          ],
+          "tags": [
+            "AI教育",
+            "知识库",
+            "Vibe Coding",
+            "中文",
+            "教程"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 12000,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "AI 工具与教程信息差大，新人不知从哪学起。项目聚合 AI 工具、教程、资讯，主打免费开源共享。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "免费开放、中文友好，旗舰内容「Vibe Coding 零基础教程」教普通人用 AI 从 0 做出可变现产品。适合实操上手。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "作为信息聚合入口，遇到某个 AI 工具先来这查资源；Vibe Coding 教程偏实战，配联 [[ai-agent-book]] 补原理。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：VuePress, Markdown",
+              "- 状态：active",
+              "- 链接：https://github.com/liyupi/ai-guide",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "archbase",
+          "relPath": "01-foundations/archbase.md",
+          "owner": "foxsen",
+          "category": "01-foundations",
+          "categoryName": "基础 / 教育",
+          "name": "计算机体系结构基础",
+          "github": "https://github.com/foxsen/archbase",
+          "website": "",
+          "links": [],
+          "tagline": "胡伟武《计算机体系结构基础》课本的开源版本与配套资源",
+          "stack": [
+            "Markdown",
+            "LaTeX"
+          ],
+          "tags": [
+            "体系结构",
+            "计算机组成",
+            "教科书",
+            "CPU",
+            "龙芯"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 3300,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "体系结构教材多偏理论、偏国外，缺少一本结合国产 CPU（龙芯）实践视角、可免费获取的中文教材。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "基于胡伟武等《计算机体系结构基础》第三版的开源在线版，讲指令系统、CPU 设计、存储层次、I/O 等，配合龙芯实践，适合系统学习底层。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "- 偏硬件/体系结构方向，学 OS、编译器、底层性能优化前先补这块准没错。",
+              "- 与 [[labuladong-algorithm]] 正好一头一尾：算法讲上层做题，这本讲底层原理。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Markdown, LaTeX",
+              "- 状态：active",
+              "- 链接：https://github.com/foxsen/archbase"
+            ]
+          }
+        },
+        {
+          "slug": "happy-llm",
+          "relPath": "01-foundations/happy-llm.md",
+          "owner": "datawhalechina",
+          "category": "01-foundations",
+          "categoryName": "基础 / 教育",
+          "name": "Happy-LLM",
+          "github": "https://github.com/datawhalechina/happy-llm",
+          "website": "",
+          "links": [],
+          "tagline": "从零手写大语言模型的中文系统性教程（含完整 LLaMA2）",
+          "stack": [
+            "Python",
+            "PyTorch",
+            "Transformers"
+          ],
+          "tags": [
+            "AI教育",
+            "LLM",
+            "从零实现",
+            "Transformer",
+            "教程",
+            "中文"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 32700,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "LLM 内部机制晦涩，多数教程只讲调用。本教程从 NLP 基础到 Transformer 再到实现一个完整 LLaMA2，step-by-step。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "Datawhale 出品，7 章渐进式走完预训练、LoRA/QLoRA 微调、RAG、Agent，附 215M 参数可下载模型。学原理首选。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "第 5 章开始真正动手建模型，配合 ModelScope 上的 215M 基座/SFT 模型能跑通全流程。关联 [[self-llm]] 的部署部分形成闭环。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Python, PyTorch, Transformers",
+              "- 状态：active",
+              "- 链接：https://github.com/datawhalechina/happy-llm",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "labuladong-algorithm",
+          "relPath": "01-foundations/labuladong-algorithm.md",
+          "owner": "labuladong",
+          "category": "01-foundations",
+          "categoryName": "基础 / 教育",
+          "name": "labuladong 的算法笔记",
+          "github": "https://github.com/labuladong/fucking-algorithm",
+          "website": "",
+          "links": [],
+          "tagline": "用\"框架思维\"讲透 LeetCode 刷题套路的中文算法笔记库",
+          "stack": [
+            "Markdown"
+          ],
+          "tags": [
+            "算法",
+            "数据结构",
+            "LeetCode",
+            "面试",
+            "中文"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 135000,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "刷 LeetCode 像背题、换个条件就卡住。缺少一套能\"举一反三\"的通用解题框架。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "把算法归成有限套路（二叉树、回溯、动态规划、双指针……），每题都落到框架上，配套在线版 labuladong.online，是中文算法学习最流行的一份。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "- 核心是\"框架思维\"：先搭模板再套题，而不是记题解。",
+              "- 动态规划、回溯、BFS 三套模板最值得先背。",
+              "- 与站内 [[archbase]] 的体系结构基础互补：一个偏底层原理、一个偏刷题实战。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Markdown",
+              "- 状态：active",
+              "- 链接：https://github.com/labuladong/fucking-algorithm"
+            ]
+          }
+        },
+        {
+          "slug": "learn-claude-code",
+          "relPath": "01-foundations/learn-claude-code.md",
+          "owner": "shareAI-lab",
+          "category": "01-foundations",
+          "categoryName": "基础 / 教育",
+          "name": "Learn Claude Code",
+          "github": "https://github.com/shareAI-lab/learn-claude-code",
+          "website": "",
+          "links": [],
+          "tagline": "从 0 到 1 手写 Agent Harness 的 20 课教程（Bash is all you need）",
+          "stack": [
+            "Python",
+            "Anthropic API"
+          ],
+          "tags": [
+            "AI教育",
+            "Agent",
+            "Harness",
+            "教程",
+            "Python"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 3000,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "Agent 产品 = 模型 + Harness，但多数人只懂调 API，不懂外围机制如何搭建。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "核心论点「Agency 来自模型，产品来自 Harness」，20 课把一个不变的 agent loop 逐步叠加工具调用、权限、hooks、子代理、上下文压缩、记忆、MCP 等机制。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "每课一个独立 code.py 可跑，建议按 s01→s20 顺序跟。想要理解 Claude Code 这类工具内部结构，这是最直接的教材。关联 [[ai-agent-book]]。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Python, Anthropic API",
+              "- 状态：active",
+              "- 链接：https://github.com/shareAI-lab/learn-claude-code",
+              ""
+            ]
+          }
+        },
+        {
           "slug": "no-magic",
           "relPath": "01-foundations/no-magic.md",
+          "owner": "no-magic-ai",
           "category": "01-foundations",
           "categoryName": "基础 / 教育",
           "name": "no-magic",
           "github": "https://github.com/no-magic-ai/no-magic",
+          "website": "",
+          "links": [],
           "tagline": "手写现代 AI 算法原理的教学仓库，零依赖、单文件、可运行",
           "stack": [
             "Python"
           ],
+          "tags": [
+            "AI教育",
+            "深度学习",
+            "算法",
+            "自监督学习",
+            "强化学习",
+            "大模型",
+            "教学"
+          ],
           "status": "active",
+          "featured": false,
           "stars": 0,
           "updated": "2026-08-08",
           "sections": {
@@ -46,23 +1146,2872 @@
               "- 链接：https://github.com/no-magic-ai/no-magic"
             ]
           }
+        },
+        {
+          "slug": "self-llm",
+          "relPath": "01-foundations/self-llm.md",
+          "owner": "datawhalechina",
+          "category": "01-foundations",
+          "categoryName": "基础 / 教育",
+          "name": "Self-LLM",
+          "github": "https://github.com/datawhalechina/self-llm",
+          "website": "",
+          "links": [],
+          "tagline": "开源大模型部署、使用与微调的中文入门教程",
+          "stack": [
+            "Python",
+            "PyTorch",
+            "Transformers"
+          ],
+          "tags": [
+            "AI教育",
+            "大模型",
+            "微调",
+            "部署",
+            "中文",
+            "教程"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 22000,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "开源大模型的部署、使用、微调链条对新手有门槛，资料分散。项目用 Markdown + Python 代码统一串起全流程。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "中文社区最系统的开源模型入门教程之一，覆盖 50+ 模型的部署与 LoRA/全参微调，还细分了 AMD ROCm、昇腾 NPU、Apple M 芯片平台。适合按需查阅。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "按章节即可定位到某个模型或平台的部署 SOP；微调部分给了可复跑的 LoRA 代码。关联 [[happy-llm]] 同属 Datawhale 系列。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Python, PyTorch, Transformers",
+              "- 状态：active",
+              "- 链接：https://github.com/datawhalechina/self-llm",
+              ""
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "AI 编程技能",
+      "items": [
+        {
+          "slug": "academic-research-skills",
+          "relPath": "02-ai-skills/academic-research-skills.md",
+          "owner": "Imbad0202",
+          "category": "02-ai-skills",
+          "categoryName": "AI 编程技能",
+          "name": "Academic Research Skills",
+          "github": "https://github.com/Imbad0202/academic-research-skills",
+          "website": "",
+          "links": [],
+          "tagline": "覆盖学术研究全流程的 Claude Code 技能套件（人机协同）",
+          "stack": [
+            "Markdown",
+            "Python"
+          ],
+          "tags": [
+            "Agent技能",
+            "学术研究",
+            "论文",
+            "引用",
+            "人机协同"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 1800,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "AI 辅助科研易产生幻觉引用、格式混乱，且研究者失控。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "研究→写作→审稿→修订→定稿全链路技能，内置引用溯源、规范性校验、一致性检查，并设人机协同完整性关卡（AI 是副驾不是驾驶）。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "做论文时重点用引用校验与格式一致性技能。体现「AI 辅助但有把关」的严谨路线。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Markdown, Python",
+              "- 状态：active",
+              "- 链接：https://github.com/Imbad0202/academic-research-skills",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "awesome-design-md",
+          "relPath": "02-ai-skills/awesome-design-md.md",
+          "owner": "VoltAgent",
+          "category": "02-ai-skills",
+          "categoryName": "AI 编程技能",
+          "name": "Awesome DESIGN.md",
+          "github": "https://github.com/VoltAgent/awesome-design-md",
+          "website": "",
+          "links": [],
+          "tagline": "从知名品牌站提取的 DESIGN.md 设计规范库",
+          "stack": [
+            "Markdown",
+            "DESIGN.md"
+          ],
+          "tags": [
+            "AI技能",
+            "设计规范",
+            "前端",
+            "品牌"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 5000,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "想让 AI 生成与某品牌视觉一致的前端，缺一份机器可读的设计语言描述。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "收集流行品牌网站的 DESIGN.md（遵循 Google Stitch 规范），丢一份进项目就能让编码 Agent 生成匹配配色、排版、组件的 UI，附 preview.html 可视化目录。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "链路是「网站 → DESIGN.md → Agent 生成 UI」。可配合 [[taste-skill]]/[[hallmark]] 一起做前端。也关联 [[open-design]] 的 DESIGN.md 驱动产图思路。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Markdown, DESIGN.md",
+              "- 状态：active",
+              "- 链接：https://github.com/VoltAgent/awesome-design-md",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "baoyu-skills",
+          "relPath": "02-ai-skills/baoyu-skills.md",
+          "owner": "JimLiu",
+          "category": "02-ai-skills",
+          "categoryName": "AI 编程技能",
+          "name": "Baoyu Skills",
+          "github": "https://github.com/JimLiu/baoyu-skills",
+          "website": "",
+          "links": [],
+          "tagline": "宝玉的 20+ 内容创作 Agent 技能集",
+          "stack": [
+            "Node.js",
+            "Markdown"
+          ],
+          "tags": [
+            "Agent技能",
+            "内容创作",
+            "图片生成",
+            "发布",
+            "效率"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 6000,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "内容创作（小红书卡片、信息图、PPT、公众号配图、多平台发布）重复劳动多。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "20+ 技能覆盖 XHS 卡片、信息图、图解、幻灯片、漫画、文章配图、封面，以及微信/微博/X 发布、YT 字幕、URL 转 md、翻译、图片压缩等工具。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "偏中文内容工作流，实用性很强。npx skills add 即可安装。与 [[ian-handdrawn-ppt]] 的配图思路可互补。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Node.js, Markdown",
+              "- 状态：active",
+              "- 链接：https://github.com/JimLiu/baoyu-skills",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "cangjie-skill",
+          "relPath": "02-ai-skills/cangjie-skill.md",
+          "owner": "kangarooking",
+          "category": "02-ai-skills",
+          "categoryName": "AI 编程技能",
+          "name": "Cangjie-skill",
+          "github": "https://github.com/kangarooking/cangjie-skill",
+          "website": "",
+          "links": [],
+          "tagline": "把书、长视频、播客里的方法论蒸馏成可调用 AI 技能",
+          "stack": [
+            "Markdown",
+            "Python"
+          ],
+          "tags": [
+            "Agent技能",
+            "方法论",
+            "知识蒸馏",
+            "阅读"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 1500,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "读完书/听完课，方法论难沉淀为可复用、可触发的能力。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "用 7 阶段 RIA-TV++ 流水线（阿德勒分析、5 路并行抽取、三重校验、Zettelkasten 链接、压测）把高价值内容蒸馏成结构化技能包，已产 25+ 技能（巴菲特致股东信、《影响力》《黄帝内经》等）。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "适合建立「输入→技能」的个人知识转化流水线。与 [[obsidian-skills]]（知识库）配合可形成闭环。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Markdown, Python",
+              "- 状态：active",
+              "- 链接：https://github.com/kangarooking/cangjie-skill",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "cyberppt",
+          "relPath": "02-ai-skills/cyberppt.md",
+          "owner": "crazyykhllc-bit",
+          "category": "02-ai-skills",
+          "categoryName": "AI 编程技能",
+          "name": "CyberPPT",
+          "github": "https://github.com/crazyykhllc-bit/CyberPPT",
+          "website": "",
+          "links": [],
+          "tagline": "生成高密度、可编辑、咨询风格 PowerPoint 的 Codex Skill",
+          "stack": [
+            "Python",
+            "PPTX"
+          ],
+          "tags": [
+            "Agent技能",
+            "PPT",
+            "演示文稿",
+            "咨询汇报",
+            "自动化"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 1540,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "AI 生成的 PPT 常是花哨但信息密度低、不可编辑的\"演示稿\"，无法满足咨询/汇报场景的高密度、可编辑、风格统一需求。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "一个专门用于生成高密度、可编辑、咨询风格 PPT 的 Agent Skill，支持 SCR 叙事、风格确认和 PPTX 质量检查，把\"用 AI 做专业汇报稿\"落到可复用流程。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "- 面向 Codex Skill 生态，逻辑同样可借鉴到其它 Agent 的 PPT 生成流程。",
+              "- 关键词：SCR 叙事、风格确认、PPTX 质量检查。",
+              "- 与站内 ian-handdrawn-ppt 等 PPT 类技能同属\"AI 做演示文稿\"路线。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Python, PPTX",
+              "- 状态：active",
+              "- 链接：https://github.com/crazyykhllc-bit/CyberPPT"
+            ]
+          }
+        },
+        {
+          "slug": "fireworks-tech-graph",
+          "relPath": "02-ai-skills/fireworks-tech-graph.md",
+          "owner": "yizhiyanhua-ai",
+          "category": "02-ai-skills",
+          "categoryName": "AI 编程技能",
+          "name": "Fireworks Tech Graph",
+          "github": "https://github.com/yizhiyanhua-ai/fireworks-tech-graph",
+          "website": "",
+          "links": [],
+          "tagline": "用自然语言生成几何安全的技术图（SVG/PNG）的 Agent 技能",
+          "stack": [
+            "Python",
+            "Node.js"
+          ],
+          "tags": [
+            "Agent技能",
+            "图表",
+            "SVG",
+            "UML",
+            "文档"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 1200,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "手绘系统架构/流程图费时，直接让 AI 出 SVG 又常出几何错误。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "用中文/英文描述系统即可得到 12 种视觉风格、14 种 UML 图、AI/Agent 工作流图的合法 SVG/PNG，带「Evaluate don't assert」校验回路检查几何与路由。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "在 Claude Code 与 Codex 中均可直接用。写技术文档/架构图时的利器，配 [[firecrawl]] 抓资料一起用。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Python, Node.js",
+              "- 状态：active",
+              "- 链接：https://github.com/yizhiyanhua-ai/fireworks-tech-graph",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "fuck-my-shit-mountain",
+          "relPath": "02-ai-skills/fuck-my-shit-mountain.md",
+          "owner": "XiNian-dada",
+          "category": "02-ai-skills",
+          "categoryName": "AI 编程技能",
+          "name": "Fuck My Shit Mountain",
+          "github": "https://github.com/XiNian-dada/Fuck_My_Shit_Mountain",
+          "website": "",
+          "links": [],
+          "tagline": "基于证据的 AI 代码审计技能（专业输出、零情绪废话）",
+          "stack": [
+            "HTML",
+            "Markdown"
+          ],
+          "tags": [
+            "Agent技能",
+            "代码审计",
+            "代码审查",
+            "质量",
+            "AI辅助"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 442,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "AI 代码审查常流于\"泛泛而谈\"或\"情绪化吐槽\"，缺少证据支撑、输出不专业，难以真正发现问题。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "一个强调 evidence-based 的 AI 代码审计 Skill：专业输出、零情绪废话，切中\"AI 审查要可信、可落地\"的需求，社区反响不错（400+★）。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "- 名字好玩，内容严肃：核心是\"拿证据说话\"，避免 AI 审查的典型毛病。",
+              "- 适合做代码质量把关场景，可与站内 academic-research-skills 的\"证据溯源\"思路互参。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：HTML, Markdown",
+              "- 状态：active",
+              "- 链接：https://github.com/XiNian-dada/Fuck_My_Shit_Mountain"
+            ]
+          }
+        },
+        {
+          "slug": "graphify",
+          "relPath": "02-ai-skills/graphify.md",
+          "owner": "Graphify-Labs",
+          "category": "02-ai-skills",
+          "categoryName": "AI 编程技能",
+          "name": "Graphify",
+          "github": "https://github.com/Graphify-Labs/graphify",
+          "website": "",
+          "links": [],
+          "tagline": "把整个代码库变成可查询的知识图谱的 Agent 技能",
+          "stack": [
+            "Python",
+            "tree-sitter"
+          ],
+          "tags": [
+            "Agent技能",
+            "代码理解",
+            "知识图谱",
+            "开发效率"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 4000,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "AI 编码助手面对大代码库时靠 grep 逐个文件探索，低效且烧 token。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "以 /graphify 技能把仓库（含文档、SQL、配置、PDF）映射成带 EXTRACTED/INFERRED 边标签的知识图谱，本地确定性子解析(不调 LLM)，可「查图代替 grep」。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "核心价值是边缘标注来源（提取 vs 推断），避免把推断当事实。适合接进 Claude Code/Cursor/Codex 的每日工作流。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Python, tree-sitter",
+              "- 状态：active",
+              "- 链接：https://github.com/Graphify-Labs/graphify",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "gsap-skills",
+          "relPath": "02-ai-skills/gsap-skills.md",
+          "owner": "greensock",
+          "category": "02-ai-skills",
+          "categoryName": "AI 编程技能",
+          "name": "GSAP Skills",
+          "github": "https://github.com/greensock/gsap-skills",
+          "website": "",
+          "links": [],
+          "tagline": "GSAP 官方 AI 技能：教编码 Agent 正确使用动画库",
+          "stack": [
+            "Markdown",
+            "JavaScript/TypeScript"
+          ],
+          "tags": [
+            "AI技能",
+            "动画",
+            "GSAP",
+            "前端",
+            "官方"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 1500,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "AI 生成的 GSAP 动画常犯 API 误用、忽略插件的错误。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "GSAP 官方出品的 8 个技能（core/timeline/scrolltrigger/plugins/react/perf/frameworks），跨 40+ 编码 Agent 安装，教最佳实践与常见模式。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "官方维护，权威性高。做 Web 动效时先装 gsap-core + gsap-scrolltrigger，再用 gsap-react 处理框架适配。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Markdown, JavaScript/TypeScript",
+              "- 状态：active",
+              "- 链接：https://github.com/greensock/gsap-skills",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "hallmark",
+          "relPath": "02-ai-skills/hallmark.md",
+          "owner": "Nutlope",
+          "category": "02-ai-skills",
+          "categoryName": "AI 编程技能",
+          "name": "Hallmark",
+          "github": "https://github.com/Nutlope/hallmark",
+          "website": "",
+          "links": [],
+          "tagline": "拒绝「AI 味」的设计技能：21 套主题 + 57 道反套路门禁",
+          "stack": [
+            "Markdown",
+            "SKILL.md"
+          ],
+          "tags": [
+            "Agent技能",
+            "设计",
+            "反AI味",
+            "主题",
+            "前端"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 3000,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "LLM 生成 UI 有强分布默认（紫渐变、居中 hero、三卡片…），一眼 AI 味。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "先为 brief 选宏观结构，再用 21 套主题之一装扮，跑 57 道 slop 门禁 + 输出前自审。提供 audit / redesign / study 四种动词。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "study 模式可从截图/URL 提取设计 DNA，非常实用。配合 [[taste-skill]] 使用效果更好。关联 [[awesome-design-md]]。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Markdown, SKILL.md",
+              "- 状态：active",
+              "- 链接：https://github.com/Nutlope/hallmark",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "ian-handdrawn-ppt",
+          "relPath": "02-ai-skills/ian-handdrawn-ppt.md",
+          "owner": "helloianneo",
+          "category": "02-ai-skills",
+          "categoryName": "AI 编程技能",
+          "name": "Ian Handdrawn PPT",
+          "github": "https://github.com/helloianneo/ian-handdrawn-ppt",
+          "website": "",
+          "links": [],
+          "tagline": "把文章/笔记转成中文手绘讲解图整页 PNG 的 Codex 技能",
+          "stack": [
+            "Markdown",
+            "SKILL.md"
+          ],
+          "tags": [
+            "Agent技能",
+            "PPT",
+            "手绘",
+            "讲解图",
+            "内容创作"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 1500,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "要的不是可编辑 PPTX，而是适合文章/课程/演讲的整页手绘视觉图。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "先规划内容再按语义版式原型映射页面，统一手绘风格，输出 21:9 封面 + 16:9 内容图 PNG 及联系表，推荐 ChatGPT Image 2.0。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "强调「先想清楚内容再做页」。配 [[baoyu-skills]] 与 [[ian-xiaohei-illustrations]] 组成内容配图全家桶。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Markdown, SKILL.md",
+              "- 状态：active",
+              "- 链接：https://github.com/helloianneo/ian-handdrawn-ppt",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "ian-xiaohei-illustrations",
+          "relPath": "02-ai-skills/ian-xiaohei-illustrations.md",
+          "owner": "helloianneo",
+          "category": "02-ai-skills",
+          "categoryName": "AI 编程技能",
+          "name": "Ian Xiaohei Illustrations",
+          "github": "https://github.com/helloianneo/ian-xiaohei-illustrations",
+          "website": "",
+          "links": [],
+          "tagline": "生成中文文章手绘「小黑」示意图的 Codex 技能",
+          "stack": [
+            "Markdown",
+            "SKILL.md"
+          ],
+          "tags": [
+            "Agent技能",
+            "插画",
+            "配图",
+            "中文",
+            "内容创作"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 2000,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "文章配图要么用通用插画没有信息量，要么做 PPT 式信息图。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "把文章里的一个关键认知动作（判断/流程/结构/状态/隐喻）画成 16:9 白底手绘「小黑」示意图，配稀疏红橙蓝中文标注，帮助记忆。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "适合技术科普文章配图。与同作者的 [[ian-handdrawn-ppt]] 配合做整篇讲解图。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Markdown, SKILL.md",
+              "- 状态：active",
+              "- 链接：https://github.com/helloianneo/ian-xiaohei-illustrations",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "identity-skill",
+          "relPath": "02-ai-skills/identity-skill.md",
+          "owner": "Sac-Y",
+          "category": "02-ai-skills",
+          "categoryName": "AI 编程技能",
+          "name": "identity-skill",
+          "github": "https://github.com/Sac-Y/identity-skill",
+          "website": "",
+          "links": [],
+          "tagline": "数字名片 .skill：一键打造专属个人网站",
+          "stack": [
+            "Python",
+            "Markdown"
+          ],
+          "tags": [
+            "Agent技能",
+            "数字名片",
+            "个人网站",
+            "个人品牌",
+            "自动化"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 224,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "个人品牌展示需要搭建个人网站，但设计、开发、部署流程繁琐，很多人起步困难。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "一个把\"打造数字名片/个人网站\"封装成 Skill 的项目，一键生成专属个人网站，降低个人品牌展示的技术门槛。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "- 适合做个人主页、作品集、简历展示场景。",
+              "- 与站内其它\"一键生成\"类 Agent 技能同属降低创作/展示门槛的路线。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Python, Markdown",
+              "- 状态：active",
+              "- 链接：https://github.com/Sac-Y/identity-skill"
+            ]
+          }
+        },
+        {
+          "slug": "obsidian-skills",
+          "relPath": "02-ai-skills/obsidian-skills.md",
+          "owner": "kepano",
+          "category": "02-ai-skills",
+          "categoryName": "AI 编程技能",
+          "name": "Obsidian Skills",
+          "github": "https://github.com/kepano/obsidian-skills",
+          "website": "",
+          "links": [],
+          "tagline": "让 Agent 读写 Obsidian 与开放格式的官方技能集",
+          "stack": [
+            "Markdown",
+            "SKILL.md"
+          ],
+          "tags": [
+            "Agent技能",
+            "Obsidian",
+            "知识管理",
+            "Markdown"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 44000,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "AI Agent 不擅长创建 Obsidian 特有的 wiki 链接、callout、.base、.canvas 文件。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "kepano（Obsidian CEO）出品，教 Agent 按规范创建/编辑 Markdown、Bases、JSON Canvas；含 Obsidian 插件/主题开发 CLI 技能与 Defuddle 网页转纯 md 技能。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "44k star。若工作流重度依赖 Obsidian，这套技能让 Agent 直接写入知识库，与 [[files.md]] 的极简方案互为对照。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Markdown, SKILL.md",
+              "- 状态：active",
+              "- 链接：https://github.com/kepano/obsidian-skills",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "ponytail",
+          "relPath": "02-ai-skills/ponytail.md",
+          "owner": "DietrichGebert",
+          "category": "02-ai-skills",
+          "categoryName": "AI 编程技能",
+          "name": "Ponytail",
+          "github": "https://github.com/DietrichGebert/ponytail",
+          "website": "",
+          "links": [],
+          "tagline": "让 AI 像「最懒的高级工程师」一样写最少必要的代码",
+          "stack": [
+            "Node.js",
+            "Markdown"
+          ],
+          "tags": [
+            "AI技能",
+            "代码质量",
+            "YAGNI",
+            "开发效率",
+            "规范"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 2000,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "AI 编码 Agent 倾向过度设计、写冗余代码，增加维护负担。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "注入一套决策阶梯：先想能否复用已有代码、走标准库/平台原生、用一行搞定，再写新代码。宣称少 54% 代码、省 20% 成本、快 27%，同时保验证/安全/无障碍底线。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "6 个斜杠命令可按强度 lite/full/ultra 分级。适合项目要求「克制、可维护」时挂在编码 Agent 上。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Node.js, Markdown",
+              "- 状态：active",
+              "- 链接：https://github.com/DietrichGebert/ponytail",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "taste-skill",
+          "relPath": "02-ai-skills/taste-skill.md",
+          "owner": "Leonxlnx",
+          "category": "02-ai-skills",
+          "categoryName": "AI 编程技能",
+          "name": "Taste-Skill",
+          "github": "https://github.com/Leonxlnx/taste-skill",
+          "website": "",
+          "links": [],
+          "tagline": "给 AI 装「好品味」：停止生成千篇一律的前端",
+          "stack": [
+            "Markdown",
+            "SKILL.md"
+          ],
+          "tags": [
+            "Agent技能",
+            "前端",
+            "设计",
+            "品味",
+            "反套路"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 2500,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "AI 默认生成千篇一律的「样板化」前端。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "框架无关的 Portable Agent Skill，注入更强的布局、排版、动效、间距品味；附带图像生成技能做设计参考板喂给编码 Agent。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "主打是「不像 AI 生成」。与 [[hallmark]]、[[awesome-design-md]] 方向一致但侧重品味与参考板，可组合出更有个性的前端。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Markdown, SKILL.md",
+              "- 状态：active",
+              "- 链接：https://github.com/Leonxlnx/taste-skill",
+              ""
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "AI 智能体与应用",
+      "items": [
+        {
+          "slug": "cindy",
+          "relPath": "03-ai-agents/cindy.md",
+          "owner": "makecindy",
+          "category": "03-ai-agents",
+          "categoryName": "AI 智能体与应用",
+          "name": "Cindy",
+          "github": "https://github.com/makecindy/cindy",
+          "website": "",
+          "links": [],
+          "tagline": "开箱即用的本地 AI 智能体客户端（多 harness 混用）",
+          "stack": [
+            "TypeScript",
+            "Electron",
+            "React Native"
+          ],
+          "tags": [
+            "AIAgent",
+            "本地",
+            "MCP",
+            "多模型",
+            "开源"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 3500,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "想自由混用 Claude Code / Codex 等 harness 与不同模型，在一个本地客户端里完成真实工作。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "Electron 桌面 + RN 移动客户端，支持记忆、技能、自动化、MCP 工具接线、插件系统，模型与 harness 可随意组合，后端服务开源(Apache-2.0)。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "适合重度本地 Agent 用户。注意核心后端服务在私有仓库，开源的是客户端与外壳。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：TypeScript, Electron, React Native",
+              "- 状态：active",
+              "- 链接：https://github.com/makecindy/cindy",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "codebase-memory-mcp",
+          "relPath": "03-ai-agents/codebase-memory-mcp.md",
+          "owner": "DeusData",
+          "category": "03-ai-agents",
+          "categoryName": "AI 智能体与应用",
+          "name": "Codebase Memory MCP",
+          "github": "https://github.com/DeusData/codebase-memory-mcp",
+          "website": "",
+          "links": [],
+          "tagline": "用纯 C 单二进制实现的极速代码智能 MCP 服务",
+          "stack": [
+            "C",
+            "SQLite",
+            "tree-sitter"
+          ],
+          "tags": [
+            "MCP",
+            "代码理解",
+            "知识图谱",
+            "性能",
+            "开发效率"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 2200,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "AI 代理理解大型代码库时逐文件探索，token 消耗高、速度慢。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "零依赖纯 C 编译成单静态二进制，内置 158 语言 tree-sitter，把代码库索引成持久知识图谱，暴露 15 个工具（搜索、追踪、架构、Cypher 查询、变更检测），号称省 99% token。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "性能导向。与 [[graphify]] 同为「代码库建图」思路，但走 MCP 协议 + 极速 C 实现，适合大仓库。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：C, SQLite, tree-sitter",
+              "- 状态：active",
+              "- 链接：https://github.com/DeusData/codebase-memory-mcp",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "data-analysis-agent",
+          "relPath": "03-ai-agents/data-analysis-agent.md",
+          "owner": "Zafer-Liu",
+          "category": "03-ai-agents",
+          "categoryName": "AI 智能体与应用",
+          "name": "Data Analysis Agent",
+          "github": "https://github.com/Zafer-Liu/Data-Analysis-Agent",
+          "website": "",
+          "links": [],
+          "tagline": "对话式商业数据分析 Agent，自然语言出图出洞察",
+          "stack": [
+            "Python",
+            "Flask",
+            "Plotly",
+            "SQLAlchemy"
+          ],
+          "tags": [
+            "AIAgent",
+            "数据分析",
+            "BI",
+            "可视化",
+            "自然语言"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 2000,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "非技术用户想用自然语言查数据并自动生成可视化与洞察。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "自动 schema 检测、SQL 生成、43 种图表推荐、业务洞察报告，SSE 流式展示过程，接 DeepSeek/OpenAI 等。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "Flask + Vite 前后端。做 ChatBI 类产品的轻量范本。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Python, Flask, Plotly, SQLAlchemy",
+              "- 状态：active",
+              "- 链接：https://github.com/Zafer-Liu/Data-Analysis-Agent",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "deeptutor",
+          "relPath": "03-ai-agents/deeptutor.md",
+          "owner": "HKUDS",
+          "category": "03-ai-agents",
+          "categoryName": "AI 智能体与应用",
+          "name": "DeepTutor",
+          "github": "https://github.com/HKUDS/DeepTutor",
+          "website": "",
+          "links": [],
+          "tagline": "Agent 原生、终身个性化辅导学习工作台",
+          "stack": [
+            "Python",
+            "Next.js",
+            "LlamaIndex"
+          ],
+          "tags": [
+            "AIAgent",
+            "教育",
+            "RAG",
+            "学习",
+            "个性化"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 2500,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "学习工具割裂：聊天、做题、测验、研究、可视化、精熟练习各成一摊。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "单 Agent 循环驱动终身个性化辅导，串联提问、测验、研究、可视化与精熟路径，记忆与知识库可检视，支持扩展技能/伙伴。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "HKUDS 出品，Apache-2.0。做「AI 教练」类产品时是很好的参考实现。关联 [[self-llm]] 的教育向。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Python, Next.js, LlamaIndex",
+              "- 状态：active",
+              "- 链接：https://github.com/HKUDS/DeepTutor",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "firecrawl",
+          "relPath": "03-ai-agents/firecrawl.md",
+          "owner": "firecrawl",
+          "category": "03-ai-agents",
+          "categoryName": "AI 智能体与应用",
+          "name": "Firecrawl",
+          "github": "https://github.com/firecrawl/firecrawl",
+          "website": "",
+          "links": [],
+          "tagline": "把网页转成 LLM 就绪数据的开源 Web 数据平台",
+          "stack": [
+            "Node.js",
+            "Python SDK",
+            "Docker"
+          ],
+          "tags": [
+            "Agent工具",
+            "爬虫",
+            "网页转Markdown",
+            "RAG",
+            "自托管"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 30000,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "网页抓取后常带大量噪音，不适合直接喂给 LLM。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "提供 search / scrape / crawl / map / batch / 交互式页面操作端点，输出干净 Markdown、结构化 JSON、截图；核心服务可 Docker 自托管，多语言 SDK。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "RAG/Agent 数据获取的标准件。AGPL-3.0（SDK 部分 MIT）。关联 [[mineru]]（离线文档解析）形成线上线下互补。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Node.js, Python SDK, Docker",
+              "- 状态：active",
+              "- 链接：https://github.com/firecrawl/firecrawl",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "gpt-image-playground",
+          "relPath": "03-ai-agents/gpt-image-playground.md",
+          "owner": "CookSleep",
+          "category": "03-ai-agents",
+          "categoryName": "AI 智能体与应用",
+          "name": "GPT Image Playground",
+          "github": "https://github.com/CookSleep/gpt_image_playground",
+          "website": "",
+          "links": [],
+          "tagline": "基于 OpenAI gpt-image-2 的 Web 图像生成与编辑工作台",
+          "stack": [
+            "React",
+            "TypeScript",
+            "Vite",
+            "Zustand"
+          ],
+          "tags": [
+            "AI应用",
+            "图像生成",
+            "文生图",
+            "编辑",
+            "Web"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 2800,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "想要一个简洁精美的文生图/参考图/mask 编辑 UI，且数据本地保存。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "批量生成、流式预览、Agent 多轮对话模式、多 provider（OpenAI 兼容 / fal.ai / 自定义 HTTP），历史参数存 IndexedDB 本地。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "可部署到 Vercel/CF Workers/Docker/静态托管。做图像生成工具的自托管首选。关联 [[ai-agent-book]] 的多模态章节。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：React, TypeScript, Vite, Zustand",
+              "- 状态：active",
+              "- 链接：https://github.com/CookSleep/gpt_image_playground",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "open-design",
+          "relPath": "03-ai-agents/open-design.md",
+          "owner": "nexu-io",
+          "category": "03-ai-agents",
+          "categoryName": "AI 智能体与应用",
+          "name": "Open Design",
+          "github": "https://github.com/nexu-io/open-design",
+          "website": "",
+          "links": [],
+          "tagline": "开源的本地优先「Claude Design 替代」：编码 Agent 当设计引擎",
+          "stack": [
+            "Next.js",
+            "Electron",
+            "TypeScript"
+          ],
+          "tags": [
+            "AI设计",
+            "设计工具",
+            "本地优先",
+            "开源",
+            "产图"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 3500,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "想要一个让编码 Agent 直接产出设计成品（原型/落地页/仪表盘/PPT/图/视频）为真实文件的本地工具。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "由品牌契约 DESIGN.md 驱动而非画布，主流的 Claude Code/Codex/Cursor 等 CLI 都能当设计引擎，导出 HTML/PDF/PPTX/MP4。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "与 [[awesome-design-md]] 的 DESIGN.md 规范强相关。做「用代码生成设计」路线的参考实现。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Next.js, Electron, TypeScript",
+              "- 状态：active",
+              "- 链接：https://github.com/nexu-io/open-design",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "openminis",
+          "relPath": "03-ai-agents/openminis.md",
+          "owner": "OpenMinis",
+          "category": "03-ai-agents",
+          "categoryName": "AI 智能体与应用",
+          "name": "OpenMinis",
+          "github": "https://github.com/OpenMinis/OpenMinis",
+          "website": "",
+          "links": [],
+          "tagline": "端侧跑领先模型的免费开源移动 AI Agent（带完整 Linux shell）",
+          "stack": [
+            "Swift",
+            "Kotlin",
+            "Alpine Linux"
+          ],
+          "tags": [
+            "AIAgent",
+            "移动端",
+            "端侧",
+            "开源",
+            "跨平台"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 4000,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "想在 iOS/Android 上让 Claude/GPT/Gemini 拥有真实电脑：完整 Linux shell、浏览器自动化、持久记忆、深度系统集成。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "SwiftUI + Compose 原生实现，内置 iSH/PRoot 沙箱、FFmpeg、Alpine rootfs，可接健康、日历、提醒、联系人、HomeKit、蓝牙等工具，自带 API Key。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "GPLv3。目前是「给手机插上 Agent OS」最激进的开源方案之一。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Swift, Kotlin, Alpine Linux",
+              "- 状态：active",
+              "- 链接：https://github.com/OpenMinis/OpenMinis",
+              ""
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "计算机视觉",
+      "items": [
+        {
+          "slug": "labelme",
+          "relPath": "04-computer-vision/labelme.md",
+          "owner": "wkentaro",
+          "category": "04-computer-vision",
+          "categoryName": "计算机视觉",
+          "name": "LabelMe",
+          "github": "https://github.com/wkentaro/labelme",
+          "website": "",
+          "links": [],
+          "tagline": "Python 图形化图像标注工具（多边形/矩形/圆/线/点 + AI 辅助）",
+          "stack": [
+            "Python",
+            "Qt (PySide6)"
+          ],
+          "tags": [
+            "计算机视觉",
+            "标注工具",
+            "分割",
+            "目标检测",
+            "数据集"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 23000,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "做分割/检测/分类需要交互式标注图像，并导出规范数据集。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "支持多边形、矩形、圆、线、点标注与视频标注，AI 辅助用 SAM/EfficientSAM/文生标注，可导出 VOC/COCO 格式。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "CV 数据标注的经典工具（v7 基于 PySide6/Qt6）。采集数据后配 [[supervision]] 组织与复用。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Python, Qt (PySide6)",
+              "- 状态：active",
+              "- 链接：https://github.com/wkentaro/labelme",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "mineru",
+          "relPath": "04-computer-vision/mineru.md",
+          "owner": "opendatalab",
+          "category": "04-computer-vision",
+          "categoryName": "计算机视觉",
+          "name": "MinerU",
+          "github": "https://github.com/opendatalab/mineru",
+          "website": "",
+          "links": [],
+          "tagline": "高质量文档解析工具：PDF/图片/DOCX/PPTX/XLSX → Markdown/JSON",
+          "stack": [
+            "Python",
+            "PaddleOCR",
+            "vLLM"
+          ],
+          "tags": [
+            "文档解析",
+            "OCR",
+            "PDF",
+            "RAG",
+            "公式",
+            "表格"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 42000,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "复杂文档（公式→LaTeX、表格→HTML、多栏版式、多语言 OCR）难转成机器可读格式。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "VLM + OCR 双引擎（PP-OCRv6、PaddleOCR、vLLM/LMDeploy），支持 109 语言，CLI/API/Docker/多 GPU 部署。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "做 RAG 预处理的明星项目。与 [[firecrawl]]（在线网页）互补，mineru 处理离线/扫描文档。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Python, PaddleOCR, vLLM",
+              "- 状态：active",
+              "- 链接：https://github.com/opendatalab/mineru",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "slambook",
+          "relPath": "04-computer-vision/slambook.md",
+          "owner": "gaoxiang12",
+          "category": "04-computer-vision",
+          "categoryName": "计算机视觉",
+          "name": "SLAM Book",
+          "github": "https://github.com/gaoxiang12/slambook",
+          "website": "",
+          "links": [],
+          "tagline": "《视觉SLAM十四讲》配套源码，按章可编译运行",
+          "stack": [
+            "C++",
+            "Eigen",
+            "OpenCV",
+            "Ceres"
+          ],
+          "tags": [
+            "计算机视觉",
+            "SLAM",
+            "机器人",
+            "教程",
+            "C++"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 22000,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "视觉 SLAM 涉及李群、相机模型、非线性优化、回环检测等，缺少可运行的配套代码。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "高翔的经典教材配套仓库，按章组织（刚体运动、李群、相机、优化、VO/VIO、位姿图、回环、稠密重建），用 Eigen/Sophus/OpenCV/Ceres/g2o 实现。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "学习机器人视觉定位的入门口。属于「基础/教育」性质但归入 CV 分类更贴合主题。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：C++, Eigen, OpenCV, Ceres",
+              "- 状态：active",
+              "- 链接：https://github.com/gaoxiang12/slambook",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "supervision",
+          "relPath": "04-computer-vision/supervision.md",
+          "owner": "roboflow",
+          "category": "04-computer-vision",
+          "categoryName": "计算机视觉",
+          "name": "Supervision",
+          "github": "https://github.com/roboflow/supervision",
+          "website": "",
+          "links": [],
+          "tagline": "Roboflow 出品的模型无关计算机视觉工具箱",
+          "stack": [
+            "Python"
+          ],
+          "tags": [
+            "计算机视觉",
+            "检测",
+            "跟踪",
+            "标注",
+            "工具"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 25000,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "CV 应用里检测/分割/跟踪/标注的通用逻辑重复造轮子。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "模型无关的构建块：标注器、数据集加载/切分/合并/保存、跟踪工具，从数据加载到实时区域计数全包，兼容 Ultralytics/Transformers/MMDetection 等。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "与 [[labelme]]（标注）、[[mineru]]（文档）可组成 CV+文档管线。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Python",
+              "- 状态：active",
+              "- 链接：https://github.com/roboflow/supervision",
+              ""
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "开发工具与框架",
+      "items": [
+        {
+          "slug": "files.md",
+          "relPath": "05-dev-tools/files.md.md",
+          "owner": "zakirullin",
+          "category": "05-dev-tools",
+          "categoryName": "开发工具与框架",
+          "name": "Files.md",
+          "github": "https://github.com/zakirullin/files.md",
+          "website": "",
+          "links": [],
+          "tagline": "本地优先、极简的 Markdown 笔记应用（数据全在 .md 文件）",
+          "stack": [
+            "Go",
+            "JavaScript PWA"
+          ],
+          "tags": [
+            "笔记",
+            "Markdown",
+            "本地优先",
+            "PWA",
+            "隐私"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 4000,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "笔记被锁在私有格式/云里，想要全部数据都是普通 .md 文件、低认知负担的工具。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "支持笔记、日记、任务、清单、聊天式速记，可选自托管同步，代码简单到 LLM 能扩展，哲学是本地所有 + 极简。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "与 Obsidian 的「开放格式」理念相通但更轻。适合当第二大脑的极简替身。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Go, JavaScript PWA",
+              "- 状态：active",
+              "- 链接：https://github.com/zakirullin/files.md",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "overleaf",
+          "relPath": "05-dev-tools/overleaf.md",
+          "owner": "overleaf",
+          "category": "05-dev-tools",
+          "categoryName": "开发工具与框架",
+          "name": "Overleaf",
+          "github": "https://github.com/overleaf/overleaf",
+          "website": "",
+          "links": [],
+          "tagline": "在线协作式 LaTeX 论文与文档编辑器",
+          "stack": [
+            "TypeScript",
+            "Node.js",
+            "Mongo"
+          ],
+          "tags": [
+            "LaTeX",
+            "论文",
+            "协作",
+            "在线编辑器",
+            "学术"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 18000,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "本机装 LaTeX 环境麻烦（TeX Live/MacTeX 体积大、配置复杂），多人协作改论文时版本混乱。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "浏览器里直接编译 LaTeX，实时预览、多人协作、版本历史，论文/学术文档工作流标配。社区版可自托管。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "- 书签里存的是 cn.overleaf.com 的项目页，论文协作就用它。",
+              "- 与 [[zotero]] 搭配：Overleaf 写稿 + Zotero 管文献引用，是学术写作者常用组合。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：TypeScript, Node.js, MongoDB",
+              "- 状态：active",
+              "- 链接：https://github.com/overleaf/overleaf"
+            ]
+          }
+        },
+        {
+          "slug": "plantuml",
+          "relPath": "05-dev-tools/plantuml.md",
+          "owner": "plantuml",
+          "category": "05-dev-tools",
+          "categoryName": "开发工具与框架",
+          "name": "PlantUML",
+          "github": "https://github.com/plantuml/plantuml",
+          "website": "",
+          "links": [],
+          "tagline": "用纯文本描述生成 UML 与各类架构图的绘图引擎",
+          "stack": [
+            "Java"
+          ],
+          "tags": [
+            "UML",
+            "绘图",
+            "架构图",
+            "文本",
+            "文档"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 13000,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "手画 UML / 架构图耗时且难维护，团队协作时图与代码容易脱节。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "用类代码的 PlantUML 语法描述图，自动渲染成 Sequence、Class、Component、时序图等，图随文档走，可交给 AI 生成，也能嵌入 Markdown / CI。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "- 在线编辑器：https://plantuml-editor.kkeisuke.com/（书签里存的正是它的在线版）。",
+              "- 与 [[qmd]] 这类\"文本即数据\"的思路一致，图和代码一样可版本化、可 diff。",
+              "- 适合在架构文档、README、设计评审里用。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Java",
+              "- 状态：active",
+              "- 链接：https://github.com/plantuml/plantuml"
+            ]
+          }
+        },
+        {
+          "slug": "qmd",
+          "relPath": "05-dev-tools/qmd.md",
+          "owner": "tobi",
+          "category": "05-dev-tools",
+          "categoryName": "开发工具与框架",
+          "name": "QMD",
+          "github": "https://github.com/tobi/qmd",
+          "website": "",
+          "links": [],
+          "tagline": "本地 Markdown 文档/知识库的微型 CLI 混合搜索引擎",
+          "stack": [
+            "TypeScript",
+            "SQLite",
+            "llama.cpp"
+          ],
+          "tags": [
+            "搜索",
+            "知识库",
+            "本地",
+            "CLI",
+            "MCP",
+            "离线"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 2500,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "本地 Markdown 笔记、文档、会议记录多起来后，缺一个能关键词 + 自然语言搜索的轻量引擎。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "SQLite FTS5 BM25 + sqlite-vec 向量检索 + 本地 GGUF 模型（embedding/重排/查询扩展）全离线，提供 CLI、SDK、MCP server。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "为 Agentic 工作流打造，可接 MCP 让 Agent 检索本地知识库。与 [[obsidian-skills]]、[[files.md]] 的知识管理生态互补。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：TypeScript, SQLite, llama.cpp",
+              "- 状态：active",
+              "- 链接：https://github.com/tobi/qmd",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "starlight",
+          "relPath": "05-dev-tools/starlight.md",
+          "owner": "withastro",
+          "category": "05-dev-tools",
+          "categoryName": "开发工具与框架",
+          "name": "Starlight",
+          "github": "https://github.com/withastro/starlight",
+          "website": "",
+          "links": [],
+          "tagline": "基于 Astro 的文档站框架：美观、无障碍、高性能",
+          "stack": [
+            "TypeScript",
+            "Astro"
+          ],
+          "tags": [
+            "文档站",
+            "框架",
+            "Astro",
+            "静态站点",
+            "开源"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 7000,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "想快速搭一个美观、无障碍、高性能的产品文档站。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "Astro 官方文档框架，内置搜索、侧边栏、国际化、暗色模式，静态输出性能好。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "本归档站就是 Astro 生态；若以后要把归档做成更完整的文档站点，可考虑用 Starlight 重构。关联本站技术栈。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：TypeScript, Astro",
+              "- 状态：active",
+              "- 链接：https://github.com/withastro/starlight",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "violentmonkey",
+          "relPath": "05-dev-tools/violentmonkey.md",
+          "owner": "violentmonkey",
+          "category": "05-dev-tools",
+          "categoryName": "开发工具与框架",
+          "name": "Violentmonkey",
+          "github": "https://github.com/violentmonkey/violentmonkey",
+          "website": "",
+          "links": [],
+          "tagline": "开源免费的浏览器用户脚本管理器（油猴）",
+          "stack": [
+            "JavaScript",
+            "WebExtensions"
+          ],
+          "tags": [
+            "浏览器",
+            "用户脚本",
+            "油猴",
+            "扩展",
+            "自动化"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 8700,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "浏览器默认能力有限，需要\"往网页里注入自己的脚本\"来增强体验（去广告、改样式、自动操作）。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "用户脚本行业事实标准之一，开源、免费、跨浏览器，配合 Greasy Fork 脚本市场（书签中 Greasy Fork 的正主），能做的事非常多。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "- 脚本来源主要是 Greasy Fork：https://greasyfork.org/zh-CN",
+              "- 常用场景：网页增强、自动签到、屏蔽多余模块、配合 AI 工具做网页抓取辅助。",
+              "- 同类工具是 Tampermonkey，Violentmonkey 更轻量、全开源。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：JavaScript, WebExtensions",
+              "- 状态：active",
+              "- 链接：https://github.com/violentmonkey/violentmonkey"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "应用与娱乐",
+      "items": [
+        {
+          "slug": "bilitato",
+          "relPath": "06-apps/bilitato.md",
+          "owner": "erikzhuang55",
+          "category": "06-apps",
+          "categoryName": "应用与娱乐",
+          "name": "Bilitato",
+          "github": "https://github.com/erikzhuang55/Bilitato",
+          "website": "",
+          "links": [],
+          "tagline": "b站 AI 浏览器插件（视频下载/字幕提取/总结/广告识别/向 AI 提问）",
+          "stack": [
+            "JavaScript",
+            "Bilibili API"
+          ],
+          "tags": [
+            "浏览器",
+            "Bilibili",
+            "AI",
+            "视频下载",
+            "字幕",
+            "总结"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 129,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "看 b 站视频时，需要下载视频、提取字幕、总结分段、识别广告、向 AI 提问视频内容，这些操作过去要拼多个工具，且无字幕视频难以利用。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "一站式 b 站 AI 浏览器插件：视频/音频下载、字幕提取、总结分段、广告识别、一键验真、向 AI 提问视频内容；支持 Groq 转录无字幕视频、自定义 API 和 Prompt，BYOK 免费使用。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "- 亮点：能用 Groq 转录无字幕视频，自定义 API/Prompt，自带 API Key 免费使用。",
+              "- 适合经常刷 b 站学习/做笔记、想对视频内容提问的场景。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：JavaScript, Bilibili API",
+              "- 状态：active",
+              "- 链接：https://github.com/erikzhuang55/Bilitato"
+            ]
+          }
+        },
+        {
+          "slug": "flaremo",
+          "relPath": "06-apps/flaremo.md",
+          "owner": "realchendahuang",
+          "category": "06-apps",
+          "categoryName": "应用与娱乐",
+          "name": "FlareMo",
+          "github": "https://github.com/realchendahuang/FlareMo",
+          "website": "",
+          "links": [],
+          "tagline": "Cloudflare 原生的个人知识管理系统（Memos 兼容 API）",
+          "stack": [
+            "TypeScript",
+            "Cloudflare Workers",
+            "React"
+          ],
+          "tags": [
+            "知识管理",
+            "Memos",
+            "笔记",
+            "自托管",
+            "Cloudflare",
+            "个人博客"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 162,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "个人知识碎片（Memos 式短笔记）需要一个自托管、免费额度内可用的聚合管理方案，而主流服务要么收费、要么部署复杂。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "一个 Cloudflare 原生的个人知识管理系统，提供 Memos 兼容 API；基于 Cloudflare Workers + D1 + R2，可自托管、几乎零成本，build-in-public 社区关注度不错。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "- 技术栈看着很轻：Workers + D1 + R2 + React，适合跑在 Cloudflare 免费额度上。",
+              "- 与站内 zotero（文献管理）、obsidian-skills（笔记技能）同属\"个人知识管理\"生态。",
+              "- 亮点是 Memos 兼容 API，可无缝接入现有 Memos 客户端/流程。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：TypeScript, Cloudflare Workers, React",
+              "- 状态：active",
+              "- 链接：https://github.com/realchendahuang/FlareMo"
+            ]
+          }
+        },
+        {
+          "slug": "fluentflyout",
+          "relPath": "06-apps/fluentflyout.md",
+          "owner": "unchihugo",
+          "category": "06-apps",
+          "categoryName": "应用与娱乐",
+          "name": "FluentFlyout",
+          "github": "https://github.com/unchihugo/FluentFlyout",
+          "website": "",
+          "links": [],
+          "tagline": "Windows 11 的现代化 Flyout 面板（Fluent 2 设计，媒体/任务栏小组件）",
+          "stack": [
+            "C#"
+          ],
+          "tags": [
+            "Windows",
+            "任务栏",
+            "媒体控制",
+            "Fluent设计",
+            "美化",
+            "效率"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 3613,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "Win11 自带的媒体音量、亮度等 Flyout 面板样式老旧、信息量低，且无法自定义；默认的媒体控制面板交互体验差。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "用 Fluent 2 设计语言重做了 Win11 的系统 Flyout，支持媒体控制、任务栏小组件等，颜值高、可定制性强，是 Windows 桌面美化和效率提升的热门项目（3.6k★）。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "- 官网：https://fluentflyout.com",
+              "- 适合想统一 Win11 视觉风格、又嫌默认面板难用的用户。",
+              "- 与站内桌面美化/效率类工具同属\"提升日常体验\"的路线。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：C#",
+              "- 状态：active",
+              "- 链接：https://github.com/unchihugo/FluentFlyout"
+            ]
+          }
+        },
+        {
+          "slug": "markeron",
+          "relPath": "06-apps/markeron.md",
+          "owner": "ifer47",
+          "category": "06-apps",
+          "categoryName": "应用与娱乐",
+          "name": "markeron",
+          "github": "https://github.com/ifer47/markeron",
+          "website": "",
+          "links": [],
+          "tagline": "轻量（~1.5MB）开源屏幕标注工具（点击穿透 + 键盘快捷键）",
+          "stack": [
+            "TypeScript",
+            "Rust",
+            "Tauri"
+          ],
+          "tags": [
+            "屏幕标注",
+            "演示",
+            "教学",
+            "会议",
+            "录屏",
+            "桌面工具"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 852,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "演示、教学、会议、录屏时需要直接在屏幕上圈画标注，但常见工具笨重、占用大、交互繁琐。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "一款轻量（约 1.5MB）的开源屏幕标注工具，带点击穿透模式和键盘优先快捷键，覆盖演示、教学、会议、录屏场景，支持 Windows、macOS（Tauri + Rust 构建，跨平台）。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "- 官网：https://markeron.cn/",
+              "- 亮点是\"点击穿透\"和键盘优先，标注同时不阻挡操作。",
+              "- 与站内效率/演示类工具同属\"轻量提升演示体验\"路线。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：TypeScript, Rust, Tauri",
+              "- 状态：active",
+              "- 链接：https://github.com/ifer47/markeron"
+            ]
+          }
+        },
+        {
+          "slug": "mineradio",
+          "relPath": "06-apps/mineradio.md",
+          "owner": "XxHuberrr",
+          "category": "06-apps",
+          "categoryName": "应用与娱乐",
+          "name": "Mineradio",
+          "github": "https://github.com/XxHuberrr/Mineradio",
+          "website": "",
+          "links": [],
+          "tagline": "Windows 沉浸式音乐播放器：搜索/歌词舞台/粒子视效/3D 歌单",
+          "stack": [
+            "JavaScript",
+            "Electron"
+          ],
+          "tags": [
+            "音乐播放器",
+            "桌面应用",
+            "动画",
+            "娱乐",
+            "Electron"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 9800,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "想要一个「像现场演出」的私人音乐空间，而非冷冰冰的播放器。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "Electron 桌面应用，集成搜索/播放、歌词舞台、粒子视效、3D 歌单架、全桌面模式，可接网易云音乐与 QQ 音乐播放用户自己的内容（非官方客户端）。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "GPL-3.0。注意它不提供绕过付费墙/会员/再分发音乐的能力。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：JavaScript, Electron",
+              "- 状态：active",
+              "- 链接：https://github.com/XxHuberrr/Mineradio",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "zotero",
+          "relPath": "06-apps/zotero.md",
+          "owner": "zotero",
+          "category": "06-apps",
+          "categoryName": "应用与娱乐",
+          "name": "Zotero",
+          "github": "https://github.com/zotero/zotero",
+          "website": "",
+          "links": [],
+          "tagline": "免费开源的文献收集、组织、引用与分享工具",
+          "stack": [
+            "C++",
+            "JavaScript",
+            "SQLite"
+          ],
+          "tags": [
+            "文献管理",
+            "学术",
+            "引用",
+            "桌面应用",
+            "浏览器"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 15000,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "论文/文献一多就乱：收集、标注、生成参考文献、换格式全都靠手工。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "浏览器插件一键抓取网页/PDF 进文献库，配合 Zotero 插件自动生成 BibTeX/Word/LaTeX 引用，中文社区文档完善。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "- 中文文档：https://zotero-chinese.com/user-guide/（书签里存的 Zotero 百科全书）。",
+              "- 与 [[overleaf]] 搭配：Overleaf 写稿 + Zotero 管引用，学术写作工作流。",
+              "- 纯桌面应用，非 Web 项目，放进 06-apps 分类。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：C++, JavaScript, SQLite",
+              "- 状态：active",
+              "- 链接：https://github.com/zotero/zotero"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "资源与网站",
+      "items": [
+        {
+          "slug": "52im",
+          "relPath": "07-websites/52im.md",
+          "owner": "",
+          "category": "07-websites",
+          "categoryName": "资源与网站",
+          "name": "即时通讯网（52im）",
+          "github": "",
+          "website": "http://www.52im.net/",
+          "links": [],
+          "tagline": "中文即时通讯技术深度社区与文章聚合",
+          "stack": [
+            "Web"
+          ],
+          "tags": [
+            "即时通讯",
+            "网络协议",
+            "后端",
+            "社区",
+            "深度文章"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 0,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "IM/消息推送/网络协议这类深度网络技术，中文高质量资料少、散落在各处。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "聚合了大量 IM、WebSocket、推送、网络协议、后端架构的中文深度文章，是中文网络通信方向少有的集中资料库。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "- 做 IM、实时通信、消息系统方向时来这里挖深度文章。",
+              "- 纯社区站，github 字段留空、用 website 字段。",
+              "- 与 [[red-blob-games]] 不同，这里偏工程/网络而非算法可视化。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Web",
+              "- 状态：active",
+              "- 类型：网站",
+              "- 链接：http://www.52im.net/"
+            ]
+          }
+        },
+        {
+          "slug": "cn-tech-communities",
+          "relPath": "07-websites/cn-tech-communities.md",
+          "owner": "",
+          "category": "07-websites",
+          "categoryName": "资源与网站",
+          "name": "中文技术社区聚合",
+          "github": "",
+          "website": "https://linux.do/latest",
+          "links": [
+            {
+              "name": "LINUX DO",
+              "url": "https://linux.do/latest"
+            },
+            {
+              "name": "Buzzing",
+              "url": "https://www.buzzing.cc/"
+            },
+            {
+              "name": "编程导航",
+              "url": "https://www.codefather.cn/"
+            }
+          ],
+          "tagline": "中文优质技术社区合集（LINUX DO / Buzzing / 编程导航）",
+          "stack": [
+            "Web"
+          ],
+          "tags": [
+            "社区",
+            "开源",
+            "资讯",
+            "聚合",
+            "中文"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 0,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "中文技术社区分散，难以及时发现高质量开源项目、技术讨论和热门话题。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "把书签里几个实用社区归成一条：",
+              "- **LINUX DO**（linux.do）— 活跃的开发者社区，讨论频繁、资讯新。",
+              "- **Buzzing**（buzzing.cc）— 用中文导读国外社交媒体（HN/Reddit）热门技术讨论，母语快速扫。",
+              "- **编程导航**（codefather.cn）— 一站式找编程学习资源与导航。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "- 日常逛开源/技术资讯，LINUX DO + Buzzing 组合够用。",
+              "- 纯网站资源，github 字段留空、用 website 字段。",
+              "- 与站内归档的\"项目\"不同，这一条是\"发现新项目的入口\"。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Web",
+              "- 状态：active",
+              "- 类型：网站",
+              "- 链接：https://linux.do/latest"
+            ]
+          }
+        },
+        {
+          "slug": "pdai-java-kb",
+          "relPath": "07-websites/pdai-java-kb.md",
+          "owner": "",
+          "category": "07-websites",
+          "categoryName": "资源与网站",
+          "name": "pdai · Java 全栈知识体系",
+          "github": "",
+          "website": "https://pdai.tech/",
+          "links": [],
+          "tagline": "面向进阶的 Java 全栈知识体系与面试题整理",
+          "stack": [
+            "Web"
+          ],
+          "tags": [
+            "Java",
+            "知识体系",
+            "面试",
+            "后端",
+            "教程"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 0,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "Java 学习资料碎片化，缺少一条从基础到框架、再到面试的完整知识主线。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "按\"基础—容器—并发—JVM—框架—数据库—面试\"组织成知识树，内容成体系、可作目录式复习，很多人当作 Java 进阶主线读。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "- 适合准备后端面试/复习时按目录查漏补缺。",
+              "- 纯网站资源，github 字段留空、用 website 字段。",
+              "- 与 [[refactoring-guru]] 互补：一本偏 Java 全栈、一本偏通用设计模式。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Web",
+              "- 状态：active",
+              "- 类型：网站",
+              "- 链接：https://pdai.tech/"
+            ]
+          }
+        },
+        {
+          "slug": "red-blob-games",
+          "relPath": "07-websites/red-blob-games.md",
+          "owner": "",
+          "category": "07-websites",
+          "categoryName": "资源与网站",
+          "name": "Red Blob Games",
+          "github": "",
+          "website": "https://www.redblobgames.com/",
+          "links": [],
+          "tagline": "用大量可视化交互讲解游戏算法与几何的教程站",
+          "stack": [
+            "Web",
+            "JavaScript"
+          ],
+          "tags": [
+            "游戏算法",
+            "可视化",
+            "教程",
+            "路径搜索",
+            "几何"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 0,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "路径搜索（A*）、六边形网格、多边形网格、噪声、地图生成等游戏算法抽象枯燥，纯文字难懂。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "每个算法都配可拖拽的交互可视化，看着图就懂了，是游戏开发和算法可视化学习的标杆资源。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "- 路径搜索、六边形网格两篇是经典，面试/游戏开发都值得反复看。",
+              "- 纯网站（非 GitHub 仓库），github 字段留空、用 website 字段。",
+              "- 与 [[labuladong-algorithm]] 互补：那边讲刷题套路，这里讲具体算法怎么\"看得见\"。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Web, JavaScript",
+              "- 状态：active",
+              "- 类型：网站",
+              "- 链接：https://www.redblobgames.com/"
+            ]
+          }
+        },
+        {
+          "slug": "refactoring-guru",
+          "relPath": "07-websites/refactoring-guru.md",
+          "owner": "",
+          "category": "07-websites",
+          "categoryName": "资源与网站",
+          "name": "Refactoring Guru（设计模式）",
+          "github": "",
+          "website": "https://refactoringguru.cn/design-patterns",
+          "links": [],
+          "tagline": "图文讲解设计模式与重构技巧的经典教程站",
+          "stack": [
+            "Web"
+          ],
+          "tags": [
+            "设计模式",
+            "重构",
+            "面向对象",
+            "软件工程",
+            "教程"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 0,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "设计模式学了就忘，纯文字 UML 难懂，不知道什么时候该用哪个模式。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "每个模式用\"问题—解决方案—类比\"讲清楚，配真实场景图，distinguish 何时用、怎么用，还有重构目录，比多数书本直白。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "- 常用模式优先看：单例、工厂、策略、观察者、装饰器。",
+              "- 纯网站资源，github 字段留空、用 website 字段。",
+              "- 与 [[pdai-java-kb]] 的 Java 方向互补：这里讲设计模式、那里讲 Java 全栈。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Web",
+              "- 状态：active",
+              "- 类型：网站",
+              "- 链接：https://refactoringguru.cn/design-patterns"
+            ]
+          }
+        },
+        {
+          "slug": "refero-design-styles",
+          "relPath": "07-websites/refero-design-styles.md",
+          "owner": "",
+          "category": "07-websites",
+          "categoryName": "资源与网站",
+          "name": "Refero Styles",
+          "github": "",
+          "website": "https://styles.refero.design/",
+          "links": [],
+          "tagline": "2000+ 个产品网站的 AI 可读设计系统（DESIGN.md）目录",
+          "stack": [
+            "Web"
+          ],
+          "tags": [
+            "设计资源",
+            "设计系统",
+            "网站",
+            "参考",
+            "DESIGN.md"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 0,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "想让 AI 参考真实产品设计语言，但缺少机器可读的设计规范来源。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "Refero 的 Styles 页提供 2000+ 个头部产品网站的 DESIGN.md（配色、排版、间距、组件），供 Cursor/Claude Code/v0 等引用，让 Agent 在设计前拿到既定的设计参考。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "这是纯网站资源（非 GitHub 仓库），github 字段留空、用 website 字段存链接。与 awesome-design-md 同思路，但规模更大、按产品站检索。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Web",
+              "- 状态：active",
+              "- 类型：网站",
+              "- 链接：https://styles.refero.design/",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "uci-ml-repository",
+          "relPath": "07-websites/uci-ml-repository.md",
+          "owner": "",
+          "category": "07-websites",
+          "categoryName": "资源与网站",
+          "name": "UCI Machine Learning Repository",
+          "github": "",
+          "website": "https://archive.ics.uci.edu/",
+          "links": [],
+          "tagline": "经典机器学习基准数据集与论文资源库",
+          "stack": [
+            "Web"
+          ],
+          "tags": [
+            "机器学习",
+            "数据集",
+            "基准",
+            "学术",
+            "数据集"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 0,
+          "updated": "2026-08-08",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "做 ML 实验缺规范、可复现、有论文背书的基准数据集，网上数据来源混乱。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "UCI 是机器学习最老牌的数据集仓库，Iris、Adult、Wine 等经典数据集都来自这里，做实验/论文复现可靠。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "- 做分类/回归实验优先来这里找带论文引用的数据集。",
+              "- 纯网站资源，github 字段留空、用 website 字段。",
+              "- 与 [[red-blob-games]] 同属\"经典学习资源站\"一类。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Web",
+              "- 状态：active",
+              "- 类型：网站",
+              "- 链接：https://archive.ics.uci.edu/"
+            ]
+          }
         }
       ]
     }
   ],
   "items": [
     {
+      "slug": "ai-agent-book",
+      "relPath": "01-foundations/ai-agent-book.md",
+      "owner": "bojieli",
+      "category": "01-foundations",
+      "categoryName": "基础 / 教育",
+      "name": "AI Agent Book",
+      "github": "https://github.com/bojieli/ai-agent-book",
+      "website": "",
+      "links": [],
+      "tagline": "《深入理解 AI Agent：设计原理与工程实践》开源书籍与配套实验",
+      "stack": [
+        "Python",
+        "Markdown"
+      ],
+      "tags": [
+        "AI教育",
+        "Agent",
+        "MCP",
+        "RAG",
+        "书籍",
+        "中文"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 9000,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "AI Agent 涉及 MCP、RAG、强化学习、多智能体等多主题，缺少系统性中文书籍 + 可运行实验的组合。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "核心公式 Agent = LLM + 上下文 + 工具，10 章配 95 个可运行实验，还有编译好的 PDF/EPUB。理论工程两不误。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "先读公式和 MCP 章节建立心智模型，再按实验目录挑场景跑。关联 [[learn-claude-code]] 的 harness 思路互为印证。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Python, Markdown",
+          "- 状态：active",
+          "- 链接：https://github.com/bojieli/ai-agent-book",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "ai-guide",
+      "relPath": "01-foundations/ai-guide.md",
+      "owner": "liyupi",
+      "category": "01-foundations",
+      "categoryName": "基础 / 教育",
+      "name": "AI-Guide",
+      "github": "https://github.com/liyupi/ai-guide",
+      "website": "",
+      "links": [],
+      "tagline": "鱼皮的开源 AI 知识库：工具资源 + Vibe Coding 零基础教程",
+      "stack": [
+        "VuePress",
+        "Markdown"
+      ],
+      "tags": [
+        "AI教育",
+        "知识库",
+        "Vibe Coding",
+        "中文",
+        "教程"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 12000,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "AI 工具与教程信息差大，新人不知从哪学起。项目聚合 AI 工具、教程、资讯，主打免费开源共享。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "免费开放、中文友好，旗舰内容「Vibe Coding 零基础教程」教普通人用 AI 从 0 做出可变现产品。适合实操上手。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "作为信息聚合入口，遇到某个 AI 工具先来这查资源；Vibe Coding 教程偏实战，配联 [[ai-agent-book]] 补原理。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：VuePress, Markdown",
+          "- 状态：active",
+          "- 链接：https://github.com/liyupi/ai-guide",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "archbase",
+      "relPath": "01-foundations/archbase.md",
+      "owner": "foxsen",
+      "category": "01-foundations",
+      "categoryName": "基础 / 教育",
+      "name": "计算机体系结构基础",
+      "github": "https://github.com/foxsen/archbase",
+      "website": "",
+      "links": [],
+      "tagline": "胡伟武《计算机体系结构基础》课本的开源版本与配套资源",
+      "stack": [
+        "Markdown",
+        "LaTeX"
+      ],
+      "tags": [
+        "体系结构",
+        "计算机组成",
+        "教科书",
+        "CPU",
+        "龙芯"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 3300,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "体系结构教材多偏理论、偏国外，缺少一本结合国产 CPU（龙芯）实践视角、可免费获取的中文教材。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "基于胡伟武等《计算机体系结构基础》第三版的开源在线版，讲指令系统、CPU 设计、存储层次、I/O 等，配合龙芯实践，适合系统学习底层。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "- 偏硬件/体系结构方向，学 OS、编译器、底层性能优化前先补这块准没错。",
+          "- 与 [[labuladong-algorithm]] 正好一头一尾：算法讲上层做题，这本讲底层原理。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Markdown, LaTeX",
+          "- 状态：active",
+          "- 链接：https://github.com/foxsen/archbase"
+        ]
+      }
+    },
+    {
+      "slug": "happy-llm",
+      "relPath": "01-foundations/happy-llm.md",
+      "owner": "datawhalechina",
+      "category": "01-foundations",
+      "categoryName": "基础 / 教育",
+      "name": "Happy-LLM",
+      "github": "https://github.com/datawhalechina/happy-llm",
+      "website": "",
+      "links": [],
+      "tagline": "从零手写大语言模型的中文系统性教程（含完整 LLaMA2）",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "Transformers"
+      ],
+      "tags": [
+        "AI教育",
+        "LLM",
+        "从零实现",
+        "Transformer",
+        "教程",
+        "中文"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 32700,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "LLM 内部机制晦涩，多数教程只讲调用。本教程从 NLP 基础到 Transformer 再到实现一个完整 LLaMA2，step-by-step。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "Datawhale 出品，7 章渐进式走完预训练、LoRA/QLoRA 微调、RAG、Agent，附 215M 参数可下载模型。学原理首选。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "第 5 章开始真正动手建模型，配合 ModelScope 上的 215M 基座/SFT 模型能跑通全流程。关联 [[self-llm]] 的部署部分形成闭环。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Python, PyTorch, Transformers",
+          "- 状态：active",
+          "- 链接：https://github.com/datawhalechina/happy-llm",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "labuladong-algorithm",
+      "relPath": "01-foundations/labuladong-algorithm.md",
+      "owner": "labuladong",
+      "category": "01-foundations",
+      "categoryName": "基础 / 教育",
+      "name": "labuladong 的算法笔记",
+      "github": "https://github.com/labuladong/fucking-algorithm",
+      "website": "",
+      "links": [],
+      "tagline": "用\"框架思维\"讲透 LeetCode 刷题套路的中文算法笔记库",
+      "stack": [
+        "Markdown"
+      ],
+      "tags": [
+        "算法",
+        "数据结构",
+        "LeetCode",
+        "面试",
+        "中文"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 135000,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "刷 LeetCode 像背题、换个条件就卡住。缺少一套能\"举一反三\"的通用解题框架。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "把算法归成有限套路（二叉树、回溯、动态规划、双指针……），每题都落到框架上，配套在线版 labuladong.online，是中文算法学习最流行的一份。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "- 核心是\"框架思维\"：先搭模板再套题，而不是记题解。",
+          "- 动态规划、回溯、BFS 三套模板最值得先背。",
+          "- 与站内 [[archbase]] 的体系结构基础互补：一个偏底层原理、一个偏刷题实战。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Markdown",
+          "- 状态：active",
+          "- 链接：https://github.com/labuladong/fucking-algorithm"
+        ]
+      }
+    },
+    {
+      "slug": "learn-claude-code",
+      "relPath": "01-foundations/learn-claude-code.md",
+      "owner": "shareAI-lab",
+      "category": "01-foundations",
+      "categoryName": "基础 / 教育",
+      "name": "Learn Claude Code",
+      "github": "https://github.com/shareAI-lab/learn-claude-code",
+      "website": "",
+      "links": [],
+      "tagline": "从 0 到 1 手写 Agent Harness 的 20 课教程（Bash is all you need）",
+      "stack": [
+        "Python",
+        "Anthropic API"
+      ],
+      "tags": [
+        "AI教育",
+        "Agent",
+        "Harness",
+        "教程",
+        "Python"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 3000,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "Agent 产品 = 模型 + Harness，但多数人只懂调 API，不懂外围机制如何搭建。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "核心论点「Agency 来自模型，产品来自 Harness」，20 课把一个不变的 agent loop 逐步叠加工具调用、权限、hooks、子代理、上下文压缩、记忆、MCP 等机制。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "每课一个独立 code.py 可跑，建议按 s01→s20 顺序跟。想要理解 Claude Code 这类工具内部结构，这是最直接的教材。关联 [[ai-agent-book]]。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Python, Anthropic API",
+          "- 状态：active",
+          "- 链接：https://github.com/shareAI-lab/learn-claude-code",
+          ""
+        ]
+      }
+    },
+    {
       "slug": "no-magic",
       "relPath": "01-foundations/no-magic.md",
+      "owner": "no-magic-ai",
       "category": "01-foundations",
       "categoryName": "基础 / 教育",
       "name": "no-magic",
       "github": "https://github.com/no-magic-ai/no-magic",
+      "website": "",
+      "links": [],
       "tagline": "手写现代 AI 算法原理的教学仓库，零依赖、单文件、可运行",
       "stack": [
         "Python"
       ],
+      "tags": [
+        "AI教育",
+        "深度学习",
+        "算法",
+        "自监督学习",
+        "强化学习",
+        "大模型",
+        "教学"
+      ],
       "status": "active",
+      "featured": false,
       "stars": 0,
       "updated": "2026-08-08",
       "sections": {
@@ -90,6 +4039,2503 @@
           "- 技术栈：Python 3.10+（标准库，零依赖）",
           "- 状态：active",
           "- 链接：https://github.com/no-magic-ai/no-magic"
+        ]
+      }
+    },
+    {
+      "slug": "self-llm",
+      "relPath": "01-foundations/self-llm.md",
+      "owner": "datawhalechina",
+      "category": "01-foundations",
+      "categoryName": "基础 / 教育",
+      "name": "Self-LLM",
+      "github": "https://github.com/datawhalechina/self-llm",
+      "website": "",
+      "links": [],
+      "tagline": "开源大模型部署、使用与微调的中文入门教程",
+      "stack": [
+        "Python",
+        "PyTorch",
+        "Transformers"
+      ],
+      "tags": [
+        "AI教育",
+        "大模型",
+        "微调",
+        "部署",
+        "中文",
+        "教程"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 22000,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "开源大模型的部署、使用、微调链条对新手有门槛，资料分散。项目用 Markdown + Python 代码统一串起全流程。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "中文社区最系统的开源模型入门教程之一，覆盖 50+ 模型的部署与 LoRA/全参微调，还细分了 AMD ROCm、昇腾 NPU、Apple M 芯片平台。适合按需查阅。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "按章节即可定位到某个模型或平台的部署 SOP；微调部分给了可复跑的 LoRA 代码。关联 [[happy-llm]] 同属 Datawhale 系列。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Python, PyTorch, Transformers",
+          "- 状态：active",
+          "- 链接：https://github.com/datawhalechina/self-llm",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "academic-research-skills",
+      "relPath": "02-ai-skills/academic-research-skills.md",
+      "owner": "Imbad0202",
+      "category": "02-ai-skills",
+      "categoryName": "AI 编程技能",
+      "name": "Academic Research Skills",
+      "github": "https://github.com/Imbad0202/academic-research-skills",
+      "website": "",
+      "links": [],
+      "tagline": "覆盖学术研究全流程的 Claude Code 技能套件（人机协同）",
+      "stack": [
+        "Markdown",
+        "Python"
+      ],
+      "tags": [
+        "Agent技能",
+        "学术研究",
+        "论文",
+        "引用",
+        "人机协同"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 1800,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "AI 辅助科研易产生幻觉引用、格式混乱，且研究者失控。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "研究→写作→审稿→修订→定稿全链路技能，内置引用溯源、规范性校验、一致性检查，并设人机协同完整性关卡（AI 是副驾不是驾驶）。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "做论文时重点用引用校验与格式一致性技能。体现「AI 辅助但有把关」的严谨路线。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Markdown, Python",
+          "- 状态：active",
+          "- 链接：https://github.com/Imbad0202/academic-research-skills",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "awesome-design-md",
+      "relPath": "02-ai-skills/awesome-design-md.md",
+      "owner": "VoltAgent",
+      "category": "02-ai-skills",
+      "categoryName": "AI 编程技能",
+      "name": "Awesome DESIGN.md",
+      "github": "https://github.com/VoltAgent/awesome-design-md",
+      "website": "",
+      "links": [],
+      "tagline": "从知名品牌站提取的 DESIGN.md 设计规范库",
+      "stack": [
+        "Markdown",
+        "DESIGN.md"
+      ],
+      "tags": [
+        "AI技能",
+        "设计规范",
+        "前端",
+        "品牌"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 5000,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "想让 AI 生成与某品牌视觉一致的前端，缺一份机器可读的设计语言描述。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "收集流行品牌网站的 DESIGN.md（遵循 Google Stitch 规范），丢一份进项目就能让编码 Agent 生成匹配配色、排版、组件的 UI，附 preview.html 可视化目录。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "链路是「网站 → DESIGN.md → Agent 生成 UI」。可配合 [[taste-skill]]/[[hallmark]] 一起做前端。也关联 [[open-design]] 的 DESIGN.md 驱动产图思路。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Markdown, DESIGN.md",
+          "- 状态：active",
+          "- 链接：https://github.com/VoltAgent/awesome-design-md",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "baoyu-skills",
+      "relPath": "02-ai-skills/baoyu-skills.md",
+      "owner": "JimLiu",
+      "category": "02-ai-skills",
+      "categoryName": "AI 编程技能",
+      "name": "Baoyu Skills",
+      "github": "https://github.com/JimLiu/baoyu-skills",
+      "website": "",
+      "links": [],
+      "tagline": "宝玉的 20+ 内容创作 Agent 技能集",
+      "stack": [
+        "Node.js",
+        "Markdown"
+      ],
+      "tags": [
+        "Agent技能",
+        "内容创作",
+        "图片生成",
+        "发布",
+        "效率"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 6000,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "内容创作（小红书卡片、信息图、PPT、公众号配图、多平台发布）重复劳动多。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "20+ 技能覆盖 XHS 卡片、信息图、图解、幻灯片、漫画、文章配图、封面，以及微信/微博/X 发布、YT 字幕、URL 转 md、翻译、图片压缩等工具。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "偏中文内容工作流，实用性很强。npx skills add 即可安装。与 [[ian-handdrawn-ppt]] 的配图思路可互补。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Node.js, Markdown",
+          "- 状态：active",
+          "- 链接：https://github.com/JimLiu/baoyu-skills",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "cangjie-skill",
+      "relPath": "02-ai-skills/cangjie-skill.md",
+      "owner": "kangarooking",
+      "category": "02-ai-skills",
+      "categoryName": "AI 编程技能",
+      "name": "Cangjie-skill",
+      "github": "https://github.com/kangarooking/cangjie-skill",
+      "website": "",
+      "links": [],
+      "tagline": "把书、长视频、播客里的方法论蒸馏成可调用 AI 技能",
+      "stack": [
+        "Markdown",
+        "Python"
+      ],
+      "tags": [
+        "Agent技能",
+        "方法论",
+        "知识蒸馏",
+        "阅读"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 1500,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "读完书/听完课，方法论难沉淀为可复用、可触发的能力。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "用 7 阶段 RIA-TV++ 流水线（阿德勒分析、5 路并行抽取、三重校验、Zettelkasten 链接、压测）把高价值内容蒸馏成结构化技能包，已产 25+ 技能（巴菲特致股东信、《影响力》《黄帝内经》等）。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "适合建立「输入→技能」的个人知识转化流水线。与 [[obsidian-skills]]（知识库）配合可形成闭环。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Markdown, Python",
+          "- 状态：active",
+          "- 链接：https://github.com/kangarooking/cangjie-skill",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "cyberppt",
+      "relPath": "02-ai-skills/cyberppt.md",
+      "owner": "crazyykhllc-bit",
+      "category": "02-ai-skills",
+      "categoryName": "AI 编程技能",
+      "name": "CyberPPT",
+      "github": "https://github.com/crazyykhllc-bit/CyberPPT",
+      "website": "",
+      "links": [],
+      "tagline": "生成高密度、可编辑、咨询风格 PowerPoint 的 Codex Skill",
+      "stack": [
+        "Python",
+        "PPTX"
+      ],
+      "tags": [
+        "Agent技能",
+        "PPT",
+        "演示文稿",
+        "咨询汇报",
+        "自动化"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 1540,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "AI 生成的 PPT 常是花哨但信息密度低、不可编辑的\"演示稿\"，无法满足咨询/汇报场景的高密度、可编辑、风格统一需求。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "一个专门用于生成高密度、可编辑、咨询风格 PPT 的 Agent Skill，支持 SCR 叙事、风格确认和 PPTX 质量检查，把\"用 AI 做专业汇报稿\"落到可复用流程。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "- 面向 Codex Skill 生态，逻辑同样可借鉴到其它 Agent 的 PPT 生成流程。",
+          "- 关键词：SCR 叙事、风格确认、PPTX 质量检查。",
+          "- 与站内 ian-handdrawn-ppt 等 PPT 类技能同属\"AI 做演示文稿\"路线。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Python, PPTX",
+          "- 状态：active",
+          "- 链接：https://github.com/crazyykhllc-bit/CyberPPT"
+        ]
+      }
+    },
+    {
+      "slug": "fireworks-tech-graph",
+      "relPath": "02-ai-skills/fireworks-tech-graph.md",
+      "owner": "yizhiyanhua-ai",
+      "category": "02-ai-skills",
+      "categoryName": "AI 编程技能",
+      "name": "Fireworks Tech Graph",
+      "github": "https://github.com/yizhiyanhua-ai/fireworks-tech-graph",
+      "website": "",
+      "links": [],
+      "tagline": "用自然语言生成几何安全的技术图（SVG/PNG）的 Agent 技能",
+      "stack": [
+        "Python",
+        "Node.js"
+      ],
+      "tags": [
+        "Agent技能",
+        "图表",
+        "SVG",
+        "UML",
+        "文档"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 1200,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "手绘系统架构/流程图费时，直接让 AI 出 SVG 又常出几何错误。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "用中文/英文描述系统即可得到 12 种视觉风格、14 种 UML 图、AI/Agent 工作流图的合法 SVG/PNG，带「Evaluate don't assert」校验回路检查几何与路由。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "在 Claude Code 与 Codex 中均可直接用。写技术文档/架构图时的利器，配 [[firecrawl]] 抓资料一起用。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Python, Node.js",
+          "- 状态：active",
+          "- 链接：https://github.com/yizhiyanhua-ai/fireworks-tech-graph",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "fuck-my-shit-mountain",
+      "relPath": "02-ai-skills/fuck-my-shit-mountain.md",
+      "owner": "XiNian-dada",
+      "category": "02-ai-skills",
+      "categoryName": "AI 编程技能",
+      "name": "Fuck My Shit Mountain",
+      "github": "https://github.com/XiNian-dada/Fuck_My_Shit_Mountain",
+      "website": "",
+      "links": [],
+      "tagline": "基于证据的 AI 代码审计技能（专业输出、零情绪废话）",
+      "stack": [
+        "HTML",
+        "Markdown"
+      ],
+      "tags": [
+        "Agent技能",
+        "代码审计",
+        "代码审查",
+        "质量",
+        "AI辅助"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 442,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "AI 代码审查常流于\"泛泛而谈\"或\"情绪化吐槽\"，缺少证据支撑、输出不专业，难以真正发现问题。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "一个强调 evidence-based 的 AI 代码审计 Skill：专业输出、零情绪废话，切中\"AI 审查要可信、可落地\"的需求，社区反响不错（400+★）。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "- 名字好玩，内容严肃：核心是\"拿证据说话\"，避免 AI 审查的典型毛病。",
+          "- 适合做代码质量把关场景，可与站内 academic-research-skills 的\"证据溯源\"思路互参。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：HTML, Markdown",
+          "- 状态：active",
+          "- 链接：https://github.com/XiNian-dada/Fuck_My_Shit_Mountain"
+        ]
+      }
+    },
+    {
+      "slug": "graphify",
+      "relPath": "02-ai-skills/graphify.md",
+      "owner": "Graphify-Labs",
+      "category": "02-ai-skills",
+      "categoryName": "AI 编程技能",
+      "name": "Graphify",
+      "github": "https://github.com/Graphify-Labs/graphify",
+      "website": "",
+      "links": [],
+      "tagline": "把整个代码库变成可查询的知识图谱的 Agent 技能",
+      "stack": [
+        "Python",
+        "tree-sitter"
+      ],
+      "tags": [
+        "Agent技能",
+        "代码理解",
+        "知识图谱",
+        "开发效率"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 4000,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "AI 编码助手面对大代码库时靠 grep 逐个文件探索，低效且烧 token。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "以 /graphify 技能把仓库（含文档、SQL、配置、PDF）映射成带 EXTRACTED/INFERRED 边标签的知识图谱，本地确定性子解析(不调 LLM)，可「查图代替 grep」。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "核心价值是边缘标注来源（提取 vs 推断），避免把推断当事实。适合接进 Claude Code/Cursor/Codex 的每日工作流。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Python, tree-sitter",
+          "- 状态：active",
+          "- 链接：https://github.com/Graphify-Labs/graphify",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "gsap-skills",
+      "relPath": "02-ai-skills/gsap-skills.md",
+      "owner": "greensock",
+      "category": "02-ai-skills",
+      "categoryName": "AI 编程技能",
+      "name": "GSAP Skills",
+      "github": "https://github.com/greensock/gsap-skills",
+      "website": "",
+      "links": [],
+      "tagline": "GSAP 官方 AI 技能：教编码 Agent 正确使用动画库",
+      "stack": [
+        "Markdown",
+        "JavaScript/TypeScript"
+      ],
+      "tags": [
+        "AI技能",
+        "动画",
+        "GSAP",
+        "前端",
+        "官方"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 1500,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "AI 生成的 GSAP 动画常犯 API 误用、忽略插件的错误。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "GSAP 官方出品的 8 个技能（core/timeline/scrolltrigger/plugins/react/perf/frameworks），跨 40+ 编码 Agent 安装，教最佳实践与常见模式。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "官方维护，权威性高。做 Web 动效时先装 gsap-core + gsap-scrolltrigger，再用 gsap-react 处理框架适配。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Markdown, JavaScript/TypeScript",
+          "- 状态：active",
+          "- 链接：https://github.com/greensock/gsap-skills",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "hallmark",
+      "relPath": "02-ai-skills/hallmark.md",
+      "owner": "Nutlope",
+      "category": "02-ai-skills",
+      "categoryName": "AI 编程技能",
+      "name": "Hallmark",
+      "github": "https://github.com/Nutlope/hallmark",
+      "website": "",
+      "links": [],
+      "tagline": "拒绝「AI 味」的设计技能：21 套主题 + 57 道反套路门禁",
+      "stack": [
+        "Markdown",
+        "SKILL.md"
+      ],
+      "tags": [
+        "Agent技能",
+        "设计",
+        "反AI味",
+        "主题",
+        "前端"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 3000,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "LLM 生成 UI 有强分布默认（紫渐变、居中 hero、三卡片…），一眼 AI 味。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "先为 brief 选宏观结构，再用 21 套主题之一装扮，跑 57 道 slop 门禁 + 输出前自审。提供 audit / redesign / study 四种动词。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "study 模式可从截图/URL 提取设计 DNA，非常实用。配合 [[taste-skill]] 使用效果更好。关联 [[awesome-design-md]]。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Markdown, SKILL.md",
+          "- 状态：active",
+          "- 链接：https://github.com/Nutlope/hallmark",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "ian-handdrawn-ppt",
+      "relPath": "02-ai-skills/ian-handdrawn-ppt.md",
+      "owner": "helloianneo",
+      "category": "02-ai-skills",
+      "categoryName": "AI 编程技能",
+      "name": "Ian Handdrawn PPT",
+      "github": "https://github.com/helloianneo/ian-handdrawn-ppt",
+      "website": "",
+      "links": [],
+      "tagline": "把文章/笔记转成中文手绘讲解图整页 PNG 的 Codex 技能",
+      "stack": [
+        "Markdown",
+        "SKILL.md"
+      ],
+      "tags": [
+        "Agent技能",
+        "PPT",
+        "手绘",
+        "讲解图",
+        "内容创作"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 1500,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "要的不是可编辑 PPTX，而是适合文章/课程/演讲的整页手绘视觉图。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "先规划内容再按语义版式原型映射页面，统一手绘风格，输出 21:9 封面 + 16:9 内容图 PNG 及联系表，推荐 ChatGPT Image 2.0。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "强调「先想清楚内容再做页」。配 [[baoyu-skills]] 与 [[ian-xiaohei-illustrations]] 组成内容配图全家桶。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Markdown, SKILL.md",
+          "- 状态：active",
+          "- 链接：https://github.com/helloianneo/ian-handdrawn-ppt",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "ian-xiaohei-illustrations",
+      "relPath": "02-ai-skills/ian-xiaohei-illustrations.md",
+      "owner": "helloianneo",
+      "category": "02-ai-skills",
+      "categoryName": "AI 编程技能",
+      "name": "Ian Xiaohei Illustrations",
+      "github": "https://github.com/helloianneo/ian-xiaohei-illustrations",
+      "website": "",
+      "links": [],
+      "tagline": "生成中文文章手绘「小黑」示意图的 Codex 技能",
+      "stack": [
+        "Markdown",
+        "SKILL.md"
+      ],
+      "tags": [
+        "Agent技能",
+        "插画",
+        "配图",
+        "中文",
+        "内容创作"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 2000,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "文章配图要么用通用插画没有信息量，要么做 PPT 式信息图。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "把文章里的一个关键认知动作（判断/流程/结构/状态/隐喻）画成 16:9 白底手绘「小黑」示意图，配稀疏红橙蓝中文标注，帮助记忆。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "适合技术科普文章配图。与同作者的 [[ian-handdrawn-ppt]] 配合做整篇讲解图。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Markdown, SKILL.md",
+          "- 状态：active",
+          "- 链接：https://github.com/helloianneo/ian-xiaohei-illustrations",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "identity-skill",
+      "relPath": "02-ai-skills/identity-skill.md",
+      "owner": "Sac-Y",
+      "category": "02-ai-skills",
+      "categoryName": "AI 编程技能",
+      "name": "identity-skill",
+      "github": "https://github.com/Sac-Y/identity-skill",
+      "website": "",
+      "links": [],
+      "tagline": "数字名片 .skill：一键打造专属个人网站",
+      "stack": [
+        "Python",
+        "Markdown"
+      ],
+      "tags": [
+        "Agent技能",
+        "数字名片",
+        "个人网站",
+        "个人品牌",
+        "自动化"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 224,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "个人品牌展示需要搭建个人网站，但设计、开发、部署流程繁琐，很多人起步困难。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "一个把\"打造数字名片/个人网站\"封装成 Skill 的项目，一键生成专属个人网站，降低个人品牌展示的技术门槛。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "- 适合做个人主页、作品集、简历展示场景。",
+          "- 与站内其它\"一键生成\"类 Agent 技能同属降低创作/展示门槛的路线。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Python, Markdown",
+          "- 状态：active",
+          "- 链接：https://github.com/Sac-Y/identity-skill"
+        ]
+      }
+    },
+    {
+      "slug": "obsidian-skills",
+      "relPath": "02-ai-skills/obsidian-skills.md",
+      "owner": "kepano",
+      "category": "02-ai-skills",
+      "categoryName": "AI 编程技能",
+      "name": "Obsidian Skills",
+      "github": "https://github.com/kepano/obsidian-skills",
+      "website": "",
+      "links": [],
+      "tagline": "让 Agent 读写 Obsidian 与开放格式的官方技能集",
+      "stack": [
+        "Markdown",
+        "SKILL.md"
+      ],
+      "tags": [
+        "Agent技能",
+        "Obsidian",
+        "知识管理",
+        "Markdown"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 44000,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "AI Agent 不擅长创建 Obsidian 特有的 wiki 链接、callout、.base、.canvas 文件。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "kepano（Obsidian CEO）出品，教 Agent 按规范创建/编辑 Markdown、Bases、JSON Canvas；含 Obsidian 插件/主题开发 CLI 技能与 Defuddle 网页转纯 md 技能。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "44k star。若工作流重度依赖 Obsidian，这套技能让 Agent 直接写入知识库，与 [[files.md]] 的极简方案互为对照。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Markdown, SKILL.md",
+          "- 状态：active",
+          "- 链接：https://github.com/kepano/obsidian-skills",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "ponytail",
+      "relPath": "02-ai-skills/ponytail.md",
+      "owner": "DietrichGebert",
+      "category": "02-ai-skills",
+      "categoryName": "AI 编程技能",
+      "name": "Ponytail",
+      "github": "https://github.com/DietrichGebert/ponytail",
+      "website": "",
+      "links": [],
+      "tagline": "让 AI 像「最懒的高级工程师」一样写最少必要的代码",
+      "stack": [
+        "Node.js",
+        "Markdown"
+      ],
+      "tags": [
+        "AI技能",
+        "代码质量",
+        "YAGNI",
+        "开发效率",
+        "规范"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 2000,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "AI 编码 Agent 倾向过度设计、写冗余代码，增加维护负担。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "注入一套决策阶梯：先想能否复用已有代码、走标准库/平台原生、用一行搞定，再写新代码。宣称少 54% 代码、省 20% 成本、快 27%，同时保验证/安全/无障碍底线。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "6 个斜杠命令可按强度 lite/full/ultra 分级。适合项目要求「克制、可维护」时挂在编码 Agent 上。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Node.js, Markdown",
+          "- 状态：active",
+          "- 链接：https://github.com/DietrichGebert/ponytail",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "taste-skill",
+      "relPath": "02-ai-skills/taste-skill.md",
+      "owner": "Leonxlnx",
+      "category": "02-ai-skills",
+      "categoryName": "AI 编程技能",
+      "name": "Taste-Skill",
+      "github": "https://github.com/Leonxlnx/taste-skill",
+      "website": "",
+      "links": [],
+      "tagline": "给 AI 装「好品味」：停止生成千篇一律的前端",
+      "stack": [
+        "Markdown",
+        "SKILL.md"
+      ],
+      "tags": [
+        "Agent技能",
+        "前端",
+        "设计",
+        "品味",
+        "反套路"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 2500,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "AI 默认生成千篇一律的「样板化」前端。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "框架无关的 Portable Agent Skill，注入更强的布局、排版、动效、间距品味；附带图像生成技能做设计参考板喂给编码 Agent。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "主打是「不像 AI 生成」。与 [[hallmark]]、[[awesome-design-md]] 方向一致但侧重品味与参考板，可组合出更有个性的前端。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Markdown, SKILL.md",
+          "- 状态：active",
+          "- 链接：https://github.com/Leonxlnx/taste-skill",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "cindy",
+      "relPath": "03-ai-agents/cindy.md",
+      "owner": "makecindy",
+      "category": "03-ai-agents",
+      "categoryName": "AI 智能体与应用",
+      "name": "Cindy",
+      "github": "https://github.com/makecindy/cindy",
+      "website": "",
+      "links": [],
+      "tagline": "开箱即用的本地 AI 智能体客户端（多 harness 混用）",
+      "stack": [
+        "TypeScript",
+        "Electron",
+        "React Native"
+      ],
+      "tags": [
+        "AIAgent",
+        "本地",
+        "MCP",
+        "多模型",
+        "开源"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 3500,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "想自由混用 Claude Code / Codex 等 harness 与不同模型，在一个本地客户端里完成真实工作。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "Electron 桌面 + RN 移动客户端，支持记忆、技能、自动化、MCP 工具接线、插件系统，模型与 harness 可随意组合，后端服务开源(Apache-2.0)。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "适合重度本地 Agent 用户。注意核心后端服务在私有仓库，开源的是客户端与外壳。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：TypeScript, Electron, React Native",
+          "- 状态：active",
+          "- 链接：https://github.com/makecindy/cindy",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "codebase-memory-mcp",
+      "relPath": "03-ai-agents/codebase-memory-mcp.md",
+      "owner": "DeusData",
+      "category": "03-ai-agents",
+      "categoryName": "AI 智能体与应用",
+      "name": "Codebase Memory MCP",
+      "github": "https://github.com/DeusData/codebase-memory-mcp",
+      "website": "",
+      "links": [],
+      "tagline": "用纯 C 单二进制实现的极速代码智能 MCP 服务",
+      "stack": [
+        "C",
+        "SQLite",
+        "tree-sitter"
+      ],
+      "tags": [
+        "MCP",
+        "代码理解",
+        "知识图谱",
+        "性能",
+        "开发效率"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 2200,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "AI 代理理解大型代码库时逐文件探索，token 消耗高、速度慢。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "零依赖纯 C 编译成单静态二进制，内置 158 语言 tree-sitter，把代码库索引成持久知识图谱，暴露 15 个工具（搜索、追踪、架构、Cypher 查询、变更检测），号称省 99% token。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "性能导向。与 [[graphify]] 同为「代码库建图」思路，但走 MCP 协议 + 极速 C 实现，适合大仓库。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：C, SQLite, tree-sitter",
+          "- 状态：active",
+          "- 链接：https://github.com/DeusData/codebase-memory-mcp",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "data-analysis-agent",
+      "relPath": "03-ai-agents/data-analysis-agent.md",
+      "owner": "Zafer-Liu",
+      "category": "03-ai-agents",
+      "categoryName": "AI 智能体与应用",
+      "name": "Data Analysis Agent",
+      "github": "https://github.com/Zafer-Liu/Data-Analysis-Agent",
+      "website": "",
+      "links": [],
+      "tagline": "对话式商业数据分析 Agent，自然语言出图出洞察",
+      "stack": [
+        "Python",
+        "Flask",
+        "Plotly",
+        "SQLAlchemy"
+      ],
+      "tags": [
+        "AIAgent",
+        "数据分析",
+        "BI",
+        "可视化",
+        "自然语言"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 2000,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "非技术用户想用自然语言查数据并自动生成可视化与洞察。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "自动 schema 检测、SQL 生成、43 种图表推荐、业务洞察报告，SSE 流式展示过程，接 DeepSeek/OpenAI 等。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "Flask + Vite 前后端。做 ChatBI 类产品的轻量范本。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Python, Flask, Plotly, SQLAlchemy",
+          "- 状态：active",
+          "- 链接：https://github.com/Zafer-Liu/Data-Analysis-Agent",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "deeptutor",
+      "relPath": "03-ai-agents/deeptutor.md",
+      "owner": "HKUDS",
+      "category": "03-ai-agents",
+      "categoryName": "AI 智能体与应用",
+      "name": "DeepTutor",
+      "github": "https://github.com/HKUDS/DeepTutor",
+      "website": "",
+      "links": [],
+      "tagline": "Agent 原生、终身个性化辅导学习工作台",
+      "stack": [
+        "Python",
+        "Next.js",
+        "LlamaIndex"
+      ],
+      "tags": [
+        "AIAgent",
+        "教育",
+        "RAG",
+        "学习",
+        "个性化"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 2500,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "学习工具割裂：聊天、做题、测验、研究、可视化、精熟练习各成一摊。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "单 Agent 循环驱动终身个性化辅导，串联提问、测验、研究、可视化与精熟路径，记忆与知识库可检视，支持扩展技能/伙伴。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "HKUDS 出品，Apache-2.0。做「AI 教练」类产品时是很好的参考实现。关联 [[self-llm]] 的教育向。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Python, Next.js, LlamaIndex",
+          "- 状态：active",
+          "- 链接：https://github.com/HKUDS/DeepTutor",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "firecrawl",
+      "relPath": "03-ai-agents/firecrawl.md",
+      "owner": "firecrawl",
+      "category": "03-ai-agents",
+      "categoryName": "AI 智能体与应用",
+      "name": "Firecrawl",
+      "github": "https://github.com/firecrawl/firecrawl",
+      "website": "",
+      "links": [],
+      "tagline": "把网页转成 LLM 就绪数据的开源 Web 数据平台",
+      "stack": [
+        "Node.js",
+        "Python SDK",
+        "Docker"
+      ],
+      "tags": [
+        "Agent工具",
+        "爬虫",
+        "网页转Markdown",
+        "RAG",
+        "自托管"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 30000,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "网页抓取后常带大量噪音，不适合直接喂给 LLM。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "提供 search / scrape / crawl / map / batch / 交互式页面操作端点，输出干净 Markdown、结构化 JSON、截图；核心服务可 Docker 自托管，多语言 SDK。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "RAG/Agent 数据获取的标准件。AGPL-3.0（SDK 部分 MIT）。关联 [[mineru]]（离线文档解析）形成线上线下互补。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Node.js, Python SDK, Docker",
+          "- 状态：active",
+          "- 链接：https://github.com/firecrawl/firecrawl",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "gpt-image-playground",
+      "relPath": "03-ai-agents/gpt-image-playground.md",
+      "owner": "CookSleep",
+      "category": "03-ai-agents",
+      "categoryName": "AI 智能体与应用",
+      "name": "GPT Image Playground",
+      "github": "https://github.com/CookSleep/gpt_image_playground",
+      "website": "",
+      "links": [],
+      "tagline": "基于 OpenAI gpt-image-2 的 Web 图像生成与编辑工作台",
+      "stack": [
+        "React",
+        "TypeScript",
+        "Vite",
+        "Zustand"
+      ],
+      "tags": [
+        "AI应用",
+        "图像生成",
+        "文生图",
+        "编辑",
+        "Web"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 2800,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "想要一个简洁精美的文生图/参考图/mask 编辑 UI，且数据本地保存。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "批量生成、流式预览、Agent 多轮对话模式、多 provider（OpenAI 兼容 / fal.ai / 自定义 HTTP），历史参数存 IndexedDB 本地。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "可部署到 Vercel/CF Workers/Docker/静态托管。做图像生成工具的自托管首选。关联 [[ai-agent-book]] 的多模态章节。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：React, TypeScript, Vite, Zustand",
+          "- 状态：active",
+          "- 链接：https://github.com/CookSleep/gpt_image_playground",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "open-design",
+      "relPath": "03-ai-agents/open-design.md",
+      "owner": "nexu-io",
+      "category": "03-ai-agents",
+      "categoryName": "AI 智能体与应用",
+      "name": "Open Design",
+      "github": "https://github.com/nexu-io/open-design",
+      "website": "",
+      "links": [],
+      "tagline": "开源的本地优先「Claude Design 替代」：编码 Agent 当设计引擎",
+      "stack": [
+        "Next.js",
+        "Electron",
+        "TypeScript"
+      ],
+      "tags": [
+        "AI设计",
+        "设计工具",
+        "本地优先",
+        "开源",
+        "产图"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 3500,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "想要一个让编码 Agent 直接产出设计成品（原型/落地页/仪表盘/PPT/图/视频）为真实文件的本地工具。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "由品牌契约 DESIGN.md 驱动而非画布，主流的 Claude Code/Codex/Cursor 等 CLI 都能当设计引擎，导出 HTML/PDF/PPTX/MP4。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "与 [[awesome-design-md]] 的 DESIGN.md 规范强相关。做「用代码生成设计」路线的参考实现。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Next.js, Electron, TypeScript",
+          "- 状态：active",
+          "- 链接：https://github.com/nexu-io/open-design",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "openminis",
+      "relPath": "03-ai-agents/openminis.md",
+      "owner": "OpenMinis",
+      "category": "03-ai-agents",
+      "categoryName": "AI 智能体与应用",
+      "name": "OpenMinis",
+      "github": "https://github.com/OpenMinis/OpenMinis",
+      "website": "",
+      "links": [],
+      "tagline": "端侧跑领先模型的免费开源移动 AI Agent（带完整 Linux shell）",
+      "stack": [
+        "Swift",
+        "Kotlin",
+        "Alpine Linux"
+      ],
+      "tags": [
+        "AIAgent",
+        "移动端",
+        "端侧",
+        "开源",
+        "跨平台"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 4000,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "想在 iOS/Android 上让 Claude/GPT/Gemini 拥有真实电脑：完整 Linux shell、浏览器自动化、持久记忆、深度系统集成。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "SwiftUI + Compose 原生实现，内置 iSH/PRoot 沙箱、FFmpeg、Alpine rootfs，可接健康、日历、提醒、联系人、HomeKit、蓝牙等工具，自带 API Key。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "GPLv3。目前是「给手机插上 Agent OS」最激进的开源方案之一。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Swift, Kotlin, Alpine Linux",
+          "- 状态：active",
+          "- 链接：https://github.com/OpenMinis/OpenMinis",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "labelme",
+      "relPath": "04-computer-vision/labelme.md",
+      "owner": "wkentaro",
+      "category": "04-computer-vision",
+      "categoryName": "计算机视觉",
+      "name": "LabelMe",
+      "github": "https://github.com/wkentaro/labelme",
+      "website": "",
+      "links": [],
+      "tagline": "Python 图形化图像标注工具（多边形/矩形/圆/线/点 + AI 辅助）",
+      "stack": [
+        "Python",
+        "Qt (PySide6)"
+      ],
+      "tags": [
+        "计算机视觉",
+        "标注工具",
+        "分割",
+        "目标检测",
+        "数据集"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 23000,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "做分割/检测/分类需要交互式标注图像，并导出规范数据集。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "支持多边形、矩形、圆、线、点标注与视频标注，AI 辅助用 SAM/EfficientSAM/文生标注，可导出 VOC/COCO 格式。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "CV 数据标注的经典工具（v7 基于 PySide6/Qt6）。采集数据后配 [[supervision]] 组织与复用。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Python, Qt (PySide6)",
+          "- 状态：active",
+          "- 链接：https://github.com/wkentaro/labelme",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "mineru",
+      "relPath": "04-computer-vision/mineru.md",
+      "owner": "opendatalab",
+      "category": "04-computer-vision",
+      "categoryName": "计算机视觉",
+      "name": "MinerU",
+      "github": "https://github.com/opendatalab/mineru",
+      "website": "",
+      "links": [],
+      "tagline": "高质量文档解析工具：PDF/图片/DOCX/PPTX/XLSX → Markdown/JSON",
+      "stack": [
+        "Python",
+        "PaddleOCR",
+        "vLLM"
+      ],
+      "tags": [
+        "文档解析",
+        "OCR",
+        "PDF",
+        "RAG",
+        "公式",
+        "表格"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 42000,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "复杂文档（公式→LaTeX、表格→HTML、多栏版式、多语言 OCR）难转成机器可读格式。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "VLM + OCR 双引擎（PP-OCRv6、PaddleOCR、vLLM/LMDeploy），支持 109 语言，CLI/API/Docker/多 GPU 部署。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "做 RAG 预处理的明星项目。与 [[firecrawl]]（在线网页）互补，mineru 处理离线/扫描文档。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Python, PaddleOCR, vLLM",
+          "- 状态：active",
+          "- 链接：https://github.com/opendatalab/mineru",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "slambook",
+      "relPath": "04-computer-vision/slambook.md",
+      "owner": "gaoxiang12",
+      "category": "04-computer-vision",
+      "categoryName": "计算机视觉",
+      "name": "SLAM Book",
+      "github": "https://github.com/gaoxiang12/slambook",
+      "website": "",
+      "links": [],
+      "tagline": "《视觉SLAM十四讲》配套源码，按章可编译运行",
+      "stack": [
+        "C++",
+        "Eigen",
+        "OpenCV",
+        "Ceres"
+      ],
+      "tags": [
+        "计算机视觉",
+        "SLAM",
+        "机器人",
+        "教程",
+        "C++"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 22000,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "视觉 SLAM 涉及李群、相机模型、非线性优化、回环检测等，缺少可运行的配套代码。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "高翔的经典教材配套仓库，按章组织（刚体运动、李群、相机、优化、VO/VIO、位姿图、回环、稠密重建），用 Eigen/Sophus/OpenCV/Ceres/g2o 实现。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "学习机器人视觉定位的入门口。属于「基础/教育」性质但归入 CV 分类更贴合主题。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：C++, Eigen, OpenCV, Ceres",
+          "- 状态：active",
+          "- 链接：https://github.com/gaoxiang12/slambook",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "supervision",
+      "relPath": "04-computer-vision/supervision.md",
+      "owner": "roboflow",
+      "category": "04-computer-vision",
+      "categoryName": "计算机视觉",
+      "name": "Supervision",
+      "github": "https://github.com/roboflow/supervision",
+      "website": "",
+      "links": [],
+      "tagline": "Roboflow 出品的模型无关计算机视觉工具箱",
+      "stack": [
+        "Python"
+      ],
+      "tags": [
+        "计算机视觉",
+        "检测",
+        "跟踪",
+        "标注",
+        "工具"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 25000,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "CV 应用里检测/分割/跟踪/标注的通用逻辑重复造轮子。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "模型无关的构建块：标注器、数据集加载/切分/合并/保存、跟踪工具，从数据加载到实时区域计数全包，兼容 Ultralytics/Transformers/MMDetection 等。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "与 [[labelme]]（标注）、[[mineru]]（文档）可组成 CV+文档管线。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Python",
+          "- 状态：active",
+          "- 链接：https://github.com/roboflow/supervision",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "files.md",
+      "relPath": "05-dev-tools/files.md.md",
+      "owner": "zakirullin",
+      "category": "05-dev-tools",
+      "categoryName": "开发工具与框架",
+      "name": "Files.md",
+      "github": "https://github.com/zakirullin/files.md",
+      "website": "",
+      "links": [],
+      "tagline": "本地优先、极简的 Markdown 笔记应用（数据全在 .md 文件）",
+      "stack": [
+        "Go",
+        "JavaScript PWA"
+      ],
+      "tags": [
+        "笔记",
+        "Markdown",
+        "本地优先",
+        "PWA",
+        "隐私"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 4000,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "笔记被锁在私有格式/云里，想要全部数据都是普通 .md 文件、低认知负担的工具。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "支持笔记、日记、任务、清单、聊天式速记，可选自托管同步，代码简单到 LLM 能扩展，哲学是本地所有 + 极简。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "与 Obsidian 的「开放格式」理念相通但更轻。适合当第二大脑的极简替身。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Go, JavaScript PWA",
+          "- 状态：active",
+          "- 链接：https://github.com/zakirullin/files.md",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "overleaf",
+      "relPath": "05-dev-tools/overleaf.md",
+      "owner": "overleaf",
+      "category": "05-dev-tools",
+      "categoryName": "开发工具与框架",
+      "name": "Overleaf",
+      "github": "https://github.com/overleaf/overleaf",
+      "website": "",
+      "links": [],
+      "tagline": "在线协作式 LaTeX 论文与文档编辑器",
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Mongo"
+      ],
+      "tags": [
+        "LaTeX",
+        "论文",
+        "协作",
+        "在线编辑器",
+        "学术"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 18000,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "本机装 LaTeX 环境麻烦（TeX Live/MacTeX 体积大、配置复杂），多人协作改论文时版本混乱。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "浏览器里直接编译 LaTeX，实时预览、多人协作、版本历史，论文/学术文档工作流标配。社区版可自托管。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "- 书签里存的是 cn.overleaf.com 的项目页，论文协作就用它。",
+          "- 与 [[zotero]] 搭配：Overleaf 写稿 + Zotero 管文献引用，是学术写作者常用组合。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：TypeScript, Node.js, MongoDB",
+          "- 状态：active",
+          "- 链接：https://github.com/overleaf/overleaf"
+        ]
+      }
+    },
+    {
+      "slug": "plantuml",
+      "relPath": "05-dev-tools/plantuml.md",
+      "owner": "plantuml",
+      "category": "05-dev-tools",
+      "categoryName": "开发工具与框架",
+      "name": "PlantUML",
+      "github": "https://github.com/plantuml/plantuml",
+      "website": "",
+      "links": [],
+      "tagline": "用纯文本描述生成 UML 与各类架构图的绘图引擎",
+      "stack": [
+        "Java"
+      ],
+      "tags": [
+        "UML",
+        "绘图",
+        "架构图",
+        "文本",
+        "文档"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 13000,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "手画 UML / 架构图耗时且难维护，团队协作时图与代码容易脱节。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "用类代码的 PlantUML 语法描述图，自动渲染成 Sequence、Class、Component、时序图等，图随文档走，可交给 AI 生成，也能嵌入 Markdown / CI。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "- 在线编辑器：https://plantuml-editor.kkeisuke.com/（书签里存的正是它的在线版）。",
+          "- 与 [[qmd]] 这类\"文本即数据\"的思路一致，图和代码一样可版本化、可 diff。",
+          "- 适合在架构文档、README、设计评审里用。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Java",
+          "- 状态：active",
+          "- 链接：https://github.com/plantuml/plantuml"
+        ]
+      }
+    },
+    {
+      "slug": "qmd",
+      "relPath": "05-dev-tools/qmd.md",
+      "owner": "tobi",
+      "category": "05-dev-tools",
+      "categoryName": "开发工具与框架",
+      "name": "QMD",
+      "github": "https://github.com/tobi/qmd",
+      "website": "",
+      "links": [],
+      "tagline": "本地 Markdown 文档/知识库的微型 CLI 混合搜索引擎",
+      "stack": [
+        "TypeScript",
+        "SQLite",
+        "llama.cpp"
+      ],
+      "tags": [
+        "搜索",
+        "知识库",
+        "本地",
+        "CLI",
+        "MCP",
+        "离线"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 2500,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "本地 Markdown 笔记、文档、会议记录多起来后，缺一个能关键词 + 自然语言搜索的轻量引擎。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "SQLite FTS5 BM25 + sqlite-vec 向量检索 + 本地 GGUF 模型（embedding/重排/查询扩展）全离线，提供 CLI、SDK、MCP server。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "为 Agentic 工作流打造，可接 MCP 让 Agent 检索本地知识库。与 [[obsidian-skills]]、[[files.md]] 的知识管理生态互补。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：TypeScript, SQLite, llama.cpp",
+          "- 状态：active",
+          "- 链接：https://github.com/tobi/qmd",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "starlight",
+      "relPath": "05-dev-tools/starlight.md",
+      "owner": "withastro",
+      "category": "05-dev-tools",
+      "categoryName": "开发工具与框架",
+      "name": "Starlight",
+      "github": "https://github.com/withastro/starlight",
+      "website": "",
+      "links": [],
+      "tagline": "基于 Astro 的文档站框架：美观、无障碍、高性能",
+      "stack": [
+        "TypeScript",
+        "Astro"
+      ],
+      "tags": [
+        "文档站",
+        "框架",
+        "Astro",
+        "静态站点",
+        "开源"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 7000,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "想快速搭一个美观、无障碍、高性能的产品文档站。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "Astro 官方文档框架，内置搜索、侧边栏、国际化、暗色模式，静态输出性能好。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "本归档站就是 Astro 生态；若以后要把归档做成更完整的文档站点，可考虑用 Starlight 重构。关联本站技术栈。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：TypeScript, Astro",
+          "- 状态：active",
+          "- 链接：https://github.com/withastro/starlight",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "violentmonkey",
+      "relPath": "05-dev-tools/violentmonkey.md",
+      "owner": "violentmonkey",
+      "category": "05-dev-tools",
+      "categoryName": "开发工具与框架",
+      "name": "Violentmonkey",
+      "github": "https://github.com/violentmonkey/violentmonkey",
+      "website": "",
+      "links": [],
+      "tagline": "开源免费的浏览器用户脚本管理器（油猴）",
+      "stack": [
+        "JavaScript",
+        "WebExtensions"
+      ],
+      "tags": [
+        "浏览器",
+        "用户脚本",
+        "油猴",
+        "扩展",
+        "自动化"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 8700,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "浏览器默认能力有限，需要\"往网页里注入自己的脚本\"来增强体验（去广告、改样式、自动操作）。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "用户脚本行业事实标准之一，开源、免费、跨浏览器，配合 Greasy Fork 脚本市场（书签中 Greasy Fork 的正主），能做的事非常多。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "- 脚本来源主要是 Greasy Fork：https://greasyfork.org/zh-CN",
+          "- 常用场景：网页增强、自动签到、屏蔽多余模块、配合 AI 工具做网页抓取辅助。",
+          "- 同类工具是 Tampermonkey，Violentmonkey 更轻量、全开源。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：JavaScript, WebExtensions",
+          "- 状态：active",
+          "- 链接：https://github.com/violentmonkey/violentmonkey"
+        ]
+      }
+    },
+    {
+      "slug": "bilitato",
+      "relPath": "06-apps/bilitato.md",
+      "owner": "erikzhuang55",
+      "category": "06-apps",
+      "categoryName": "应用与娱乐",
+      "name": "Bilitato",
+      "github": "https://github.com/erikzhuang55/Bilitato",
+      "website": "",
+      "links": [],
+      "tagline": "b站 AI 浏览器插件（视频下载/字幕提取/总结/广告识别/向 AI 提问）",
+      "stack": [
+        "JavaScript",
+        "Bilibili API"
+      ],
+      "tags": [
+        "浏览器",
+        "Bilibili",
+        "AI",
+        "视频下载",
+        "字幕",
+        "总结"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 129,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "看 b 站视频时，需要下载视频、提取字幕、总结分段、识别广告、向 AI 提问视频内容，这些操作过去要拼多个工具，且无字幕视频难以利用。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "一站式 b 站 AI 浏览器插件：视频/音频下载、字幕提取、总结分段、广告识别、一键验真、向 AI 提问视频内容；支持 Groq 转录无字幕视频、自定义 API 和 Prompt，BYOK 免费使用。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "- 亮点：能用 Groq 转录无字幕视频，自定义 API/Prompt，自带 API Key 免费使用。",
+          "- 适合经常刷 b 站学习/做笔记、想对视频内容提问的场景。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：JavaScript, Bilibili API",
+          "- 状态：active",
+          "- 链接：https://github.com/erikzhuang55/Bilitato"
+        ]
+      }
+    },
+    {
+      "slug": "flaremo",
+      "relPath": "06-apps/flaremo.md",
+      "owner": "realchendahuang",
+      "category": "06-apps",
+      "categoryName": "应用与娱乐",
+      "name": "FlareMo",
+      "github": "https://github.com/realchendahuang/FlareMo",
+      "website": "",
+      "links": [],
+      "tagline": "Cloudflare 原生的个人知识管理系统（Memos 兼容 API）",
+      "stack": [
+        "TypeScript",
+        "Cloudflare Workers",
+        "React"
+      ],
+      "tags": [
+        "知识管理",
+        "Memos",
+        "笔记",
+        "自托管",
+        "Cloudflare",
+        "个人博客"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 162,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "个人知识碎片（Memos 式短笔记）需要一个自托管、免费额度内可用的聚合管理方案，而主流服务要么收费、要么部署复杂。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "一个 Cloudflare 原生的个人知识管理系统，提供 Memos 兼容 API；基于 Cloudflare Workers + D1 + R2，可自托管、几乎零成本，build-in-public 社区关注度不错。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "- 技术栈看着很轻：Workers + D1 + R2 + React，适合跑在 Cloudflare 免费额度上。",
+          "- 与站内 zotero（文献管理）、obsidian-skills（笔记技能）同属\"个人知识管理\"生态。",
+          "- 亮点是 Memos 兼容 API，可无缝接入现有 Memos 客户端/流程。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：TypeScript, Cloudflare Workers, React",
+          "- 状态：active",
+          "- 链接：https://github.com/realchendahuang/FlareMo"
+        ]
+      }
+    },
+    {
+      "slug": "fluentflyout",
+      "relPath": "06-apps/fluentflyout.md",
+      "owner": "unchihugo",
+      "category": "06-apps",
+      "categoryName": "应用与娱乐",
+      "name": "FluentFlyout",
+      "github": "https://github.com/unchihugo/FluentFlyout",
+      "website": "",
+      "links": [],
+      "tagline": "Windows 11 的现代化 Flyout 面板（Fluent 2 设计，媒体/任务栏小组件）",
+      "stack": [
+        "C#"
+      ],
+      "tags": [
+        "Windows",
+        "任务栏",
+        "媒体控制",
+        "Fluent设计",
+        "美化",
+        "效率"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 3613,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "Win11 自带的媒体音量、亮度等 Flyout 面板样式老旧、信息量低，且无法自定义；默认的媒体控制面板交互体验差。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "用 Fluent 2 设计语言重做了 Win11 的系统 Flyout，支持媒体控制、任务栏小组件等，颜值高、可定制性强，是 Windows 桌面美化和效率提升的热门项目（3.6k★）。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "- 官网：https://fluentflyout.com",
+          "- 适合想统一 Win11 视觉风格、又嫌默认面板难用的用户。",
+          "- 与站内桌面美化/效率类工具同属\"提升日常体验\"的路线。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：C#",
+          "- 状态：active",
+          "- 链接：https://github.com/unchihugo/FluentFlyout"
+        ]
+      }
+    },
+    {
+      "slug": "markeron",
+      "relPath": "06-apps/markeron.md",
+      "owner": "ifer47",
+      "category": "06-apps",
+      "categoryName": "应用与娱乐",
+      "name": "markeron",
+      "github": "https://github.com/ifer47/markeron",
+      "website": "",
+      "links": [],
+      "tagline": "轻量（~1.5MB）开源屏幕标注工具（点击穿透 + 键盘快捷键）",
+      "stack": [
+        "TypeScript",
+        "Rust",
+        "Tauri"
+      ],
+      "tags": [
+        "屏幕标注",
+        "演示",
+        "教学",
+        "会议",
+        "录屏",
+        "桌面工具"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 852,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "演示、教学、会议、录屏时需要直接在屏幕上圈画标注，但常见工具笨重、占用大、交互繁琐。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "一款轻量（约 1.5MB）的开源屏幕标注工具，带点击穿透模式和键盘优先快捷键，覆盖演示、教学、会议、录屏场景，支持 Windows、macOS（Tauri + Rust 构建，跨平台）。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "- 官网：https://markeron.cn/",
+          "- 亮点是\"点击穿透\"和键盘优先，标注同时不阻挡操作。",
+          "- 与站内效率/演示类工具同属\"轻量提升演示体验\"路线。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：TypeScript, Rust, Tauri",
+          "- 状态：active",
+          "- 链接：https://github.com/ifer47/markeron"
+        ]
+      }
+    },
+    {
+      "slug": "mineradio",
+      "relPath": "06-apps/mineradio.md",
+      "owner": "XxHuberrr",
+      "category": "06-apps",
+      "categoryName": "应用与娱乐",
+      "name": "Mineradio",
+      "github": "https://github.com/XxHuberrr/Mineradio",
+      "website": "",
+      "links": [],
+      "tagline": "Windows 沉浸式音乐播放器：搜索/歌词舞台/粒子视效/3D 歌单",
+      "stack": [
+        "JavaScript",
+        "Electron"
+      ],
+      "tags": [
+        "音乐播放器",
+        "桌面应用",
+        "动画",
+        "娱乐",
+        "Electron"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 9800,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "想要一个「像现场演出」的私人音乐空间，而非冷冰冰的播放器。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "Electron 桌面应用，集成搜索/播放、歌词舞台、粒子视效、3D 歌单架、全桌面模式，可接网易云音乐与 QQ 音乐播放用户自己的内容（非官方客户端）。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "GPL-3.0。注意它不提供绕过付费墙/会员/再分发音乐的能力。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：JavaScript, Electron",
+          "- 状态：active",
+          "- 链接：https://github.com/XxHuberrr/Mineradio",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "zotero",
+      "relPath": "06-apps/zotero.md",
+      "owner": "zotero",
+      "category": "06-apps",
+      "categoryName": "应用与娱乐",
+      "name": "Zotero",
+      "github": "https://github.com/zotero/zotero",
+      "website": "",
+      "links": [],
+      "tagline": "免费开源的文献收集、组织、引用与分享工具",
+      "stack": [
+        "C++",
+        "JavaScript",
+        "SQLite"
+      ],
+      "tags": [
+        "文献管理",
+        "学术",
+        "引用",
+        "桌面应用",
+        "浏览器"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 15000,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "论文/文献一多就乱：收集、标注、生成参考文献、换格式全都靠手工。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "浏览器插件一键抓取网页/PDF 进文献库，配合 Zotero 插件自动生成 BibTeX/Word/LaTeX 引用，中文社区文档完善。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "- 中文文档：https://zotero-chinese.com/user-guide/（书签里存的 Zotero 百科全书）。",
+          "- 与 [[overleaf]] 搭配：Overleaf 写稿 + Zotero 管引用，学术写作工作流。",
+          "- 纯桌面应用，非 Web 项目，放进 06-apps 分类。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：C++, JavaScript, SQLite",
+          "- 状态：active",
+          "- 链接：https://github.com/zotero/zotero"
+        ]
+      }
+    },
+    {
+      "slug": "52im",
+      "relPath": "07-websites/52im.md",
+      "owner": "",
+      "category": "07-websites",
+      "categoryName": "资源与网站",
+      "name": "即时通讯网（52im）",
+      "github": "",
+      "website": "http://www.52im.net/",
+      "links": [],
+      "tagline": "中文即时通讯技术深度社区与文章聚合",
+      "stack": [
+        "Web"
+      ],
+      "tags": [
+        "即时通讯",
+        "网络协议",
+        "后端",
+        "社区",
+        "深度文章"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 0,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "IM/消息推送/网络协议这类深度网络技术，中文高质量资料少、散落在各处。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "聚合了大量 IM、WebSocket、推送、网络协议、后端架构的中文深度文章，是中文网络通信方向少有的集中资料库。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "- 做 IM、实时通信、消息系统方向时来这里挖深度文章。",
+          "- 纯社区站，github 字段留空、用 website 字段。",
+          "- 与 [[red-blob-games]] 不同，这里偏工程/网络而非算法可视化。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Web",
+          "- 状态：active",
+          "- 类型：网站",
+          "- 链接：http://www.52im.net/"
+        ]
+      }
+    },
+    {
+      "slug": "cn-tech-communities",
+      "relPath": "07-websites/cn-tech-communities.md",
+      "owner": "",
+      "category": "07-websites",
+      "categoryName": "资源与网站",
+      "name": "中文技术社区聚合",
+      "github": "",
+      "website": "https://linux.do/latest",
+      "links": [
+        {
+          "name": "LINUX DO",
+          "url": "https://linux.do/latest"
+        },
+        {
+          "name": "Buzzing",
+          "url": "https://www.buzzing.cc/"
+        },
+        {
+          "name": "编程导航",
+          "url": "https://www.codefather.cn/"
+        }
+      ],
+      "tagline": "中文优质技术社区合集（LINUX DO / Buzzing / 编程导航）",
+      "stack": [
+        "Web"
+      ],
+      "tags": [
+        "社区",
+        "开源",
+        "资讯",
+        "聚合",
+        "中文"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 0,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "中文技术社区分散，难以及时发现高质量开源项目、技术讨论和热门话题。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "把书签里几个实用社区归成一条：",
+          "- **LINUX DO**（linux.do）— 活跃的开发者社区，讨论频繁、资讯新。",
+          "- **Buzzing**（buzzing.cc）— 用中文导读国外社交媒体（HN/Reddit）热门技术讨论，母语快速扫。",
+          "- **编程导航**（codefather.cn）— 一站式找编程学习资源与导航。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "- 日常逛开源/技术资讯，LINUX DO + Buzzing 组合够用。",
+          "- 纯网站资源，github 字段留空、用 website 字段。",
+          "- 与站内归档的\"项目\"不同，这一条是\"发现新项目的入口\"。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Web",
+          "- 状态：active",
+          "- 类型：网站",
+          "- 链接：https://linux.do/latest"
+        ]
+      }
+    },
+    {
+      "slug": "pdai-java-kb",
+      "relPath": "07-websites/pdai-java-kb.md",
+      "owner": "",
+      "category": "07-websites",
+      "categoryName": "资源与网站",
+      "name": "pdai · Java 全栈知识体系",
+      "github": "",
+      "website": "https://pdai.tech/",
+      "links": [],
+      "tagline": "面向进阶的 Java 全栈知识体系与面试题整理",
+      "stack": [
+        "Web"
+      ],
+      "tags": [
+        "Java",
+        "知识体系",
+        "面试",
+        "后端",
+        "教程"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 0,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "Java 学习资料碎片化，缺少一条从基础到框架、再到面试的完整知识主线。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "按\"基础—容器—并发—JVM—框架—数据库—面试\"组织成知识树，内容成体系、可作目录式复习，很多人当作 Java 进阶主线读。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "- 适合准备后端面试/复习时按目录查漏补缺。",
+          "- 纯网站资源，github 字段留空、用 website 字段。",
+          "- 与 [[refactoring-guru]] 互补：一本偏 Java 全栈、一本偏通用设计模式。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Web",
+          "- 状态：active",
+          "- 类型：网站",
+          "- 链接：https://pdai.tech/"
+        ]
+      }
+    },
+    {
+      "slug": "red-blob-games",
+      "relPath": "07-websites/red-blob-games.md",
+      "owner": "",
+      "category": "07-websites",
+      "categoryName": "资源与网站",
+      "name": "Red Blob Games",
+      "github": "",
+      "website": "https://www.redblobgames.com/",
+      "links": [],
+      "tagline": "用大量可视化交互讲解游戏算法与几何的教程站",
+      "stack": [
+        "Web",
+        "JavaScript"
+      ],
+      "tags": [
+        "游戏算法",
+        "可视化",
+        "教程",
+        "路径搜索",
+        "几何"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 0,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "路径搜索（A*）、六边形网格、多边形网格、噪声、地图生成等游戏算法抽象枯燥，纯文字难懂。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "每个算法都配可拖拽的交互可视化，看着图就懂了，是游戏开发和算法可视化学习的标杆资源。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "- 路径搜索、六边形网格两篇是经典，面试/游戏开发都值得反复看。",
+          "- 纯网站（非 GitHub 仓库），github 字段留空、用 website 字段。",
+          "- 与 [[labuladong-algorithm]] 互补：那边讲刷题套路，这里讲具体算法怎么\"看得见\"。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Web, JavaScript",
+          "- 状态：active",
+          "- 类型：网站",
+          "- 链接：https://www.redblobgames.com/"
+        ]
+      }
+    },
+    {
+      "slug": "refactoring-guru",
+      "relPath": "07-websites/refactoring-guru.md",
+      "owner": "",
+      "category": "07-websites",
+      "categoryName": "资源与网站",
+      "name": "Refactoring Guru（设计模式）",
+      "github": "",
+      "website": "https://refactoringguru.cn/design-patterns",
+      "links": [],
+      "tagline": "图文讲解设计模式与重构技巧的经典教程站",
+      "stack": [
+        "Web"
+      ],
+      "tags": [
+        "设计模式",
+        "重构",
+        "面向对象",
+        "软件工程",
+        "教程"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 0,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "设计模式学了就忘，纯文字 UML 难懂，不知道什么时候该用哪个模式。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "每个模式用\"问题—解决方案—类比\"讲清楚，配真实场景图，distinguish 何时用、怎么用，还有重构目录，比多数书本直白。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "- 常用模式优先看：单例、工厂、策略、观察者、装饰器。",
+          "- 纯网站资源，github 字段留空、用 website 字段。",
+          "- 与 [[pdai-java-kb]] 的 Java 方向互补：这里讲设计模式、那里讲 Java 全栈。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Web",
+          "- 状态：active",
+          "- 类型：网站",
+          "- 链接：https://refactoringguru.cn/design-patterns"
+        ]
+      }
+    },
+    {
+      "slug": "refero-design-styles",
+      "relPath": "07-websites/refero-design-styles.md",
+      "owner": "",
+      "category": "07-websites",
+      "categoryName": "资源与网站",
+      "name": "Refero Styles",
+      "github": "",
+      "website": "https://styles.refero.design/",
+      "links": [],
+      "tagline": "2000+ 个产品网站的 AI 可读设计系统（DESIGN.md）目录",
+      "stack": [
+        "Web"
+      ],
+      "tags": [
+        "设计资源",
+        "设计系统",
+        "网站",
+        "参考",
+        "DESIGN.md"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 0,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "想让 AI 参考真实产品设计语言，但缺少机器可读的设计规范来源。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "Refero 的 Styles 页提供 2000+ 个头部产品网站的 DESIGN.md（配色、排版、间距、组件），供 Cursor/Claude Code/v0 等引用，让 Agent 在设计前拿到既定的设计参考。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "这是纯网站资源（非 GitHub 仓库），github 字段留空、用 website 字段存链接。与 awesome-design-md 同思路，但规模更大、按产品站检索。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Web",
+          "- 状态：active",
+          "- 类型：网站",
+          "- 链接：https://styles.refero.design/",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "uci-ml-repository",
+      "relPath": "07-websites/uci-ml-repository.md",
+      "owner": "",
+      "category": "07-websites",
+      "categoryName": "资源与网站",
+      "name": "UCI Machine Learning Repository",
+      "github": "",
+      "website": "https://archive.ics.uci.edu/",
+      "links": [],
+      "tagline": "经典机器学习基准数据集与论文资源库",
+      "stack": [
+        "Web"
+      ],
+      "tags": [
+        "机器学习",
+        "数据集",
+        "基准",
+        "学术",
+        "数据集"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 0,
+      "updated": "2026-08-08",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "做 ML 实验缺规范、可复现、有论文背书的基准数据集，网上数据来源混乱。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "UCI 是机器学习最老牌的数据集仓库，Iris、Adult、Wine 等经典数据集都来自这里，做实验/论文复现可靠。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "- 做分类/回归实验优先来这里找带论文引用的数据集。",
+          "- 纯网站资源，github 字段留空、用 website 字段。",
+          "- 与 [[red-blob-games]] 同属\"经典学习资源站\"一类。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Web",
+          "- 状态：active",
+          "- 类型：网站",
+          "- 链接：https://archive.ics.uci.edu/"
         ]
       }
     }

@@ -14,6 +14,12 @@ const OUT_FILE = join(OUT_DIR, 'archives.json');
 // 分类目录的显示名映射（可扩展）
 const CATEGORY_NAMES = {
   '01-foundations': '基础 / 教育',
+  '02-ai-skills': 'AI 编程技能',
+  '03-ai-agents': 'AI 智能体与应用',
+  '04-computer-vision': '计算机视觉',
+  '05-dev-tools': '开发工具与框架',
+  '06-apps': '应用与娱乐',
+  '07-websites': '资源与网站',
 };
 
 function walk(dir, out = []) {
@@ -60,16 +66,27 @@ function build() {
       if (h) { current = h[1]; sections[current] = []; continue; }
       if (current) sections[current].push(line);
     }
+    // 从 GitHub 仓库 URL 解析属主名，用于取属主头像作为项目图标
+    const ownerMatch = /github\.com\/([^/]+)/.exec(frontmatter.github || '');
     return {
       slug,
       relPath,
+      owner: ownerMatch ? ownerMatch[1] : '',
       category: frontmatter.category || '未分类',
       categoryName: CATEGORY_NAMES[frontmatter.category] || frontmatter.category || '未分类',
       name: frontmatter.name || slug,
       github: frontmatter.github || '',
+      website: frontmatter.website || '',
+      // 多链接：格式 "名称|URL; 名称|URL"，用于聚合条目（如一个归档包含多个网站）
+      links: (frontmatter.links || '').split(';').map((s) => s.trim()).filter(Boolean).map((s) => {
+        const [name, url] = s.split('|').map((x) => x.trim());
+        return url ? { name: name || url, url } : null;
+      }).filter(Boolean),
       tagline: frontmatter.tagline || '',
       stack: (frontmatter.stack || '').split(',').map((s) => s.trim()).filter(Boolean),
+      tags: (frontmatter.tags || '').split(',').map((s) => s.trim()).filter(Boolean),
       status: frontmatter.status || '',
+      featured: frontmatter.featured === 'true',
       stars: Number(frontmatter.stars) || 0,
       updated: frontmatter.updated || '',
       sections,
@@ -82,9 +99,19 @@ function build() {
     (byCategory[it.categoryName] ||= []).push(it);
   }
 
+  // 汇总全部标签（去重，按出现次数降序），用于站点端筛选
+  const tagCounts = {};
+  for (const it of items) {
+    for (const t of it.tags) tagCounts[t] = (tagCounts[t] || 0) + 1;
+  }
+  const tags = Object.entries(tagCounts)
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .map(([name, count]) => ({ name, count }));
+
   const data = {
     generatedAt: new Date().toISOString(),
     total: items.length,
+    tags,
     categories: Object.entries(byCategory).map(([name, list]) => ({ name, items: list })),
     items,
   };

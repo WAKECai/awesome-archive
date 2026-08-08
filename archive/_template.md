@@ -8,6 +8,8 @@ category: 01-foundations
 tagline: 一句话说明这个项目是干什么的
 # 技术栈：逗号分隔
 stack: Python, PyTorch
+# 标签：逗号分隔，用于站点端搜索与筛选（建议 3-8 个，取中英文关键词）
+tags: AI教育, Python, 深度学习, 算法
 # 状态：active(活跃维护) / stable(稳定) / archived(已归档) / inactive(停更)
 status: active
 # 星级、所属者更新时间等快照信息（可选，用于回溯）

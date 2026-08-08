@@ -17,8 +17,13 @@ pnpm-debug.log*
 .env
 .env.production
 
-# macOS-specific files
+# # macOS-specific files
 .DS_Store
+
+# 本地临时文件（截图、导入清单、预览日志等，勿提交）
+modal*.png
+*.log
+*2insert.txt
 
 # jetbrains setting folder
 .idea/
