@@ -27,7 +27,7 @@ function walk(dir, out = []) {
     const full = join(dir, entry);
     if (statSync(full).isDirectory()) {
       walk(full, out);
-    } else if (extname(entry) === '.md' && !entry.startsWith('_') && entry !== 'README.md') {
+    } else if (extname(entry) === '.md' && !entry.startsWith('.') && !entry.startsWith('_') && entry !== 'README.md') {
       out.push(full);
     }
   }

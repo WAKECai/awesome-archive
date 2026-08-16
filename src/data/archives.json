@@ -1,53 +1,53 @@
 {
-  "generatedAt": "2026-08-08T07:13:32.611Z",
-  "total": 55,
+  "generatedAt": "2026-08-16T14:18:52.025Z",
+  "total": 64,
   "tags": [
     {
       "name": "Agent技能",
-      "count": 13
+      "count": 14
     },
     {
       "name": "教程",
-      "count": 8
+      "count": 9
     },
     {
       "name": "中文",
-      "count": 7
+      "count": 8
     },
     {
       "name": "AI教育",
+      "count": 7
+    },
+    {
+      "name": "AIAgent",
       "count": 6
     },
     {
       "name": "开源",
+      "count": 6
+    },
+    {
+      "name": "MCP",
       "count": 5
     },
     {
       "name": "前端",
-      "count": 4
-    },
-    {
-      "name": "AIAgent",
-      "count": 4
-    },
-    {
-      "name": "MCP",
-      "count": 4
+      "count": 5
     },
     {
       "name": "RAG",
       "count": 4
     },
     {
-      "name": "计算机视觉",
+      "name": "AI技能",
       "count": 3
     },
     {
-      "name": "开发效率",
+      "name": "Markdown",
       "count": 3
     },
     {
-      "name": "浏览器",
+      "name": "Windows",
       "count": 3
     },
     {
@@ -55,7 +55,7 @@
       "count": 3
     },
     {
-      "name": "数据集",
+      "name": "大模型",
       "count": 3
     },
     {
@@ -63,27 +63,51 @@
       "count": 3
     },
     {
+      "name": "开发效率",
+      "count": 3
+    },
+    {
+      "name": "数据集",
+      "count": 3
+    },
+    {
+      "name": "本地优先",
+      "count": 3
+    },
+    {
+      "name": "浏览器",
+      "count": 3
+    },
+    {
       "name": "自动化",
       "count": 3
     },
     {
-      "name": "AI技能",
+      "name": "计算机视觉",
       "count": 3
     },
     {
-      "name": "本地",
+      "name": "Agent",
       "count": 2
     },
     {
-      "name": "本地优先",
+      "name": "AI",
       "count": 2
     },
     {
-      "name": "笔记",
+      "name": "Electron",
       "count": 2
     },
     {
-      "name": "大模型",
+      "name": "PPT",
+      "count": 2
+    },
+    {
+      "name": "Rust",
+      "count": 2
+    },
+    {
+      "name": "UML",
       "count": 2
     },
     {
@@ -95,43 +119,11 @@
       "count": 2
     },
     {
-      "name": "后端",
-      "count": 2
-    },
-    {
-      "name": "教学",
-      "count": 2
-    },
-    {
       "name": "可视化",
       "count": 2
     },
     {
-      "name": "论文",
-      "count": 2
-    },
-    {
-      "name": "面试",
-      "count": 2
-    },
-    {
-      "name": "设计",
-      "count": 2
-    },
-    {
-      "name": "社区",
-      "count": 2
-    },
-    {
-      "name": "算法",
-      "count": 2
-    },
-    {
-      "name": "文档",
-      "count": 2
-    },
-    {
-      "name": "效率",
+      "name": "后端",
       "count": 2
     },
     {
@@ -139,15 +131,27 @@
       "count": 2
     },
     {
-      "name": "知识管理",
+      "name": "性能",
       "count": 2
     },
     {
-      "name": "知识库",
+      "name": "效率",
       "count": 2
     },
     {
-      "name": "知识图谱",
+      "name": "效率工具",
+      "count": 2
+    },
+    {
+      "name": "教学",
+      "count": 2
+    },
+    {
+      "name": "文档",
+      "count": 2
+    },
+    {
+      "name": "本地",
       "count": 2
     },
     {
@@ -155,491 +159,59 @@
       "count": 2
     },
     {
+      "name": "深度学习",
+      "count": 2
+    },
+    {
+      "name": "知识图谱",
+      "count": 2
+    },
+    {
+      "name": "知识库",
+      "count": 2
+    },
+    {
+      "name": "知识管理",
+      "count": 2
+    },
+    {
+      "name": "社区",
+      "count": 2
+    },
+    {
+      "name": "笔记",
+      "count": 2
+    },
+    {
+      "name": "算法",
+      "count": 2
+    },
+    {
       "name": "自托管",
       "count": 2
     },
     {
-      "name": "Agent",
+      "name": "记忆系统",
       "count": 2
     },
     {
-      "name": "Markdown",
+      "name": "论文",
       "count": 2
     },
     {
-      "name": "PPT",
+      "name": "设计",
       "count": 2
-    },
-    {
-      "name": "UML",
-      "count": 2
-    },
-    {
-      "name": "编辑",
-      "count": 1
-    },
-    {
-      "name": "标注",
-      "count": 1
-    },
-    {
-      "name": "标注工具",
-      "count": 1
-    },
-    {
-      "name": "表格",
-      "count": 1
-    },
-    {
-      "name": "部署",
-      "count": 1
-    },
-    {
-      "name": "参考",
-      "count": 1
-    },
-    {
-      "name": "插画",
-      "count": 1
-    },
-    {
-      "name": "产图",
-      "count": 1
-    },
-    {
-      "name": "从零实现",
-      "count": 1
-    },
-    {
-      "name": "代码审查",
-      "count": 1
-    },
-    {
-      "name": "代码审计",
-      "count": 1
-    },
-    {
-      "name": "代码质量",
-      "count": 1
-    },
-    {
-      "name": "端侧",
-      "count": 1
-    },
-    {
-      "name": "多模型",
-      "count": 1
-    },
-    {
-      "name": "发布",
-      "count": 1
-    },
-    {
-      "name": "反套路",
-      "count": 1
-    },
-    {
-      "name": "反AI味",
-      "count": 1
-    },
-    {
-      "name": "方法论",
-      "count": 1
-    },
-    {
-      "name": "分割",
-      "count": 1
-    },
-    {
-      "name": "个人博客",
-      "count": 1
-    },
-    {
-      "name": "个人品牌",
-      "count": 1
-    },
-    {
-      "name": "个人网站",
-      "count": 1
-    },
-    {
-      "name": "个性化",
-      "count": 1
-    },
-    {
-      "name": "跟踪",
-      "count": 1
-    },
-    {
-      "name": "工具",
-      "count": 1
-    },
-    {
-      "name": "公式",
-      "count": 1
-    },
-    {
-      "name": "官方",
-      "count": 1
-    },
-    {
-      "name": "规范",
-      "count": 1
-    },
-    {
-      "name": "会议",
-      "count": 1
-    },
-    {
-      "name": "绘图",
-      "count": 1
-    },
-    {
-      "name": "机器人",
-      "count": 1
-    },
-    {
-      "name": "机器学习",
-      "count": 1
-    },
-    {
-      "name": "基准",
-      "count": 1
-    },
-    {
-      "name": "即时通讯",
-      "count": 1
-    },
-    {
-      "name": "几何",
-      "count": 1
-    },
-    {
-      "name": "计算机组成",
-      "count": 1
-    },
-    {
-      "name": "架构图",
-      "count": 1
-    },
-    {
-      "name": "检测",
-      "count": 1
-    },
-    {
-      "name": "讲解图",
-      "count": 1
-    },
-    {
-      "name": "教科书",
-      "count": 1
-    },
-    {
-      "name": "教育",
-      "count": 1
-    },
-    {
-      "name": "静态站点",
-      "count": 1
-    },
-    {
-      "name": "聚合",
-      "count": 1
-    },
-    {
-      "name": "跨平台",
-      "count": 1
-    },
-    {
-      "name": "框架",
-      "count": 1
-    },
-    {
-      "name": "扩展",
-      "count": 1
-    },
-    {
-      "name": "离线",
-      "count": 1
-    },
-    {
-      "name": "龙芯",
-      "count": 1
-    },
-    {
-      "name": "录屏",
-      "count": 1
-    },
-    {
-      "name": "路径搜索",
-      "count": 1
-    },
-    {
-      "name": "媒体控制",
-      "count": 1
-    },
-    {
-      "name": "美化",
-      "count": 1
-    },
-    {
-      "name": "面向对象",
-      "count": 1
-    },
-    {
-      "name": "目标检测",
-      "count": 1
-    },
-    {
-      "name": "爬虫",
-      "count": 1
-    },
-    {
-      "name": "配图",
-      "count": 1
-    },
-    {
-      "name": "品牌",
-      "count": 1
-    },
-    {
-      "name": "品味",
-      "count": 1
-    },
-    {
-      "name": "屏幕标注",
-      "count": 1
-    },
-    {
-      "name": "强化学习",
-      "count": 1
-    },
-    {
-      "name": "人机协同",
-      "count": 1
-    },
-    {
-      "name": "任务栏",
-      "count": 1
-    },
-    {
-      "name": "软件工程",
-      "count": 1
-    },
-    {
-      "name": "设计工具",
-      "count": 1
-    },
-    {
-      "name": "设计规范",
-      "count": 1
-    },
-    {
-      "name": "设计模式",
-      "count": 1
-    },
-    {
-      "name": "设计系统",
-      "count": 1
-    },
-    {
-      "name": "设计资源",
-      "count": 1
-    },
-    {
-      "name": "深度文章",
-      "count": 1
-    },
-    {
-      "name": "深度学习",
-      "count": 1
-    },
-    {
-      "name": "视频下载",
-      "count": 1
-    },
-    {
-      "name": "手绘",
-      "count": 1
-    },
-    {
-      "name": "书籍",
-      "count": 1
-    },
-    {
-      "name": "数据分析",
-      "count": 1
-    },
-    {
-      "name": "数据结构",
-      "count": 1
-    },
-    {
-      "name": "数字名片",
-      "count": 1
-    },
-    {
-      "name": "搜索",
-      "count": 1
-    },
-    {
-      "name": "体系结构",
-      "count": 1
-    },
-    {
-      "name": "图表",
-      "count": 1
-    },
-    {
-      "name": "图片生成",
-      "count": 1
-    },
-    {
-      "name": "图像生成",
-      "count": 1
-    },
-    {
-      "name": "网络协议",
-      "count": 1
-    },
-    {
-      "name": "网页转Markdown",
-      "count": 1
-    },
-    {
-      "name": "网站",
-      "count": 1
-    },
-    {
-      "name": "微调",
-      "count": 1
-    },
-    {
-      "name": "文本",
-      "count": 1
-    },
-    {
-      "name": "文档解析",
-      "count": 1
-    },
-    {
-      "name": "文档站",
-      "count": 1
-    },
-    {
-      "name": "文生图",
-      "count": 1
-    },
-    {
-      "name": "文献管理",
-      "count": 1
-    },
-    {
-      "name": "协作",
-      "count": 1
-    },
-    {
-      "name": "性能",
-      "count": 1
-    },
-    {
-      "name": "学术研究",
-      "count": 1
-    },
-    {
-      "name": "学习",
-      "count": 1
-    },
-    {
-      "name": "演示",
-      "count": 1
-    },
-    {
-      "name": "演示文稿",
-      "count": 1
-    },
-    {
-      "name": "移动端",
-      "count": 1
-    },
-    {
-      "name": "音乐播放器",
-      "count": 1
     },
     {
       "name": "隐私",
-      "count": 1
+      "count": 2
     },
     {
-      "name": "用户脚本",
-      "count": 1
+      "name": "面试",
+      "count": 2
     },
     {
-      "name": "油猴",
-      "count": 1
-    },
-    {
-      "name": "游戏算法",
-      "count": 1
-    },
-    {
-      "name": "娱乐",
-      "count": 1
-    },
-    {
-      "name": "阅读",
-      "count": 1
-    },
-    {
-      "name": "在线编辑器",
-      "count": 1
-    },
-    {
-      "name": "知识体系",
-      "count": 1
-    },
-    {
-      "name": "知识蒸馏",
-      "count": 1
-    },
-    {
-      "name": "质量",
-      "count": 1
-    },
-    {
-      "name": "重构",
-      "count": 1
-    },
-    {
-      "name": "主题",
-      "count": 1
-    },
-    {
-      "name": "桌面工具",
-      "count": 1
-    },
-    {
-      "name": "咨询汇报",
-      "count": 1
-    },
-    {
-      "name": "资讯",
-      "count": 1
-    },
-    {
-      "name": "字幕",
-      "count": 1
-    },
-    {
-      "name": "自监督学习",
-      "count": 1
-    },
-    {
-      "name": "自然语言",
-      "count": 1
-    },
-    {
-      "name": "总结",
+      "name": "Agent协议",
       "count": 1
     },
     {
@@ -647,11 +219,15 @@
       "count": 1
     },
     {
-      "name": "AI",
+      "name": "Agent框架",
       "count": 1
     },
     {
-      "name": "AI辅助",
+      "name": "AI应用",
+      "count": 1
+    },
+    {
+      "name": "AI视频",
       "count": 1
     },
     {
@@ -659,7 +235,7 @@
       "count": 1
     },
     {
-      "name": "AI应用",
+      "name": "AI辅助",
       "count": 1
     },
     {
@@ -695,11 +271,11 @@
       "count": 1
     },
     {
-      "name": "Electron",
+      "name": "Fluent设计",
       "count": 1
     },
     {
-      "name": "Fluent设计",
+      "name": "GEP",
       "count": 1
     },
     {
@@ -759,6 +335,10 @@
       "count": 1
     },
     {
+      "name": "Tauri",
+      "count": 1
+    },
+    {
       "name": "Transformer",
       "count": 1
     },
@@ -771,11 +351,519 @@
       "count": 1
     },
     {
-      "name": "Windows",
+      "name": "YAGNI",
       "count": 1
     },
     {
-      "name": "YAGNI",
+      "name": "个人博客",
+      "count": 1
+    },
+    {
+      "name": "个人品牌",
+      "count": 1
+    },
+    {
+      "name": "个人网站",
+      "count": 1
+    },
+    {
+      "name": "个性化",
+      "count": 1
+    },
+    {
+      "name": "主题",
+      "count": 1
+    },
+    {
+      "name": "书籍",
+      "count": 1
+    },
+    {
+      "name": "交互动画",
+      "count": 1
+    },
+    {
+      "name": "产图",
+      "count": 1
+    },
+    {
+      "name": "人机协同",
+      "count": 1
+    },
+    {
+      "name": "从零实现",
+      "count": 1
+    },
+    {
+      "name": "代码审查",
+      "count": 1
+    },
+    {
+      "name": "代码审计",
+      "count": 1
+    },
+    {
+      "name": "代码质量",
+      "count": 1
+    },
+    {
+      "name": "任务栏",
+      "count": 1
+    },
+    {
+      "name": "会议",
+      "count": 1
+    },
+    {
+      "name": "体系结构",
+      "count": 1
+    },
+    {
+      "name": "公式",
+      "count": 1
+    },
+    {
+      "name": "几何",
+      "count": 1
+    },
+    {
+      "name": "分割",
+      "count": 1
+    },
+    {
+      "name": "协作",
+      "count": 1
+    },
+    {
+      "name": "即时通讯",
+      "count": 1
+    },
+    {
+      "name": "参考",
+      "count": 1
+    },
+    {
+      "name": "双向链接",
+      "count": 1
+    },
+    {
+      "name": "双语字幕",
+      "count": 1
+    },
+    {
+      "name": "反AI味",
+      "count": 1
+    },
+    {
+      "name": "反套路",
+      "count": 1
+    },
+    {
+      "name": "发布",
+      "count": 1
+    },
+    {
+      "name": "咨询汇报",
+      "count": 1
+    },
+    {
+      "name": "品味",
+      "count": 1
+    },
+    {
+      "name": "品牌",
+      "count": 1
+    },
+    {
+      "name": "图像生成",
+      "count": 1
+    },
+    {
+      "name": "图片生成",
+      "count": 1
+    },
+    {
+      "name": "图表",
+      "count": 1
+    },
+    {
+      "name": "在线编辑器",
+      "count": 1
+    },
+    {
+      "name": "基准",
+      "count": 1
+    },
+    {
+      "name": "多模型",
+      "count": 1
+    },
+    {
+      "name": "娱乐",
+      "count": 1
+    },
+    {
+      "name": "媒体控制",
+      "count": 1
+    },
+    {
+      "name": "字幕",
+      "count": 1
+    },
+    {
+      "name": "学习",
+      "count": 1
+    },
+    {
+      "name": "学术研究",
+      "count": 1
+    },
+    {
+      "name": "官方",
+      "count": 1
+    },
+    {
+      "name": "屏幕标注",
+      "count": 1
+    },
+    {
+      "name": "工具",
+      "count": 1
+    },
+    {
+      "name": "强化学习",
+      "count": 1
+    },
+    {
+      "name": "录屏",
+      "count": 1
+    },
+    {
+      "name": "微调",
+      "count": 1
+    },
+    {
+      "name": "总结",
+      "count": 1
+    },
+    {
+      "name": "手绘",
+      "count": 1
+    },
+    {
+      "name": "扩展",
+      "count": 1
+    },
+    {
+      "name": "技能库",
+      "count": 1
+    },
+    {
+      "name": "插画",
+      "count": 1
+    },
+    {
+      "name": "搜索",
+      "count": 1
+    },
+    {
+      "name": "播放器",
+      "count": 1
+    },
+    {
+      "name": "教科书",
+      "count": 1
+    },
+    {
+      "name": "教育",
+      "count": 1
+    },
+    {
+      "name": "数字名片",
+      "count": 1
+    },
+    {
+      "name": "数据分析",
+      "count": 1
+    },
+    {
+      "name": "数据结构",
+      "count": 1
+    },
+    {
+      "name": "文件收纳",
+      "count": 1
+    },
+    {
+      "name": "文本",
+      "count": 1
+    },
+    {
+      "name": "文档站",
+      "count": 1
+    },
+    {
+      "name": "文档解析",
+      "count": 1
+    },
+    {
+      "name": "文献管理",
+      "count": 1
+    },
+    {
+      "name": "文生图",
+      "count": 1
+    },
+    {
+      "name": "方法论",
+      "count": 1
+    },
+    {
+      "name": "机器人",
+      "count": 1
+    },
+    {
+      "name": "机器学习",
+      "count": 1
+    },
+    {
+      "name": "架构图",
+      "count": 1
+    },
+    {
+      "name": "标注",
+      "count": 1
+    },
+    {
+      "name": "标注工具",
+      "count": 1
+    },
+    {
+      "name": "框架",
+      "count": 1
+    },
+    {
+      "name": "桌面工具",
+      "count": 1
+    },
+    {
+      "name": "桌面美化",
+      "count": 1
+    },
+    {
+      "name": "检测",
+      "count": 1
+    },
+    {
+      "name": "油猴",
+      "count": 1
+    },
+    {
+      "name": "深度文章",
+      "count": 1
+    },
+    {
+      "name": "游戏算法",
+      "count": 1
+    },
+    {
+      "name": "滚动动画",
+      "count": 1
+    },
+    {
+      "name": "演示",
+      "count": 1
+    },
+    {
+      "name": "演示文稿",
+      "count": 1
+    },
+    {
+      "name": "爬虫",
+      "count": 1
+    },
+    {
+      "name": "用户脚本",
+      "count": 1
+    },
+    {
+      "name": "目标检测",
+      "count": 1
+    },
+    {
+      "name": "知识体系",
+      "count": 1
+    },
+    {
+      "name": "知识蒸馏",
+      "count": 1
+    },
+    {
+      "name": "磁盘清理",
+      "count": 1
+    },
+    {
+      "name": "视频下载",
+      "count": 1
+    },
+    {
+      "name": "离线",
+      "count": 1
+    },
+    {
+      "name": "移动端",
+      "count": 1
+    },
+    {
+      "name": "端侧",
+      "count": 1
+    },
+    {
+      "name": "系统优化",
+      "count": 1
+    },
+    {
+      "name": "绘图",
+      "count": 1
+    },
+    {
+      "name": "编辑",
+      "count": 1
+    },
+    {
+      "name": "编辑器",
+      "count": 1
+    },
+    {
+      "name": "网站",
+      "count": 1
+    },
+    {
+      "name": "网络协议",
+      "count": 1
+    },
+    {
+      "name": "网页转Markdown",
+      "count": 1
+    },
+    {
+      "name": "美化",
+      "count": 1
+    },
+    {
+      "name": "聚合",
+      "count": 1
+    },
+    {
+      "name": "自我进化",
+      "count": 1
+    },
+    {
+      "name": "自然语言",
+      "count": 1
+    },
+    {
+      "name": "自监督学习",
+      "count": 1
+    },
+    {
+      "name": "英语学习",
+      "count": 1
+    },
+    {
+      "name": "表格",
+      "count": 1
+    },
+    {
+      "name": "规范",
+      "count": 1
+    },
+    {
+      "name": "计算机组成",
+      "count": 1
+    },
+    {
+      "name": "讲解图",
+      "count": 1
+    },
+    {
+      "name": "设计工具",
+      "count": 1
+    },
+    {
+      "name": "设计模式",
+      "count": 1
+    },
+    {
+      "name": "设计系统",
+      "count": 1
+    },
+    {
+      "name": "设计规范",
+      "count": 1
+    },
+    {
+      "name": "设计资源",
+      "count": 1
+    },
+    {
+      "name": "质量",
+      "count": 1
+    },
+    {
+      "name": "资讯",
+      "count": 1
+    },
+    {
+      "name": "跟踪",
+      "count": 1
+    },
+    {
+      "name": "跨平台",
+      "count": 1
+    },
+    {
+      "name": "路径搜索",
+      "count": 1
+    },
+    {
+      "name": "软件工程",
+      "count": 1
+    },
+    {
+      "name": "部署",
+      "count": 1
+    },
+    {
+      "name": "配图",
+      "count": 1
+    },
+    {
+      "name": "重复文件",
+      "count": 1
+    },
+    {
+      "name": "重构",
+      "count": 1
+    },
+    {
+      "name": "阅读",
+      "count": 1
+    },
+    {
+      "name": "静态站点",
+      "count": 1
+    },
+    {
+      "name": "面向对象",
+      "count": 1
+    },
+    {
+      "name": "音乐播放器",
+      "count": 1
+    },
+    {
+      "name": "龙芯",
       "count": 1
     }
   ],
@@ -1088,6 +1176,58 @@
               "- 技术栈：Python, Anthropic API",
               "- 状态：active",
               "- 链接：https://github.com/shareAI-lab/learn-claude-code",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "nndl",
+          "relPath": "01-foundations/nndl.md",
+          "owner": "nndl",
+          "category": "01-foundations",
+          "categoryName": "基础 / 教育",
+          "name": "蒲公英书系列",
+          "github": "https://github.com/nndl/nndl",
+          "website": "https://nndl.ai/",
+          "links": [],
+          "tagline": "邱锡鹏《神经网络与深度学习》系列书官网",
+          "stack": [
+            "深度学习",
+            "教学资源"
+          ],
+          "tags": [
+            "深度学习",
+            "教程",
+            "中文",
+            "AI教育",
+            "大模型"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 19100,
+          "updated": "2026-08-16",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "系统学习神经网络与深度学习缺少权威、体系化的中文资料入口。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "四本书覆盖完整学习路径：理论主线（第二版）、案例与实践（PyTorch notebook）、通识版（弱化数学）、大模型与智能体。全部 PDF 开放下载，配套可视化动图与交互演示，GitHub 持续更新（理论书 19.1k stars）。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "作者邱锡鹏（复旦大学）。对应仓库：nndl/nndl（理论）、nndl/nndl-practice（实践）、nndl/llm-beginner（大模型）。适合与 [[ai-guide]]、[[happy-llm]] 等学习资源互补。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：深度学习, 教学资源",
+              "- 状态：active",
+              "- 链接：https://nndl.ai/",
+              "- 仓库：https://github.com/nndl/nndl",
               ""
             ]
           }
@@ -1917,6 +2057,56 @@
           }
         },
         {
+          "slug": "oil-motion",
+          "relPath": "02-ai-skills/oil-motion.md",
+          "owner": "oil-oil",
+          "category": "02-ai-skills",
+          "categoryName": "AI 编程技能",
+          "name": "Oil Motion",
+          "github": "https://github.com/oil-oil/oil-motion",
+          "website": "",
+          "links": [],
+          "tagline": "Agent 通用的交互动画 Skill",
+          "stack": [
+            "Python"
+          ],
+          "tags": [
+            "Agent技能",
+            "交互动画",
+            "滚动动画",
+            "AI视频",
+            "前端"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 1816,
+          "updated": "2026-08-16",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "AI 生成的视频只能从头播到尾，无法跟随页面滚动、鼠标、拖动、触摸等交互；纯前端位移/缩放又不够自然。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "一个 Agent 通用的交互动画 Skill：先确认关键画面 → AI 生成连续动作 → 逐帧检查、压缩 → 把滚动/鼠标/触摸对应到动画进度。输出 Alpha WebP 图集或绿幕 MP4，兼顾连贯性与移动端性能。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "MIT。用法：告诉 Agent「帮我安装 https://github.com/oil-oil/oil-motion 这个 Skill」。可与 [[baoyu-skills]]、[[hallmark]] 等内容创作技能组合。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Python",
+              "- 状态：active",
+              "- 链接：https://github.com/oil-oil/oil-motion",
+              ""
+            ]
+          }
+        },
+        {
           "slug": "ponytail",
           "relPath": "02-ai-skills/ponytail.md",
           "owner": "DietrichGebert",
@@ -2233,6 +2423,58 @@
           }
         },
         {
+          "slug": "evox",
+          "relPath": "03-ai-agents/evox.md",
+          "owner": "EvoMap",
+          "category": "03-ai-agents",
+          "categoryName": "AI 智能体与应用",
+          "name": "EvoX",
+          "github": "https://github.com/EvoMap/evolver",
+          "website": "https://evomap.ai/zh/evox/beta",
+          "links": [],
+          "tagline": "可自我进化的蜂群智能体桌面应用",
+          "stack": [
+            "JavaScript",
+            "Node.js"
+          ],
+          "tags": [
+            "AIAgent",
+            "自我进化",
+            "GEP",
+            "Agent协议",
+            "记忆系统"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 8978,
+          "updated": "2026-08-16",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "AI Agent 的能力难以跨模型、跨团队沉淀复用——每次协作都从零开始，踩过的坑无法传给下一个人。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "底层是 EvoMap 的 AI 自进化基础设施：GEP（Genome Evolution Protocol）让 Agent 以「Gene（可复用策略）+ Capsule（带审计的修复）」形式共享、验证、继承能力，内置 Evolver 引擎把每次成功协作沉淀为可复用资产。EvoX 桌面端连接终端、浏览器、飞书和 IDE，支持长期记忆与多形态部署。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "evolver 是底层引擎（GPL-3.0），EvoX 是桌面应用。自进化思路可与 [[opensquilla]] 的 skills 机制、[[baoyu-skills]] 的技能集对照理解。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：JavaScript, Node.js",
+              "- 状态：active",
+              "- 链接：https://github.com/EvoMap/evolver",
+              "- 官网：https://evomap.ai/zh/evox/beta",
+              ""
+            ]
+          }
+        },
+        {
           "slug": "firecrawl",
           "relPath": "03-ai-agents/firecrawl.md",
           "owner": "firecrawl",
@@ -2437,6 +2679,57 @@
               "- 技术栈：Swift, Kotlin, Alpine Linux",
               "- 状态：active",
               "- 链接：https://github.com/OpenMinis/OpenMinis",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "opensquilla",
+          "relPath": "03-ai-agents/opensquilla.md",
+          "owner": "opensquilla",
+          "category": "03-ai-agents",
+          "categoryName": "AI 智能体与应用",
+          "name": "OpenSquilla",
+          "github": "https://github.com/opensquilla/opensquilla",
+          "website": "https://opensquilla.ai",
+          "links": [],
+          "tagline": "Token 高效的 AI Agent 运行时",
+          "stack": [
+            "Python"
+          ],
+          "tags": [
+            "AIAgent",
+            "MCP",
+            "记忆系统",
+            "技能库",
+            "Agent框架"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 6563,
+          "updated": "2026-08-16",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "在相同 token 预算下提升 Agent 的智能密度——用更少的 token 完成更聪明的任务。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "开源（Apache-2.0），支持 skills 技能库、MCP 工具、记忆系统与多会话协作，定位「same budget, higher intelligence density」。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "运行时与技能生态活跃。可与 [[evox]] 的自进化能力、[[firecrawl]] 等 Agent 工具组合使用。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Python",
+              "- 状态：active",
+              "- 链接：https://github.com/opensquilla/opensquilla",
+              "- 官网：https://opensquilla.ai",
               ""
             ]
           }
@@ -3026,6 +3319,59 @@
           }
         },
         {
+          "slug": "dashplayer",
+          "relPath": "06-apps/dashplayer.md",
+          "owner": "solidSpoon",
+          "category": "06-apps",
+          "categoryName": "应用与娱乐",
+          "name": "DashPlayer",
+          "github": "https://github.com/solidSpoon/DashPlayer",
+          "website": "https://dash-player.solidspoon.xyz",
+          "links": [],
+          "tagline": "为英语学习者打造的本地视频学习播放器",
+          "stack": [
+            "TypeScript",
+            "Electron",
+            "React"
+          ],
+          "tags": [
+            "英语学习",
+            "播放器",
+            "双语字幕",
+            "AI",
+            "Electron"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 4276,
+          "updated": "2026-08-16",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "看视频学英语时，字幕切换、逐句跳转、生词查询、语法分析都不方便。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "专为英语学习者设计：双语字幕切换、按句跳转、悬停查词发音、AI 整句分析（语法/生词/例句）；自带下载视频、AI 生成字幕、分割长视频，把任意本地视频变成学习素材。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "AGPL-3.0，基于 electron-react-boilerplate。核心依赖 srt 英文字幕，可用内置 AI 字幕补齐。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：TypeScript, Electron, React",
+              "- 状态：active",
+              "- 链接：https://github.com/solidSpoon/DashPlayer",
+              "- 官网：https://dash-player.solidspoon.xyz",
+              ""
+            ]
+          }
+        },
+        {
           "slug": "flaremo",
           "relPath": "06-apps/flaremo.md",
           "owner": "realchendahuang",
@@ -3132,6 +3478,58 @@
           }
         },
         {
+          "slug": "mangodisk",
+          "relPath": "06-apps/mangodisk.md",
+          "owner": "harry0703",
+          "category": "06-apps",
+          "categoryName": "应用与娱乐",
+          "name": "MangoDisk",
+          "github": "https://github.com/harry0703/MangoDisk",
+          "website": "https://mangodisk.app/",
+          "links": [],
+          "tagline": "安全优先的 macOS/Windows 磁盘清理与空间分析工具",
+          "stack": [
+            "Rust",
+            "Tauri"
+          ],
+          "tags": [
+            "磁盘清理",
+            "重复文件",
+            "Rust",
+            "Tauri",
+            "效率工具"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 410,
+          "updated": "2026-08-16",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "磁盘空间被大文件、重复文件、缓存和应用残留占据，手动清理低效且有误删风险。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "Safety-first：扫描与分析都在本地完成，清理前展示文件名/位置/大小与风险提示，确认后才删除。集成大文件清理、重复文件查找、应用卸载、磁盘空间分析；Rust + Tauri 跨平台实现。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "GPL-3.0。同类可对照 [[optimizerduck]]（Windows 系统优化）。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Rust, Tauri",
+              "- 状态：active",
+              "- 链接：https://github.com/harry0703/MangoDisk",
+              "- 官网：https://mangodisk.app/",
+              ""
+            ]
+          }
+        },
+        {
           "slug": "markeron",
           "relPath": "06-apps/markeron.md",
           "owner": "ifer47",
@@ -3232,6 +3630,161 @@
               "- 技术栈：JavaScript, Electron",
               "- 状态：active",
               "- 链接：https://github.com/XxHuberrr/Mineradio",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "moeka",
+          "relPath": "06-apps/moeka.md",
+          "owner": "MoekaProject",
+          "category": "06-apps",
+          "categoryName": "应用与娱乐",
+          "name": "小语文稿（Moeka）",
+          "github": "https://github.com/MoekaProject/community",
+          "website": "https://moeka.app/",
+          "links": [],
+          "tagline": "本地优先的 Rust + GPUI Markdown 编辑器",
+          "stack": [
+            "Rust",
+            "GPUI"
+          ],
+          "tags": [
+            "Markdown",
+            "编辑器",
+            "本地优先",
+            "Rust",
+            "双向链接"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 26,
+          "updated": "2026-08-16",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "现有 Markdown 编辑器或堆叠功能、或基于 Web 技术导致性能与资源占用不理想。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "自研编辑器内核（Rust + GPUI，GPU 渲染，非 Web 技术），流畅低占用；支持双向链接、表格、上下标、脚注、公式与图表，集成 Agent 终端（@文件/选区与 CLI 聊天）、实时 Git/Diff、多工作区。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "纯离线本地运行，仅更新时联网；目前只发布 macOS 版（Win/Linux 计划中）。源码未完全开源，GitHub 上是 release 包 + issue 仓库。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：Rust, GPUI",
+              "- 状态：active",
+              "- 链接：https://moeka.app/",
+              "- 仓库：https://github.com/MoekaProject/community",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "optimizerduck",
+          "relPath": "06-apps/optimizerduck.md",
+          "owner": "itsfatduck",
+          "category": "06-apps",
+          "categoryName": "应用与娱乐",
+          "name": "optimizerDuck",
+          "github": "https://github.com/itsfatduck/optimizerDuck",
+          "website": "https://optimizerduck.vercel.app/",
+          "links": [],
+          "tagline": "免费开源的 Windows 系统优化工具",
+          "stack": [
+            "C#",
+            ".NET",
+            "WinUI"
+          ],
+          "tags": [
+            "Windows",
+            "系统优化",
+            "隐私",
+            "性能",
+            "开源"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 8387,
+          "updated": "2026-08-16",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "Windows 系统臃肿、后台冗余、隐私设置分散，手动优化门槛高。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "面向性能、隐私与简洁的 Windows 优化工具，覆盖 debloat、tweaks、gaming 优化等，8k+ stars，社区活跃。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "仓库 license 为自定义（Other），商用前需确认；提供中文 README（README.zh-CN.md）。与 [[mangodisk]]（磁盘清理）可互补。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：C#, .NET, WinUI",
+              "- 状态：active",
+              "- 链接：https://github.com/itsfatduck/optimizerDuck",
+              "- 官网：https://optimizerduck.vercel.app/",
+              ""
+            ]
+          }
+        },
+        {
+          "slug": "witchdrawer",
+          "relPath": "06-apps/witchdrawer.md",
+          "owner": "witchscottishfoldcat",
+          "category": "06-apps",
+          "categoryName": "应用与娱乐",
+          "name": "WitchDrawer",
+          "github": "https://github.com/witchscottishfoldcat/WitchDrawer",
+          "website": "",
+          "links": [],
+          "tagline": "基于 WPF 的 Windows 桌面文件收纳工具",
+          "stack": [
+            "C#",
+            "WPF"
+          ],
+          "tags": [
+            "Windows",
+            "桌面美化",
+            "效率工具",
+            "文件收纳"
+          ],
+          "status": "active",
+          "featured": false,
+          "stars": 148,
+          "updated": "2026-08-16",
+          "sections": {
+            "它解决什么问题": [
+              "",
+              "桌面文件杂乱、临时工作资料无处安放，找文件费时费力。",
+              ""
+            ],
+            "为什么收藏它": [
+              "",
+              "把常用文件拖入桌面小收纳盒，快速打开；专为桌面美化和日常文件收纳设计，原生 WPF 轻量实现。",
+              ""
+            ],
+            "我的笔记": [
+              "",
+              "仓库未声明 license（商用前需确认）。适合桌面美化 + 临时文件收纳场景。",
+              ""
+            ],
+            "技术栈与状态": [
+              "",
+              "- 技术栈：C#, WPF",
+              "- 状态：active",
+              "- 链接：https://github.com/witchscottishfoldcat/WitchDrawer",
               ""
             ]
           }
@@ -3983,6 +4536,58 @@
           "- 技术栈：Python, Anthropic API",
           "- 状态：active",
           "- 链接：https://github.com/shareAI-lab/learn-claude-code",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "nndl",
+      "relPath": "01-foundations/nndl.md",
+      "owner": "nndl",
+      "category": "01-foundations",
+      "categoryName": "基础 / 教育",
+      "name": "蒲公英书系列",
+      "github": "https://github.com/nndl/nndl",
+      "website": "https://nndl.ai/",
+      "links": [],
+      "tagline": "邱锡鹏《神经网络与深度学习》系列书官网",
+      "stack": [
+        "深度学习",
+        "教学资源"
+      ],
+      "tags": [
+        "深度学习",
+        "教程",
+        "中文",
+        "AI教育",
+        "大模型"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 19100,
+      "updated": "2026-08-16",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "系统学习神经网络与深度学习缺少权威、体系化的中文资料入口。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "四本书覆盖完整学习路径：理论主线（第二版）、案例与实践（PyTorch notebook）、通识版（弱化数学）、大模型与智能体。全部 PDF 开放下载，配套可视化动图与交互演示，GitHub 持续更新（理论书 19.1k stars）。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "作者邱锡鹏（复旦大学）。对应仓库：nndl/nndl（理论）、nndl/nndl-practice（实践）、nndl/llm-beginner（大模型）。适合与 [[ai-guide]]、[[happy-llm]] 等学习资源互补。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：深度学习, 教学资源",
+          "- 状态：active",
+          "- 链接：https://nndl.ai/",
+          "- 仓库：https://github.com/nndl/nndl",
           ""
         ]
       }
@@ -4807,6 +5412,56 @@
       }
     },
     {
+      "slug": "oil-motion",
+      "relPath": "02-ai-skills/oil-motion.md",
+      "owner": "oil-oil",
+      "category": "02-ai-skills",
+      "categoryName": "AI 编程技能",
+      "name": "Oil Motion",
+      "github": "https://github.com/oil-oil/oil-motion",
+      "website": "",
+      "links": [],
+      "tagline": "Agent 通用的交互动画 Skill",
+      "stack": [
+        "Python"
+      ],
+      "tags": [
+        "Agent技能",
+        "交互动画",
+        "滚动动画",
+        "AI视频",
+        "前端"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 1816,
+      "updated": "2026-08-16",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "AI 生成的视频只能从头播到尾，无法跟随页面滚动、鼠标、拖动、触摸等交互；纯前端位移/缩放又不够自然。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "一个 Agent 通用的交互动画 Skill：先确认关键画面 → AI 生成连续动作 → 逐帧检查、压缩 → 把滚动/鼠标/触摸对应到动画进度。输出 Alpha WebP 图集或绿幕 MP4，兼顾连贯性与移动端性能。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "MIT。用法：告诉 Agent「帮我安装 https://github.com/oil-oil/oil-motion 这个 Skill」。可与 [[baoyu-skills]]、[[hallmark]] 等内容创作技能组合。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Python",
+          "- 状态：active",
+          "- 链接：https://github.com/oil-oil/oil-motion",
+          ""
+        ]
+      }
+    },
+    {
       "slug": "ponytail",
       "relPath": "02-ai-skills/ponytail.md",
       "owner": "DietrichGebert",
@@ -5118,6 +5773,58 @@
       }
     },
     {
+      "slug": "evox",
+      "relPath": "03-ai-agents/evox.md",
+      "owner": "EvoMap",
+      "category": "03-ai-agents",
+      "categoryName": "AI 智能体与应用",
+      "name": "EvoX",
+      "github": "https://github.com/EvoMap/evolver",
+      "website": "https://evomap.ai/zh/evox/beta",
+      "links": [],
+      "tagline": "可自我进化的蜂群智能体桌面应用",
+      "stack": [
+        "JavaScript",
+        "Node.js"
+      ],
+      "tags": [
+        "AIAgent",
+        "自我进化",
+        "GEP",
+        "Agent协议",
+        "记忆系统"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 8978,
+      "updated": "2026-08-16",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "AI Agent 的能力难以跨模型、跨团队沉淀复用——每次协作都从零开始，踩过的坑无法传给下一个人。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "底层是 EvoMap 的 AI 自进化基础设施：GEP（Genome Evolution Protocol）让 Agent 以「Gene（可复用策略）+ Capsule（带审计的修复）」形式共享、验证、继承能力，内置 Evolver 引擎把每次成功协作沉淀为可复用资产。EvoX 桌面端连接终端、浏览器、飞书和 IDE，支持长期记忆与多形态部署。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "evolver 是底层引擎（GPL-3.0），EvoX 是桌面应用。自进化思路可与 [[opensquilla]] 的 skills 机制、[[baoyu-skills]] 的技能集对照理解。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：JavaScript, Node.js",
+          "- 状态：active",
+          "- 链接：https://github.com/EvoMap/evolver",
+          "- 官网：https://evomap.ai/zh/evox/beta",
+          ""
+        ]
+      }
+    },
+    {
       "slug": "firecrawl",
       "relPath": "03-ai-agents/firecrawl.md",
       "owner": "firecrawl",
@@ -5322,6 +6029,57 @@
           "- 技术栈：Swift, Kotlin, Alpine Linux",
           "- 状态：active",
           "- 链接：https://github.com/OpenMinis/OpenMinis",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "opensquilla",
+      "relPath": "03-ai-agents/opensquilla.md",
+      "owner": "opensquilla",
+      "category": "03-ai-agents",
+      "categoryName": "AI 智能体与应用",
+      "name": "OpenSquilla",
+      "github": "https://github.com/opensquilla/opensquilla",
+      "website": "https://opensquilla.ai",
+      "links": [],
+      "tagline": "Token 高效的 AI Agent 运行时",
+      "stack": [
+        "Python"
+      ],
+      "tags": [
+        "AIAgent",
+        "MCP",
+        "记忆系统",
+        "技能库",
+        "Agent框架"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 6563,
+      "updated": "2026-08-16",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "在相同 token 预算下提升 Agent 的智能密度——用更少的 token 完成更聪明的任务。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "开源（Apache-2.0），支持 skills 技能库、MCP 工具、记忆系统与多会话协作，定位「same budget, higher intelligence density」。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "运行时与技能生态活跃。可与 [[evox]] 的自进化能力、[[firecrawl]] 等 Agent 工具组合使用。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Python",
+          "- 状态：active",
+          "- 链接：https://github.com/opensquilla/opensquilla",
+          "- 官网：https://opensquilla.ai",
           ""
         ]
       }
@@ -5896,6 +6654,59 @@
       }
     },
     {
+      "slug": "dashplayer",
+      "relPath": "06-apps/dashplayer.md",
+      "owner": "solidSpoon",
+      "category": "06-apps",
+      "categoryName": "应用与娱乐",
+      "name": "DashPlayer",
+      "github": "https://github.com/solidSpoon/DashPlayer",
+      "website": "https://dash-player.solidspoon.xyz",
+      "links": [],
+      "tagline": "为英语学习者打造的本地视频学习播放器",
+      "stack": [
+        "TypeScript",
+        "Electron",
+        "React"
+      ],
+      "tags": [
+        "英语学习",
+        "播放器",
+        "双语字幕",
+        "AI",
+        "Electron"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 4276,
+      "updated": "2026-08-16",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "看视频学英语时，字幕切换、逐句跳转、生词查询、语法分析都不方便。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "专为英语学习者设计：双语字幕切换、按句跳转、悬停查词发音、AI 整句分析（语法/生词/例句）；自带下载视频、AI 生成字幕、分割长视频，把任意本地视频变成学习素材。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "AGPL-3.0，基于 electron-react-boilerplate。核心依赖 srt 英文字幕，可用内置 AI 字幕补齐。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：TypeScript, Electron, React",
+          "- 状态：active",
+          "- 链接：https://github.com/solidSpoon/DashPlayer",
+          "- 官网：https://dash-player.solidspoon.xyz",
+          ""
+        ]
+      }
+    },
+    {
       "slug": "flaremo",
       "relPath": "06-apps/flaremo.md",
       "owner": "realchendahuang",
@@ -6002,6 +6813,58 @@
       }
     },
     {
+      "slug": "mangodisk",
+      "relPath": "06-apps/mangodisk.md",
+      "owner": "harry0703",
+      "category": "06-apps",
+      "categoryName": "应用与娱乐",
+      "name": "MangoDisk",
+      "github": "https://github.com/harry0703/MangoDisk",
+      "website": "https://mangodisk.app/",
+      "links": [],
+      "tagline": "安全优先的 macOS/Windows 磁盘清理与空间分析工具",
+      "stack": [
+        "Rust",
+        "Tauri"
+      ],
+      "tags": [
+        "磁盘清理",
+        "重复文件",
+        "Rust",
+        "Tauri",
+        "效率工具"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 410,
+      "updated": "2026-08-16",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "磁盘空间被大文件、重复文件、缓存和应用残留占据，手动清理低效且有误删风险。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "Safety-first：扫描与分析都在本地完成，清理前展示文件名/位置/大小与风险提示，确认后才删除。集成大文件清理、重复文件查找、应用卸载、磁盘空间分析；Rust + Tauri 跨平台实现。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "GPL-3.0。同类可对照 [[optimizerduck]]（Windows 系统优化）。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Rust, Tauri",
+          "- 状态：active",
+          "- 链接：https://github.com/harry0703/MangoDisk",
+          "- 官网：https://mangodisk.app/",
+          ""
+        ]
+      }
+    },
+    {
       "slug": "markeron",
       "relPath": "06-apps/markeron.md",
       "owner": "ifer47",
@@ -6102,6 +6965,161 @@
           "- 技术栈：JavaScript, Electron",
           "- 状态：active",
           "- 链接：https://github.com/XxHuberrr/Mineradio",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "moeka",
+      "relPath": "06-apps/moeka.md",
+      "owner": "MoekaProject",
+      "category": "06-apps",
+      "categoryName": "应用与娱乐",
+      "name": "小语文稿（Moeka）",
+      "github": "https://github.com/MoekaProject/community",
+      "website": "https://moeka.app/",
+      "links": [],
+      "tagline": "本地优先的 Rust + GPUI Markdown 编辑器",
+      "stack": [
+        "Rust",
+        "GPUI"
+      ],
+      "tags": [
+        "Markdown",
+        "编辑器",
+        "本地优先",
+        "Rust",
+        "双向链接"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 26,
+      "updated": "2026-08-16",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "现有 Markdown 编辑器或堆叠功能、或基于 Web 技术导致性能与资源占用不理想。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "自研编辑器内核（Rust + GPUI，GPU 渲染，非 Web 技术），流畅低占用；支持双向链接、表格、上下标、脚注、公式与图表，集成 Agent 终端（@文件/选区与 CLI 聊天）、实时 Git/Diff、多工作区。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "纯离线本地运行，仅更新时联网；目前只发布 macOS 版（Win/Linux 计划中）。源码未完全开源，GitHub 上是 release 包 + issue 仓库。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：Rust, GPUI",
+          "- 状态：active",
+          "- 链接：https://moeka.app/",
+          "- 仓库：https://github.com/MoekaProject/community",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "optimizerduck",
+      "relPath": "06-apps/optimizerduck.md",
+      "owner": "itsfatduck",
+      "category": "06-apps",
+      "categoryName": "应用与娱乐",
+      "name": "optimizerDuck",
+      "github": "https://github.com/itsfatduck/optimizerDuck",
+      "website": "https://optimizerduck.vercel.app/",
+      "links": [],
+      "tagline": "免费开源的 Windows 系统优化工具",
+      "stack": [
+        "C#",
+        ".NET",
+        "WinUI"
+      ],
+      "tags": [
+        "Windows",
+        "系统优化",
+        "隐私",
+        "性能",
+        "开源"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 8387,
+      "updated": "2026-08-16",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "Windows 系统臃肿、后台冗余、隐私设置分散，手动优化门槛高。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "面向性能、隐私与简洁的 Windows 优化工具，覆盖 debloat、tweaks、gaming 优化等，8k+ stars，社区活跃。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "仓库 license 为自定义（Other），商用前需确认；提供中文 README（README.zh-CN.md）。与 [[mangodisk]]（磁盘清理）可互补。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：C#, .NET, WinUI",
+          "- 状态：active",
+          "- 链接：https://github.com/itsfatduck/optimizerDuck",
+          "- 官网：https://optimizerduck.vercel.app/",
+          ""
+        ]
+      }
+    },
+    {
+      "slug": "witchdrawer",
+      "relPath": "06-apps/witchdrawer.md",
+      "owner": "witchscottishfoldcat",
+      "category": "06-apps",
+      "categoryName": "应用与娱乐",
+      "name": "WitchDrawer",
+      "github": "https://github.com/witchscottishfoldcat/WitchDrawer",
+      "website": "",
+      "links": [],
+      "tagline": "基于 WPF 的 Windows 桌面文件收纳工具",
+      "stack": [
+        "C#",
+        "WPF"
+      ],
+      "tags": [
+        "Windows",
+        "桌面美化",
+        "效率工具",
+        "文件收纳"
+      ],
+      "status": "active",
+      "featured": false,
+      "stars": 148,
+      "updated": "2026-08-16",
+      "sections": {
+        "它解决什么问题": [
+          "",
+          "桌面文件杂乱、临时工作资料无处安放，找文件费时费力。",
+          ""
+        ],
+        "为什么收藏它": [
+          "",
+          "把常用文件拖入桌面小收纳盒，快速打开；专为桌面美化和日常文件收纳设计，原生 WPF 轻量实现。",
+          ""
+        ],
+        "我的笔记": [
+          "",
+          "仓库未声明 license（商用前需确认）。适合桌面美化 + 临时文件收纳场景。",
+          ""
+        ],
+        "技术栈与状态": [
+          "",
+          "- 技术栈：C#, WPF",
+          "- 状态：active",
+          "- 链接：https://github.com/witchscottishfoldcat/WitchDrawer",
           ""
         ]
       }
